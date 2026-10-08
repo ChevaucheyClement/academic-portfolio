@@ -1,13 +1,22 @@
 - title: PlantWeb (CS50 Final)
+  title_es: "PlantWeb (proyecto final de CS50)"
+  subtitle_es: "Proyecto integral de desarrollo web"
+  outcome_es: "Desarrollé, documenté y presenté una aplicación web funcional como proyecto final de CS50."
+  skills_es: "CS50, Python/JavaScript, diseño de aplicaciones web, documentación y demostraciones"
   category: web
   repo: https://github.com/ChevaucheyClement/Final-Project-CS50
   demo: https://chevaucheyclement.github.io/Final-Project-CS50/
+  demo_label: project_page
   subtitle: Full-stack course project
   outcome: Built, documented, and demoed a working web app as my CS50 final project.
   skills: CS50, Python/JS, web app design, documentation, demos
   thumb: /assets/thumbs/plantweb.png
 
 - title: Electronics II (7 Labs)
+  title_es: "Electrónica II (7 prácticas)"
+  subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
+  outcome_es: "Construí y verifiqué rectificadores, limitadores, amplificadores BJT simples y en cascada, y circuitos con amplificadores operacionales según las especificaciones."
+  skills_es: "LTspice/Proteus, polarización y pequeña señal, ganancia y ancho de banda, planificación de mediciones"
   category: electronics
   path: electronics
   subtitle: Analog, diodes, BJT, op-amp
@@ -17,6 +26,10 @@
   readme: true
 
 - title: Electrical Measurements (7 Labs)
+  title_es: "Mediciones eléctricas (7 prácticas)"
+  subtitle_es: "Metrología y técnicas de medición en CA y CC"
+  outcome_es: "Verifiqué la clase de instrumentos; medí resistencia, impedancia y potencia monofásica y trifásica mediante distintos métodos, y cuantifiqué la incertidumbre."
+  skills_es: "Calibración, incertidumbre de tipo A/B, puente de Wheatstone, fasores y factor de potencia, conexión de vatímetros, análisis de datos con Python e informes de laboratorio"
   category: measurements
   path: measurements
   subtitle: Metrology & AC/DC measurement techniques
@@ -25,8 +38,13 @@
   thumb: /assets/thumbs/measurements.png
   docs: https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements/CODE-HOWTO.md
   docs_label: Code guide
+  docs_label_es: Guía del código
 
 - title: Traffic Lights FSM (Proteus)
+  title_es: "Semáforo con máquina de estados (Proteus)"
+  subtitle_es: "Máquina de Moore y divisor de tiempos"
+  outcome_es: "Implementé una máquina de estados con antirrebote y tiempos de fase deterministas."
+  skills_es: "Diseño de máquinas de estados, división de tiempos, simulación y casos de prueba"
   category: logic
   path: logics/logic-systems-traffic-lights-in-proteus-optional-hdl-testben
   subtitle: Moore FSM + timing divider
@@ -37,6 +55,10 @@
   report: auto
 
 - title: Rankine Cycle Studies
+  title_es: "Estudios del ciclo Rankine"
+  subtitle_es: "Con y sin sobrecalentamiento; modelos ideales y reales"
+  outcome_es: "Comparé el rendimiento térmico y el trabajo específico para distintas presiones, temperaturas y condiciones de sobrecalentamiento."
+  skills_es: "Modelado de ciclos, tablas de propiedades, diferencias entre modelos ideales y reales, gráficos"
   category: power
   path: machines/rankine-analysis
   subtitle: "Superheat vs no superheat; ideal vs real"
@@ -46,6 +68,10 @@
   readme: true
 
 - title: Otto / Diesel / Dual
+  title_es: "Ciclos Otto, Diesel y dual"
+  subtitle_es: "Rendimiento térmico según la relación de compresión"
+  outcome_es: "Cuantifiqué el efecto de la relación de compresión, γ y el modelo de aporte de calor sobre el rendimiento."
+  skills_es: "Ciclos termodinámicos, barridos paramétricos e interpretación de resultados"
   category: power
   path: machines/internal-combustion-diesel-otto-dual
   subtitle: η_th vs compression ratio

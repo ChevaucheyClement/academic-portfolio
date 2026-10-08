@@ -7,8 +7,11 @@
     const btn = document.getElementById('theme-toggle');
     if(!btn) return;
     const next = (document.documentElement.getAttribute('data-theme') === 'light') ? 'dark' : 'light';
-    btn.textContent = next === 'light' ? '☀︎ Light' : '☾ Dark';       // label shows TARGET theme
-    btn.setAttribute('aria-label', 'Switch to ' + next + ' theme');
+    const spanish = document.documentElement.lang === 'es';
+    btn.textContent = next === 'light' ? (spanish ? '☀︎ Claro' : '☀︎ Light') : (spanish ? '☾ Oscuro' : '☾ Dark');
+    btn.setAttribute('aria-label', spanish
+      ? 'Cambiar al tema ' + (next === 'light' ? 'claro' : 'oscuro')
+      : 'Switch to ' + next + ' theme');
   }
 
   function apply(next){

@@ -7,6 +7,9 @@ en:
     cv: "CV"
     contact: "Contact"
     theme: "Light"
+    home: "Clément Chevauchey — Home"
+    navigation: "Main navigation"
+    menu: "Open navigation menu"
 
   hero:
 
@@ -38,6 +41,7 @@ en:
   technical:
 
     label: "Technical snapshot"
+    native: "Native"
 
     headline: "Power + Automation"
 
@@ -158,6 +162,29 @@ en:
 
 
     empty: "No projects match your search."
+
+    card:
+      image: "Thumbnail"
+      outcome: "Outcome:"
+      skills: "Skills:"
+      repo: "Repo"
+      readme: "README"
+      report: "Report"
+      web: "Web"
+      electronics: "Electronics"
+      measurements: "Measurements"
+      logic: "Logic"
+      power: "Power"
+      demo: "Live site"
+      project_page: "Project page"
+
+  dates:
+    present: "Present"
+    since_2016: "Since 2016"
+    teaching: "2022 — 2025"
+    cambridge: "December 2025"
+    cs50: "August 2025"
+    r: "August 2023"
 
   experience:
 
@@ -361,6 +388,10 @@ en:
 
 
 
+  footer:
+    tagline: "Power Systems, Automation & Electronics"
+    build: "Build"
+
 es:
 
   header:
@@ -370,6 +401,9 @@ es:
     cv: "CV"
     contact: "Contacto"
     theme: "Claro"
+    home: "Clément Chevauchey — Inicio"
+    navigation: "Navegación principal"
+    menu: "Abrir menú de navegación"
 
   hero:
 
@@ -413,6 +447,7 @@ es:
   technical:
 
     label: "Resumen técnico"
+    native: "Nativo"
 
     headline: "Energía + Automatización"
 
@@ -558,6 +593,29 @@ es:
 
     empty: "No hay proyectos que coincidan con la búsqueda."
 
+    card:
+      image: "Miniatura"
+      outcome: "Resultado:"
+      skills: "Habilidades:"
+      repo: "Repositorio"
+      readme: "Descripción"
+      report: "Informe"
+      web: "Web"
+      electronics: "Electrónica"
+      measurements: "Mediciones"
+      logic: "Lógica"
+      power: "Energía"
+      demo: "Sitio web"
+      project_page: "Página del proyecto"
+
+
+  dates:
+    present: "Actualidad"
+    since_2016: "Desde 2016"
+    teaching: "2022 — 2025"
+    cambridge: "Diciembre de 2025"
+    cs50: "Agosto de 2025"
+    r: "Agosto de 2023"
 
   experience:
 
@@ -814,3 +872,7 @@ es:
 
     github:
       "GitHub ↗"
+
+  footer:
+    tagline: "Sistemas eléctricos, automatización y electrónica"
+    build: "Versión"
