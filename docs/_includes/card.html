@@ -30,7 +30,7 @@
     {% endif %}
     <div class="card__tags">
       <span class="tag tag--cat">{{ category_label }}</span>
-      {% if p.tags %}{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}{% endif %}
+      {% if p.tags %}{% for tag in p.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endif %}
     </div>
   </div>
 
