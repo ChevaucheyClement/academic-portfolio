@@ -13,21 +13,20 @@ en:
 
   hero:
 
-    eyebrow: "Power Systems · Automation · Engineering Computing"
+    eyebrow: "Electrical Engineering · Electronics · Measurements"
 
     title:
       first: "Clément"
       last: "Chevauchey"
 
     heading:
-      before: "Electrical Engineering student focused on"
+      before: "Electrical Engineering student exploring"
       highlight: "Power Systems & Industrial Automation."
 
     intro: >
-      Exploring power-system analysis, protection,
-      automation and electrical measurements through
-      simulation, programming and hands-on engineering
-      projects.
+      Building practical skills in circuit analysis,
+      electronics, electrical measurements and programming
+      while learning about power systems and automation.
 
     buttons:
       projects: "Explore projects"
@@ -43,15 +42,15 @@ en:
     label: "Technical snapshot"
     native: "Native"
 
-    headline: "Power + Automation"
+    headline: "Circuits + Measurements"
 
     power:
-      title: "Power systems"
-      value: "DIgSILENT PowerFactory · Load Flow · Short Circuit"
+      title: "Electrical analysis"
+      value: "Circuit analysis · Phasors · Three-phase power"
 
     automation:
-      title: "Automation"
-      value: "PLC / SCADA · TIA Portal fundamentals"
+      title: "Digital logic"
+      value: "Finite-state machines · Timing · Proteus"
 
     simulation:
       title: "Simulation"
@@ -82,42 +81,40 @@ en:
         analysis and industrial automation.
 
       - >
-        I am particularly interested in load-flow and
-        short-circuit studies, protection fundamentals,
-        PLC/SCADA systems and the use of engineering
-        software to analyse real electrical systems.
+        I am learning about load flow, short circuits,
+        protection concepts and industrial automation,
+        and looking for opportunities to develop those skills.
 
       - >
         My projects combine circuit theory, simulation,
-        measurements and programming using tools including
-        DIgSILENT PowerFactory, Python, LTspice, Proteus
-        and MATLAB/Scilab.
+        measurements and programming using Python,
+        LTspice, Proteus and MATLAB/Scilab.
 
 
 
   focus:
 
-    title: "Current technical focus"
+    title: "Skills and current learning"
 
     power:
 
-      title: "Power Systems"
+      title: "Electrical Analysis"
 
-      text: "Load flow · fault studies · networks"
+      text: "Circuits · phasors · three-phase measurements"
 
 
     protection:
 
-      title: "Protection"
+      title: "Power Systems (learning)"
 
-      text: "Fault analysis · protection fundamentals"
+      text: "Load flow · short circuits · protection concepts"
 
 
     automation:
 
-      title: "Industrial Automation"
+      title: "Digital Logic"
 
-      text: "PLC · SCADA · industrial control"
+      text: "State machines · timing · Proteus"
 
 
     computing:
@@ -135,8 +132,9 @@ en:
     title: "Engineering projects."
 
     description: >
-      Academic and personal projects covering power systems,
-      electronics, measurements, simulation and automation.
+      Academic and personal projects covering electronics,
+      measurements, digital logic, thermodynamic cycles
+      and engineering computing.
 
     count: "projects"
 
@@ -152,13 +150,13 @@ en:
 
       all: "All"
 
-      power: "Power Systems"
+      power: "Thermodynamic Cycles"
 
       electronics: "Electronics"
 
       measurements: "Measurements"
 
-      logic: "Automation / Logic"
+      logic: "Digital Logic"
 
 
     empty: "No projects match your search."
@@ -174,7 +172,7 @@ en:
       electronics: "Electronics"
       measurements: "Measurements"
       logic: "Logic"
-      power: "Power"
+      power: "Thermodynamics"
       demo: "Live site"
       project_page: "Project page"
 
@@ -370,8 +368,9 @@ en:
 
     description: >
       I am interested in internships and entry-level
-      opportunities in power systems, industrial automation,
-      electrical analysis and measurement.
+      opportunities involving electronics, electrical
+      measurements, and further learning in power systems
+      and industrial automation.
 
 
     email:
@@ -389,7 +388,7 @@ en:
 
 
   footer:
-    tagline: "Power Systems, Automation & Electronics"
+    tagline: "Electrical Engineering, Electronics & Measurements"
     build: "Build"
 
 es:
@@ -407,7 +406,7 @@ es:
 
   hero:
 
-    eyebrow: "Sistemas Eléctricos · Automatización · Computación aplicada"
+    eyebrow: "Ingeniería Eléctrica · Electrónica · Mediciones"
 
     title:
 
@@ -418,16 +417,16 @@ es:
 
     heading:
 
-      before: "Estudiante de Ingeniería Eléctrica enfocado en"
+      before: "Estudiante de Ingeniería Eléctrica explorando"
 
       highlight: "Sistemas Eléctricos y Automatización Industrial."
 
 
     intro: >
-      Explorando el análisis de sistemas eléctricos,
-      protecciones, automatización y mediciones eléctricas
-      mediante simulación, programación y proyectos
-      prácticos de ingeniería.
+      Desarrollo habilidades prácticas en análisis de
+      circuitos, electrónica, mediciones eléctricas y
+      programación mientras aprendo sobre sistemas
+      eléctricos y automatización.
   
     buttons:
 
@@ -449,21 +448,21 @@ es:
     label: "Resumen técnico"
     native: "Nativo"
 
-    headline: "Energía + Automatización"
+    headline: "Circuitos + Mediciones"
 
 
     power:
 
-      title: "Sistemas eléctricos"
+      title: "Análisis eléctrico"
 
-      value: "DIgSILENT PowerFactory · Flujo de carga · Cortocircuitos"
+      value: "Circuitos · Fasores · Potencia trifásica"
 
 
     automation:
 
-      title: "Automatización"
+      title: "Lógica digital"
 
-      value: "PLC / SCADA · Fundamentos de TIA Portal"
+      value: "Máquinas de estados · Temporización · Proteus"
 
 
     simulation:
@@ -505,45 +504,45 @@ es:
 
 
       - >
-        Mis principales intereses incluyen estudios de flujo
-        de carga y cortocircuito, fundamentos de protección,
-        sistemas PLC/SCADA y el uso de herramientas de
-        ingeniería para analizar sistemas eléctricos reales.
+        Estoy aprendiendo sobre flujo de carga,
+        cortocircuitos, conceptos de protección y
+        automatización industrial, y busco oportunidades
+        para desarrollar esas habilidades.
 
 
       - >
         Mis proyectos combinan teoría de circuitos,
         simulación, mediciones y programación utilizando
-        herramientas como DIgSILENT PowerFactory, Python,
-        LTspice, Proteus y MATLAB/Scilab.
+        herramientas como Python, LTspice, Proteus
+        y MATLAB/Scilab.
 
 
 
 
   focus:
 
-    title: "Enfoque técnico actual"
+    title: "Habilidades y aprendizaje actual"
 
 
     power:
 
-      title: "Sistemas Eléctricos"
+      title: "Análisis eléctrico"
 
-      text: "Flujo de carga · fallas · redes eléctricas"
+      text: "Circuitos · fasores · mediciones trifásicas"
 
 
     protection:
 
-      title: "Protecciones"
+      title: "Sistemas eléctricos (en formación)"
 
-      text: "Análisis de fallas · fundamentos de protección"
+      text: "Flujo de carga · cortocircuitos · protección"
 
 
     automation:
 
-      title: "Automatización Industrial"
+      title: "Lógica digital"
 
-      text: "PLC · SCADA · control industrial"
+      text: "Máquinas de estados · temporización · Proteus"
 
 
     computing:
@@ -563,9 +562,9 @@ es:
 
 
     description: >
-      Proyectos académicos y personales relacionados con
-      sistemas eléctricos, electrónica, mediciones,
-      simulación y automatización.
+      Proyectos académicos y personales de electrónica,
+      mediciones, lógica digital, ciclos termodinámicos
+      y computación aplicada a la ingeniería.
 
 
     count: "proyectos"
@@ -582,13 +581,13 @@ es:
 
       all: "Todos"
 
-      power: "Sistemas eléctricos"
+      power: "Ciclos termodinámicos"
 
       electronics: "Electrónica"
 
       measurements: "Mediciones"
 
-      logic: "Automatización / Lógica"
+      logic: "Lógica digital"
 
 
     empty: "No hay proyectos que coincidan con la búsqueda."
@@ -604,7 +603,7 @@ es:
       electronics: "Electrónica"
       measurements: "Mediciones"
       logic: "Lógica"
-      power: "Energía"
+      power: "Termodinámica"
       demo: "Sitio web"
       project_page: "Página del proyecto"
 
@@ -851,10 +850,10 @@ es:
 
 
     description: >
-      Estoy interesado en pasantías y oportunidades
-      profesionales iniciales en sistemas eléctricos,
-      automatización industrial, análisis eléctrico
-      y mediciones.
+      Me interesan las pasantías y oportunidades
+      profesionales iniciales en electrónica y mediciones
+      eléctricas, con espacio para seguir formándome en
+      sistemas eléctricos y automatización industrial.
 
 
 
@@ -874,5 +873,5 @@ es:
       "GitHub ↗"
 
   footer:
-    tagline: "Sistemas eléctricos, automatización y electrónica"
+    tagline: "Ingeniería eléctrica, electrónica y mediciones"
     build: "Versión"
