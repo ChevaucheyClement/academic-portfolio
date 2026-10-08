@@ -82,4 +82,4 @@ jobs:
           print("Generated local links: OK")
 
       - name: Check Python syntax
-        run: python -m compileall -q power-studies-feeder/code measurements
+        run: python -m compileall -q measurements
