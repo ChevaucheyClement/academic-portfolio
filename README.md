@@ -64,6 +64,6 @@ This repo is organized with one-minute READMEs in each project, then full report
 ```
 
 **Skills & Techniques across projects**  
-4-wire resistance, ADC calibration, Wheatstone, VA short/long connections, instrument class estimation, Bode from step response, LTspice, Proteus, MATLAB, Python, uncertainty propagation, HDL/testbench, timing/state diagrams.
+Circuit analysis, phasors and power calculations, electrical measurements, three-phase power measurement, uncertainty analysis, analog electronics, digital logic, LTspice, Proteus, MATLAB, Python, laboratory reporting and experimental data interpretation.
 
 Licensing: Code under MIT. Docs/figures under CC BY-NC 4.0.
