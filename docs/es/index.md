@@ -1,12 +1,9 @@
 ---
 layout: landing
-title: ""
+title: "Portafolio de ingeniería eléctrica"
 lang: es
+description: "Sistemas eléctricos, automatización y electrónica"
 permalink: /es/
 ---
 
-{% capture portfolio_home %}{% include portfolio-home.html %}{% endcapture %}
-{{ portfolio_home
-  | replace: 'https://github.com/YofiClemy', 'https://github.com/ChevaucheyClement'
-  | replace: 'https://yoficlemy.github.io', 'https://chevaucheyclement.github.io'
-}}
+{% include portfolio-home.html %}
