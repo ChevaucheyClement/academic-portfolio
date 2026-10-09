@@ -64,6 +64,6 @@ This repo is organized with one-minute READMEs in each project, then full report
 ```
 
 **Skills & Techniques across projects**  
-Circuit analysis, phasors and power calculations, electrical measurements, three-phase power measurement, uncertainty analysis, analog electronics, digital logic, LTspice, Proteus, MATLAB, Python, laboratory reporting and experimental data interpretation.
+Circuit analysis, phasors and power calculations, electrical measurements, three-phase power measurement, Type A/B uncertainty analysis, analog circuit testing, finite-state machine design, LTspice, Proteus, MATLAB, Python data analysis, laboratory reporting and experimental data interpretation.
 
 Licensing: Code under MIT. Docs/figures under CC BY-NC 4.0.
