@@ -16,12 +16,12 @@
   title_es: "Electrónica II (7 prácticas)"
   subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
   outcome_es: "Construí y verifiqué rectificadores, limitadores, amplificadores BJT simples y en cascada, y circuitos con amplificadores operacionales según las especificaciones."
-  skills_es: "LTspice/Proteus, polarización y pequeña señal, ganancia y ancho de banda, planificación de mediciones"
+  skills_es: "Pruebas de circuitos analógicos, LTspice/Proteus, polarización y pequeña señal, medición de ganancia y ancho de banda"
   category: electronics
   path: electronics
   subtitle: Analog, diodes, BJT, op-amp
   outcome: Built & verified rectifier, clipper, BJT single/cascade, and op-amp labs against specs.
-  skills: LTspice/Proteus, biasing & small-signal, gain/bandwidth, measurement planning
+  skills: Analog circuit testing, LTspice/Proteus, biasing and small-signal analysis, gain and bandwidth measurement
   thumb: /assets/thumbs/electronics.png
   readme: true
 
@@ -29,12 +29,12 @@
   title_es: "Mediciones eléctricas (7 prácticas)"
   subtitle_es: "Metrología y técnicas de medición en CA y CC"
   outcome_es: "Verifiqué la clase de instrumentos; medí resistencia, impedancia y potencia monofásica y trifásica mediante distintos métodos, y cuantifiqué la incertidumbre."
-  skills_es: "Calibración, incertidumbre de tipo A/B, puente de Wheatstone, fasores y factor de potencia, conexión de vatímetros, análisis de datos con Python e informes de laboratorio"
+  skills_es: "Verificación de clase de instrumentos, incertidumbre de tipo A/B, puente de Wheatstone, fasores y factor de potencia, conexión de vatímetros, análisis e interpretación de datos con Python e informes de laboratorio"
   category: measurements
   path: measurements
   subtitle: Metrology & AC/DC measurement techniques
   outcome: "Verified instrument class; measured R, Z, and single/three-phase power using VA, comparison/substitution, Wheatstone, 3A/3V, wattmeter & Aron; quantified uncertainty."
-  skills: "Calibration, Type A/B uncertainty, bridge balancing, phasors & PF, wattmeter wiring, data analysis (Python), clear lab reporting"
+  skills: "Instrument class verification, Type A/B uncertainty, bridge balancing, phasors and power factor, wattmeter wiring, Python data analysis and interpretation, lab reporting"
   thumb: /assets/thumbs/measurements.png
   docs: https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements/CODE-HOWTO.md
   docs_label: Code guide
@@ -44,12 +44,12 @@
   title_es: "Semáforo con máquina de estados (Proteus)"
   subtitle_es: "Máquina de Moore y divisor de tiempos"
   outcome_es: "Implementé una máquina de estados con antirrebote y tiempos de fase deterministas."
-  skills_es: "Diseño de máquinas de estados, división de tiempos, simulación y casos de prueba"
+  skills_es: "Diseño de máquinas de estados finitos, división de tiempos, simulación en Proteus y casos de prueba"
   category: logic
   path: logics/logic-systems-traffic-lights-in-proteus-optional-hdl-testben
   subtitle: Moore FSM + timing divider
   outcome: Working, debounced state machine with deterministic phase timing.
-  skills: FSM design, timing division, simulation, test cases
+  skills: Finite-state machine design, timing division, Proteus simulation, test cases
   thumb: /assets/thumbs/Traffic_Lights.png
   readme: true
   report: auto
