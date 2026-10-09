@@ -36,8 +36,6 @@
 
   --pf-empty-border: #d7e0ea;
 
-  --pf-page-glow: rgba(20, 100, 244, .035);
-
   --pf-radius-sm: 12px;
   --pf-radius: 20px;
   --pf-radius-lg: 30px;
@@ -83,8 +81,6 @@ html[data-theme="light"] {
 
   --pf-empty-border: #d7e0ea;
 
-  --pf-page-glow: rgba(20, 100, 244, .035);
-
   --pf-shadow:
     0 16px 45px rgba(16, 32, 51, .06);
 
@@ -93,13 +89,7 @@ html[data-theme="light"] {
 }
 
 html[data-theme="light"] .projects-section {
-  background:
-    radial-gradient(
-      circle at 100% 0%,
-      rgba(20, 100, 244, .04),
-      transparent 28rem
-    ),
-    #ffffff;
+  background: #ffffff;
 }
 
 /* =========================================================
@@ -133,8 +123,6 @@ html[data-theme="dark"] {
   --pf-contact-button-text: #c8d4e1;
 
   --pf-empty-border: #344154;
-  --pf-page-glow: rgba(106, 167, 255, .07);
-
   --pf-shadow:
     0 18px 50px rgba(0, 0, 0, .22);
 
@@ -168,13 +156,7 @@ html {
 }
 
 .page-content {
-  background:
-    radial-gradient(
-      circle at 10% 0%,
-      var(--pf-page-glow),
-      transparent 32rem
-    ),
-    var(--pf-bg);
+  background: var(--pf-bg);
 }
 
 .portfolio-page {
@@ -277,86 +259,11 @@ html {
   padding:
     clamp(44px, 7vw, 86px);
 
-  border-radius: 34px;
+  border-radius: 24px;
 
-  background:
-    radial-gradient(
-      circle at 84% 18%,
-      rgba(55, 197, 232, .22),
-      transparent 26rem
-    ),
-    radial-gradient(
-      circle at 22% 110%,
-      rgba(20, 100, 244, .28),
-      transparent 34rem
-    ),
-    linear-gradient(
-      135deg,
-      #06131f 0%,
-      #09233d 65%,
-      #0b2d4c 100%
-    );
+  background: linear-gradient(115deg, #10202e, #193247);
 
-  box-shadow:
-    0 30px 80px rgba(7, 22, 38, .20);
-}
-
-.portfolio-hero::before {
-  content: "";
-
-  position: absolute;
-  inset: 0;
-
-  opacity: .16;
-
-  background-image:
-    linear-gradient(
-      rgba(255, 255, 255, .08) 1px,
-      transparent 1px
-    ),
-    linear-gradient(
-      90deg,
-      rgba(255, 255, 255, .08) 1px,
-      transparent 1px
-    );
-
-  background-size:
-    44px 44px;
-
-  mask-image:
-    linear-gradient(
-      to right,
-      transparent,
-      black 45%
-    );
-
-  -webkit-mask-image:
-    linear-gradient(
-      to right,
-      transparent,
-      black 45%
-    );
-}
-
-.portfolio-hero::after {
-  content: "";
-
-  position: absolute;
-
-  right: -150px;
-  top: -120px;
-
-  width: 470px;
-  height: 470px;
-
-  border:
-    1px solid rgba(255, 255, 255, .13);
-
-  border-radius: 50%;
-
-  box-shadow:
-    0 0 0 80px rgba(255, 255, 255, .025),
-    0 0 0 160px rgba(255, 255, 255, .018);
+  box-shadow: 0 12px 36px rgba(7, 22, 38, .12);
 }
 
 .portfolio-hero__inner {
@@ -559,14 +466,7 @@ html {
 
   border-radius: 22px;
 
-  background:
-    rgba(255, 255, 255, .055);
-
-  backdrop-filter:
-    blur(16px);
-
-  -webkit-backdrop-filter:
-    blur(16px);
+  background: #1b3448;
 }
 
 .hero-panel__header {
