@@ -31,8 +31,8 @@
   subtitle: Analog, diodes, BJT, op-amp
   thumb: /assets/thumbs/electronics-lab-oscilloscope.jpg
 
-- title: Traffic Lights FSM (Proteus)
-  title_es: "Semáforo con máquina de estados (Proteus)"
+- title: Traffic Light Logic (Proteus)
+  title_es: "Lógica de semáforos (Proteus)"
   subtitle_es: "Contadores TTL y lógica de sincronización"
   summary: "Corrected transition timing and synchronized two traffic lights in a Proteus simulation."
   summary_es: "Corregí los tiempos de transición y sincronicé dos semáforos en una simulación de Proteus."
@@ -74,8 +74,8 @@
 - title: Rankine Cycle Studies
   title_es: "Estudios del ciclo Rankine"
   subtitle_es: "Vapor húmedo y casos del ciclo Rankine"
-  summary: "Used steam tables to compare ideal, real, higher-pressure and superheated Rankine cases in a submitted TP."
-  summary_es: "Usé tablas de vapor para comparar casos Rankine ideales, reales, de mayor presión y con sobrecalentamiento en un TP entregado."
+  summary: "Used steam tables to compare ideal and assumed nonideal Rankine cases, plus higher-pressure and superheated cases, in a submitted TP."
+  summary_es: "Usé tablas de vapor para comparar casos Rankine ideales y con eficiencias no ideales supuestas, además de casos de mayor presión y sobrecalentamiento, en un TP entregado."
   tags: ["Steam tables", "Cycle analysis"]
   tags_es: ["Tablas de vapor", "Análisis de ciclos"]
   category: power

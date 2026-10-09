@@ -50,7 +50,7 @@ en:
 
     automation:
       title: "Digital logic"
-      value: "Finite-state machines · Timing · Proteus"
+      value: "TTL counters · Timing logic · Proteus"
 
     simulation:
       title: "Simulation"
@@ -114,7 +114,7 @@ en:
 
       title: "Digital Logic"
 
-      text: "State machines · timing · Proteus"
+      text: "TTL counters · timing logic · Proteus"
 
 
     computing:
@@ -463,7 +463,7 @@ es:
 
       title: "Lógica digital"
 
-      value: "Máquinas de estados · Temporización · Proteus"
+      value: "Contadores TTL · Lógica de temporización · Proteus"
 
 
     simulation:
@@ -543,7 +543,7 @@ es:
 
       title: "Lógica digital"
 
-      text: "Máquinas de estados · temporización · Proteus"
+      text: "Contadores TTL · lógica de temporización · Proteus"
 
 
     computing:
