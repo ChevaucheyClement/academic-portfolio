@@ -26,5 +26,18 @@
     apply(theme);
     const btn = document.getElementById('theme-toggle');
     if(btn){ btn.addEventListener('click', () => { theme = (theme==='light' ? 'dark' : 'light'); apply(theme); }); }
+
+    const navTrigger = document.getElementById('nav-trigger');
+    if(navTrigger){
+      document.querySelectorAll('.site-nav .trigger a').forEach(link => {
+        link.addEventListener('click', () => { navTrigger.checked = false; });
+      });
+      document.addEventListener('keydown', event => {
+        if(event.key === 'Escape' && navTrigger.checked){
+          navTrigger.checked = false;
+          navTrigger.focus();
+        }
+      });
+    }
   });
 })();

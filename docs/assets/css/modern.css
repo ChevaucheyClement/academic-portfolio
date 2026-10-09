@@ -94,6 +94,11 @@ a {
   color: var(--brand);
 }
 
+:where(a, button, input):focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+
 .wrapper {
   max-width: var(--container) !important;
 }
@@ -508,6 +513,11 @@ html[data-theme="light"] .theme-toggle:hover {
 
 .nav-trigger-label {
   display: none !important;
+}
+
+.nav-trigger:focus-visible + .nav-trigger-label {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
 }
 
 
