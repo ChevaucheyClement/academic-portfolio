@@ -80,6 +80,3 @@ jobs:
               raise SystemExit(f"{len(missing)} broken local link(s) found")
 
           print("Generated local links: OK")
-
-      - name: Check Python syntax
-        run: python -m compileall -q measurements

@@ -33,6 +33,4 @@ Voltmeter-ammeter topology tradeoffs, insertion error modeling, choosing topolog
 ## Files
 
 - [Original Spanish report](es/TP2%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
-- [Data](data/)
 - [Figures](figures/)
-- [Analysis code](code/)

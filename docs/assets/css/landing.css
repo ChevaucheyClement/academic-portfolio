@@ -1099,6 +1099,11 @@ html[data-theme="dark"] .portfolio-page .card__thumb {
     transform .35s ease;
 }
 
+.portfolio-page .card__thumb--contain img {
+  object-fit: contain;
+  background: #fff;
+}
+
 .portfolio-page .card:hover .card__thumb img {
   transform:
     scale(1.025);

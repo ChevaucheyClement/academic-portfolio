@@ -6,7 +6,7 @@
 Design a two-stage amplifier to exceed **|A_v| ≈ 250** with reasonable Rout and stability.
 
 ## Setup
-Two EC stages (BC337), interstage coupling capacitor, bias dividers per design; C_in, C_out chosen for f_min≈20 Hz; Rigol scope + generator.
+Two EC stages (BC337), interstage coupling capacitor and bias dividers; C_in and C_out chosen for f_min≈20 Hz. The submitted report documents a Proteus simulation. It lists a scope and signal source among materials, but does not include a recorded bench build or bench measurements.
 
 ## Method
 Stage-wise design: pick I_C and V_E, compute r_e, select R_C and R_E; set dividers; add full bypass on stage 2 to meet gain while keeping stage 1 partially degenerated. Couple stages with C_AC sized from divider || input.

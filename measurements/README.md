@@ -1,6 +1,6 @@
 # Electrical Measurements — seven labs
 
-Electrical Engineering coursework at UNSE in 2025, completed under course supervision. Each lab has an original Spanish report in its `es/` folder, plus available data, figures and Python analysis files. There are no English `report.pdf` files in these project folders.
+Electrical Engineering coursework at UNSE in 2025, completed under course supervision. Each lab has an original Spanish report in its `es/` folder, plus figures from the reports. There are no English `report.pdf` files in these project folders.
 
 | Lab | Topic | Summary |
 | --- | --- | --- |
@@ -12,4 +12,4 @@ Electrical Engineering coursework at UNSE in 2025, completed under course superv
 | TP6 | Single-phase power with a wattmeter | [Read](single-phase-power-measurement-with-wattmeter/README.md) |
 | TP7 | Three-phase power by the two-wattmeter (Aron) method | [Read](three-phase-power-measurement-in-balanced-three-wire-systems/README.md) |
 
-The lab reports document measurement methods, meter loading, instrument class, phasors, active/reactive/apparent power and uncertainty calculations. [Code guide](CODE-HOWTO.md) explains the separate analysis scripts. The CSVs reproduce selected reported values; consult the original reports for the full setup and derivations.
+The lab reports document measurement methods, meter loading, instrument class, phasors, active/reactive/apparent power and uncertainty calculations. The original reports contain the full setup and derivations. This repository contains no separate analysis scripts for these TPs.

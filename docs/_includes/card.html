@@ -17,7 +17,7 @@
          data-title="{{ card_title | default: '' | downcase }}"
          data-sub="{{ card_subtitle | default: '' | downcase }}">
 
-  <div class="card__thumb {% unless p.thumb %}card__thumb--empty{% endunless %}">
+  <div class="card__thumb {% if p.thumb_fit == 'contain' %}card__thumb--contain{% endif %} {% unless p.thumb %}card__thumb--empty{% endunless %}">
     {% if p.thumb and p.thumb != '' %}
       <img
         src="{% if p.thumb contains '://' %}{{ p.thumb }}{% else %}{{ p.thumb | relative_url }}{% endif %}"

@@ -24,6 +24,4 @@ Null methods, bridge sensitivity, uncertainty vs excitation and resistor toleran
 ## Files
 
 - [Original Spanish report](es/TP4%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
-- [Data](data/)
 - [Figures](figures/)
-- [Analysis code](code/)

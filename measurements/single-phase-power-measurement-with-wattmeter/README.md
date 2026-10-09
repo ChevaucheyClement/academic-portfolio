@@ -30,6 +30,4 @@ Using CTs safely, wattmeter corrections, separating P/Q/S, spotting over-compens
 ## Files
 
 - [Original Spanish report](es/TP6%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
-- [Data](data/)
 - [Figures](figures/)
-- [Analysis code](code/)

@@ -24,6 +24,4 @@ Calibration curve building, analog scale resolution and appreciation error, clas
 ## Files
 
 - [Original Spanish report](es/TP1%20-%20Determinacion%20de%20Clase%20-%20Chevauchey%20C.pdf)
-- [Data](data/)
 - [Figures](figures/)
-- [Analysis code](code/)

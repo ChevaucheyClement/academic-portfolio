@@ -37,6 +37,4 @@ Vector treatment of AC measurements, method selection based on load and sensitiv
 ## Files
 
 - [Original Spanish report](es/TP5%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
-- [Data](data/)
 - [Figures](figures/)
-- [Analysis code](code/)

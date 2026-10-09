@@ -15,7 +15,7 @@ Read W1 and W2 and computed total active power Pc = Kt (W1 + W2), with Kt the CT
 
 ## Key results
 - **W1 ≈ 1010 W**, **W2 ≈ 688 W**
-- **Indicated power Pm = 3396 W**; **corrected load power Pc ≈ 3383.77 W** in the data table
+- **Indicated power Pm = 3396 W**; **corrected load power Pc ≈ 3383.77 W** in the submitted report
 - **Combined uncertainty: ~2.9%**
 
 ## What I learned / skills
@@ -24,6 +24,4 @@ Two-wattmeter method, interpreting W1/W2 sign changes vs load type, handling CT 
 ## Files
 
 - [Original Spanish report](es/TP7%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
-- [Data](data/)
 - [Figures](figures/)
-- [Analysis code](code/)

@@ -22,14 +22,14 @@
 - title: Electronics II (7 Labs)
   title_es: "Electrónica II (7 prácticas)"
   subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
-  summary: "Built and tested diode, transistor and op-amp circuits across seven supervised labs."
-  summary_es: "Construí y ensayé circuitos con diodos, transistores y amplificadores operacionales en siete prácticas supervisadas."
-  tags: ["Analog circuits", "LTspice / Proteus"]
-  tags_es: ["Circuitos analógicos", "LTspice / Proteus"]
+  summary: "Analyzed, simulated and bench-tested analog circuits across seven supervised course reports."
+  summary_es: "Analicé, simulé y ensayé circuitos analógicos en banco a lo largo de siete informes de prácticas supervisadas."
+  tags: ["Circuit analysis", "Bench and simulation"]
+  tags_es: ["Análisis de circuitos", "Banco y simulación"]
   category: electronics
   path: electronics
   subtitle: Analog, diodes, BJT, op-amp
-  thumb: /assets/thumbs/electronics.png
+  thumb: /assets/thumbs/electronics-lab-oscilloscope.jpg
 
 - title: Traffic Lights FSM (Proteus)
   title_es: "Semáforo con máquina de estados (Proteus)"
@@ -41,23 +41,21 @@
   category: logic
   path: logics/traffic-lights-proteus
   subtitle: TTL counters and synchronized lamp logic
-  thumb: /assets/thumbs/Traffic_Lights.png
+  thumb: /assets/thumbs/traffic-lights-v2-schematic.png
+  thumb_fit: contain
   report: auto
 
 - title: Electrical Measurements (7 Labs)
   title_es: "Mediciones eléctricas (7 prácticas)"
   subtitle_es: "Metrología y técnicas de medición en CA y CC"
-  summary: "Measured electrical quantities and estimated uncertainty across seven supervised labs."
-  summary_es: "Medí magnitudes eléctricas y estimé la incertidumbre en siete prácticas supervisadas."
+  summary: "Completed seven supervised labs on instrument class, resistance, impedance, power and uncertainty."
+  summary_es: "Realicé siete prácticas supervisadas sobre clase de instrumentos, resistencia, impedancia, potencia e incertidumbre."
   tags: ["Metrology", "Uncertainty"]
   tags_es: ["Metrología", "Incertidumbre"]
   category: measurements
   path: measurements
   subtitle: Metrology & AC/DC measurement techniques
   thumb: https://raw.githubusercontent.com/ChevaucheyClement/academic-portfolio/main/measurements/three-phase-power-measurement-in-balanced-three-wire-systems/figures/setup-med.png
-  docs: https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements/CODE-HOWTO.md
-  docs_label: Code guide
-  docs_label_es: Guía del código
 
 - title: PlantWeb (CS50 Final)
   title_es: "PlantWeb (proyecto final de CS50)"

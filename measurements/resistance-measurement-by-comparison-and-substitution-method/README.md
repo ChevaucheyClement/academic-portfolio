@@ -29,6 +29,4 @@ Comparison vs substitution tradeoffs, meter loading, uncertainty propagation.
 ## Files
 
 - [Original Spanish report](es/TP3%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
-- [Data](data/)
 - [Figures](figures/)
-- [Analysis code](code/)
