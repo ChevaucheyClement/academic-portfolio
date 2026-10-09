@@ -20,13 +20,13 @@ en:
       last: "Chevauchey"
 
     heading:
-      before: "Electrical Engineering student exploring"
-      highlight: "Power Systems & Industrial Automation."
+      before: "Electrical Engineering student working with"
+      highlight: "measurements, circuits and electronics."
 
     intro: >
-      Building practical skills in circuit analysis,
-      electronics, electrical measurements and programming
-      while learning about power systems and automation.
+      My supervised laboratory reports and simulations show
+      the methods and results behind my work. I am developing
+      toward power systems and industrial automation.
 
     buttons:
       projects: "Explore projects"
@@ -34,7 +34,7 @@ en:
       github: "GitHub ↗"
 
     availability: >
-      Open to 2026–27 internships and entry-level
+      Open to internships and early-career engineering
       opportunities in Argentina and remotely.
 
   technical:
@@ -66,62 +66,24 @@ en:
 
     kicker: "Profile"
 
-    title: "Engineering theory applied to practical problems."
+    title: "From coursework to measured results."
 
     intro: >
-      My portfolio brings together university work,
-      independent projects and technical experimentation
-      across electrical engineering.
+      Selected university work with original reports,
+      calculations and documented laboratory observations.
 
     paragraphs:
 
       - >
-        I am an Electrical Engineering student developing
-        my profile around electrical networks, power-system
-        analysis and industrial automation.
+        I study Electrical Engineering at UNSE. My documented
+        work includes electrical measurements, analog circuits,
+        digital logic and engineering computation.
 
       - >
-        I am learning about load flow, short circuits,
-        protection concepts and industrial automation,
-        and looking for opportunities to develop those skills.
+        I am currently learning about load flow, short circuits,
+        protection concepts and industrial automation. I want
+        to apply these subjects in supervised engineering work.
 
-      - >
-        My projects combine circuit theory, simulation,
-        measurements and programming using Python,
-        LTspice, Proteus and MATLAB/Scilab.
-
-
-
-  focus:
-
-    title: "Skills and current learning"
-
-    power:
-
-      title: "Electrical Analysis"
-
-      text: "Circuits · phasors · three-phase measurements"
-
-
-    protection:
-
-      title: "Power Systems (learning)"
-
-      text: "Load flow · short circuits · protection concepts"
-
-
-    automation:
-
-      title: "Digital Logic"
-
-      text: "TTL counters · timing logic · Proteus"
-
-
-    computing:
-
-      title: "Engineering Computing"
-
-      text: "Python · simulation · data analysis"
 
 
 
@@ -132,34 +94,15 @@ en:
     title: "Engineering projects."
 
     description: >
-      Academic and personal projects covering electronics,
-      measurements, digital logic, thermodynamic cycles
-      and engineering computing.
+      Start with the electrical laboratory work. Each featured
+      project links its findings to the original reports.
+
+    more_title: "Additional work"
+    more_description: "Digital logic, software and thermodynamic cycle coursework."
 
     count: "projects"
 
 
-    search:
-
-      placeholder: "Search by project, skill or technology…"
-
-      label: "Search projects"
-
-
-    categories:
-
-      all: "All"
-
-      power: "Thermodynamic Cycles"
-
-      electronics: "Electronics"
-
-      measurements: "Measurements"
-
-      logic: "Digital Logic"
-
-
-    empty: "No projects match your search."
 
     card:
       image: "Thumbnail"
@@ -418,16 +361,16 @@ es:
 
     heading:
 
-      before: "Estudiante de Ingeniería Eléctrica explorando"
+      before: "Estudiante de Ingeniería Eléctrica con trabajos en"
 
-      highlight: "Sistemas Eléctricos y Automatización Industrial."
+      highlight: "mediciones, circuitos y electrónica."
 
 
     intro: >
-      Desarrollo habilidades prácticas en análisis de
-      circuitos, electrónica, mediciones eléctricas y
-      programación mientras aprendo sobre sistemas
-      eléctricos y automatización.
+      Mis informes de laboratorio supervisado y simulaciones
+      muestran los métodos y resultados de mi trabajo.
+      Continúo formándome en sistemas eléctricos y
+      automatización industrial.
   
     buttons:
 
@@ -439,8 +382,8 @@ es:
 
 
     availability: >
-      Disponible para pasantías 2026–27 y oportunidades
-      profesionales iniciales en Argentina y modalidad remota.
+      Disponible para pasantías y oportunidades iniciales
+      de ingeniería en Argentina y en modalidad remota.
 
 
 
@@ -486,71 +429,31 @@ es:
 
     kicker: "Perfil"
 
-    title: "Teoría de ingeniería aplicada a problemas reales."
+    title: "De las prácticas a los resultados medidos."
 
 
     intro: >
-      Mi portfolio reúne trabajos universitarios,
-      proyectos independientes y experimentación técnica
-      dentro del campo de la ingeniería eléctrica.
+      Trabajos universitarios seleccionados con informes
+      originales, cálculos y observaciones de laboratorio.
 
 
     paragraphs:
 
 
       - >
-        Soy estudiante de Ingeniería Eléctrica desarrollando
-        mi perfil alrededor de redes eléctricas,
-        análisis de sistemas de potencia y automatización industrial.
+        Estudio Ingeniería Eléctrica en la UNSE. Mis trabajos
+        documentados abarcan mediciones eléctricas, circuitos
+        analógicos, lógica digital y computación aplicada.
 
 
       - >
-        Estoy aprendiendo sobre flujo de carga,
+        Actualmente aprendo sobre flujo de carga,
         cortocircuitos, conceptos de protección y
-        automatización industrial, y busco oportunidades
-        para desarrollar esas habilidades.
-
-
-      - >
-        Mis proyectos combinan teoría de circuitos,
-        simulación, mediciones y programación utilizando
-        herramientas como Python, LTspice, Proteus
-        y MATLAB/Scilab.
+        automatización industrial. Busco aplicar estos temas
+        en trabajos de ingeniería supervisados.
 
 
 
-
-  focus:
-
-    title: "Habilidades y aprendizaje actual"
-
-
-    power:
-
-      title: "Análisis eléctrico"
-
-      text: "Circuitos · fasores · mediciones trifásicas"
-
-
-    protection:
-
-      title: "Sistemas eléctricos (en formación)"
-
-      text: "Flujo de carga · cortocircuitos · protección"
-
-
-    automation:
-
-      title: "Lógica digital"
-
-      text: "Contadores TTL · lógica de temporización · Proteus"
-
-
-    computing:
-
-      title: "Computación aplicada"
-
-      text: "Python · simulación · análisis de datos"
 
 
 
@@ -563,35 +466,17 @@ es:
 
 
     description: >
-      Proyectos académicos y personales de electrónica,
-      mediciones, lógica digital, ciclos termodinámicos
-      y computación aplicada a la ingeniería.
+      Comenzá por los trabajos de laboratorio eléctrico.
+      Cada proyecto destacado vincula sus resultados
+      con los informes originales.
+
+    more_title: "Otros trabajos"
+    more_description: "Lógica digital, software y trabajos sobre ciclos termodinámicos."
 
 
     count: "proyectos"
 
 
-    search:
-
-      placeholder: "Buscar por proyecto, habilidad o tecnología…"
-
-      label: "Buscar proyectos"
-
-
-    categories:
-
-      all: "Todos"
-
-      power: "Ciclos termodinámicos"
-
-      electronics: "Electrónica"
-
-      measurements: "Mediciones"
-
-      logic: "Lógica digital"
-
-
-    empty: "No hay proyectos que coincidan con la búsqueda."
 
     card:
       image: "Miniatura"

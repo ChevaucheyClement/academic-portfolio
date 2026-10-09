@@ -11,12 +11,17 @@
 
 <script defer src="{{ '/assets/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
-{% if page.url == '/' or page.url == '/es/' %}
-<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
-<link rel="alternate" hreflang="es" href="{{ '/es/' | absolute_url }}">
+{% if page.translation %}
+  {% if page.lang == 'es' %}
+    {% assign en_path = page.translation %}
+    {% assign es_path = page.url %}
+  {% else %}
+    {% assign en_path = page.url %}
+    {% assign es_path = page.translation %}
+  {% endif %}
+<link rel="alternate" hreflang="en" href="{{ en_path | absolute_url }}">
+<link rel="alternate" hreflang="es" href="{{ es_path | absolute_url }}">
+  {% if page.url == '/' or page.url == '/es/' %}
 <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
-{% endif %}
-{% if page.url == '/measurements-ii/' or page.url == '/es/measurements-ii/' %}
-<link rel="alternate" hreflang="en" href="{{ '/measurements-ii/' | absolute_url }}">
-<link rel="alternate" hreflang="es" href="{{ '/es/measurements-ii/' | absolute_url }}">
+  {% endif %}
 {% endif %}

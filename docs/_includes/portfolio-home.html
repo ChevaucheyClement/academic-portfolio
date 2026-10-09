@@ -304,6 +304,95 @@
 
 
 <!-- ======================================================
+     PROJECTS
+======================================================= -->
+
+
+<section
+  class="portfolio-section projects-section"
+  id="projects"
+>
+
+
+
+  <div class="section-heading section-heading--split">
+
+
+    <div>
+
+
+      <span class="section-kicker">
+
+        {{ t.projects.kicker }}
+
+      </span>
+
+
+
+
+
+      <h2>
+
+        {{ t.projects.title }}
+
+      </h2>
+
+
+
+
+
+      <p>
+
+        {{ t.projects.description }}
+
+      </p>
+
+
+    </div>
+
+
+
+
+
+    <span class="project-count">
+
+
+      {{ site.data.projects | size }}
+
+      {{ t.projects.count }}
+
+
+    </span>
+
+
+
+  </div>
+
+
+
+
+
+
+  <div class="grid grid--featured">
+    {% for p in site.data.projects %}
+      {% if p.featured %}{% include card.html p=p %}{% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="project-more">
+    <h3>{{ t.projects.more_title }}</h3>
+    <p>{{ t.projects.more_description }}</p>
+  </div>
+
+  <div class="grid grid--additional">
+    {% for p in site.data.projects %}
+      {% unless p.featured %}{% include card.html p=p %}{% endunless %}
+    {% endfor %}
+  </div>
+
+</section>
+
+<!-- ======================================================
      ABOUT
 ======================================================= -->
 
@@ -375,184 +464,7 @@
 
 
 
-    <aside class="focus-card">
 
-
-      <div class="focus-card__title">
-
-        {{ t.focus.title }}
-
-      </div>
-
-
-
-
-
-      <div class="focus-list">
-
-
-
-        <div class="focus-item">
-
-
-          <div class="focus-icon">
-
-            PS
-
-          </div>
-
-
-
-          <div>
-
-
-            <strong>
-
-              {{ t.focus.power.title }}
-
-            </strong>
-
-
-
-            <span>
-
-              {{ t.focus.power.text }}
-
-            </span>
-
-
-          </div>
-
-
-        </div>
-
-
-
-
-
-
-
-        <div class="focus-item">
-
-
-          <div class="focus-icon">
-
-            PR
-
-          </div>
-
-
-
-          <div>
-
-
-            <strong>
-
-              {{ t.focus.protection.title }}
-
-            </strong>
-
-
-
-            <span>
-
-              {{ t.focus.protection.text }}
-
-            </span>
-
-
-          </div>
-
-
-        </div>
-
-
-
-
-
-
-
-        <div class="focus-item">
-
-
-          <div class="focus-icon">
-
-            DL
-
-          </div>
-
-
-
-          <div>
-
-
-            <strong>
-
-              {{ t.focus.automation.title }}
-
-            </strong>
-
-
-
-            <span>
-
-              {{ t.focus.automation.text }}
-
-            </span>
-
-
-          </div>
-
-
-        </div>
-
-
-
-
-
-
-
-        <div class="focus-item">
-
-
-          <div class="focus-icon">
-
-            PY
-
-          </div>
-
-
-
-          <div>
-
-
-            <strong>
-
-              {{ t.focus.computing.title }}
-
-            </strong>
-
-
-
-            <span>
-
-              {{ t.focus.computing.text }}
-
-            </span>
-
-
-          </div>
-
-
-        </div>
-
-
-
-      </div>
-
-
-
-    </aside>
 
 
 
@@ -568,216 +480,6 @@
 
 
 
-
-<!-- ======================================================
-     PROJECTS
-======================================================= -->
-
-
-<section
-  class="portfolio-section projects-section"
-  id="projects"
->
-
-
-
-  <div class="section-heading section-heading--split">
-
-
-    <div>
-
-
-      <span class="section-kicker">
-
-        {{ t.projects.kicker }}
-
-      </span>
-
-
-
-
-
-      <h2>
-
-        {{ t.projects.title }}
-
-      </h2>
-
-
-
-
-
-      <p>
-
-        {{ t.projects.description }}
-
-      </p>
-
-
-    </div>
-
-
-
-
-
-    <span class="project-count">
-
-
-      {{ site.data.projects | size }}
-
-      {{ t.projects.count }}
-
-
-    </span>
-
-
-
-  </div>
-
-
-
-
-
-
-  <div class="project-controls">
-
-
-
-    <input
-      id="q"
-      type="search"
-      placeholder="{{ t.projects.search.placeholder }}"
-      autocomplete="off"
-      aria-label="{{ t.projects.search.label }}"
-    >
-
-
-
-
-
-    <div
-      id="chips"
-      class="chips"
-    >
-
-
-
-      <button
-        class="chip active"
-        type="button"
-        data-cat="all"
-      >
-
-        {{ t.projects.categories.all }}
-
-      </button>
-
-
-
-
-
-      <button
-        class="chip"
-        type="button"
-        data-cat="power"
-      >
-
-        {{ t.projects.categories.power }}
-
-      </button>
-
-
-
-
-
-      <button
-        class="chip"
-        type="button"
-        data-cat="electronics"
-      >
-
-        {{ t.projects.categories.electronics }}
-
-      </button>
-
-
-
-
-
-      <button
-        class="chip"
-        type="button"
-        data-cat="measurements"
-      >
-
-        {{ t.projects.categories.measurements }}
-
-      </button>
-
-
-
-
-
-      <button
-        class="chip"
-        type="button"
-        data-cat="logic"
-      >
-
-        {{ t.projects.categories.logic }}
-
-      </button>
-
-
-
-    </div>
-
-
-
-  </div>
-
-
-
-
-
-
-
-  <div
-    class="grid"
-    id="grid"
-  >
-
-
-
-    {% for p in site.data.projects %}
-
-      {% include card.html p=p %}
-
-    {% endfor %}
-
-
-
-
-
-
-    <div
-      class="no-results"
-      id="no-results"
-    >
-
-      {{ t.projects.empty }}
-
-    </div>
-
-
-
-  </div>
-
-
-
-
-
-</section>
 
 <!-- ======================================================
      EXPERIENCE
@@ -1569,138 +1271,3 @@
 
 </div>
 
-<script>
-
-document.addEventListener(
-  "DOMContentLoaded",
-  function () {
-
-    const search =
-      document.getElementById("q");
-
-    const chips =
-      document.querySelectorAll(".chip");
-
-    const cards =
-      document.querySelectorAll("#grid .card");
-
-    const noResults =
-      document.getElementById("no-results");
-
-    let activeCategory =
-      "all";
-
-
-    function filterProjects() {
-
-      const query =
-        search
-          ? search.value
-              .trim()
-              .toLowerCase()
-          : "";
-
-      let visible = 0;
-
-
-      cards.forEach(
-        function (card) {
-
-          const category =
-            (
-              card.dataset.cat ||
-              ""
-            )
-              .toLowerCase();
-
-          const categories =
-            category
-              .split(/[\s,]+/)
-              .filter(Boolean);
-
-          const searchable =
-            card.textContent
-              .toLowerCase();
-
-          const categoryMatch =
-            activeCategory === "all" ||
-            categories.includes(activeCategory) ||
-            category === activeCategory;
-
-          const searchMatch =
-            query === "" ||
-            searchable.includes(query);
-
-          const show =
-            categoryMatch &&
-            searchMatch;
-
-          card.style.display =
-            show
-              ? ""
-              : "none";
-
-          if (show) {
-            visible++;
-          }
-
-        }
-      );
-
-
-      if (noResults) {
-
-        noResults.style.display =
-          visible === 0
-            ? "block"
-            : "none";
-
-      }
-
-    }
-
-
-    chips.forEach(
-      function (chip) {
-
-        chip.addEventListener(
-          "click",
-          function () {
-
-            chips.forEach(
-              function (c) {
-                c.classList.remove("active");
-              }
-            );
-
-            chip.classList.add("active");
-
-            activeCategory =
-              chip.dataset.cat ||
-              "all";
-
-            filterProjects();
-
-          }
-        );
-
-      }
-    );
-
-
-    if (search) {
-
-      search.addEventListener(
-        "input",
-        filterProjects
-      );
-
-    }
-
-
-    filterProjects();
-
-  }
-);
-
-</script>

@@ -1,8 +1,10 @@
 - title: Electrical Measurements II (2 Labs)
+  featured: true
+  year: 2026
   title_es: "Mediciones Eléctricas II (2 prácticas)"
   subtitle_es: "Redes trifásicas desequilibradas y ensayos de aislación"
-  summary: "Investigated three-phase phasors and insulation resistance in two supervised labs."
-  summary_es: "Analicé fasores trifásicos y resistencia de aislación en dos prácticas supervisadas."
+  summary: "Three-phase current changed with the load type; recorded insulation readings for a cable, transformer and motor."
+  summary_es: "La corriente trifásica cambió según la carga; registré lecturas de aislación de un cable, un transformador y un motor."
   tags: ["Three-phase systems", "Insulation testing"]
   tags_es: ["Sistemas trifásicos", "Ensayos de aislación"]
   category: measurements
@@ -20,14 +22,18 @@
   case_study_es: /es/measurements-ii/
 
 - title: Electronics II (7 TPs)
+  featured: true
+  year: 2025
   title_es: "Electrónica II (7 TPs)"
   subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
-  summary: "Seven supervised TPs covering circuit calculations, simulations and documented bench work."
-  summary_es: "Siete TP supervisados con cálculos de circuitos, simulaciones y prácticas de banco documentadas."
+  summary: "A Zener clipper reached about +7.2/−6.0 V in the lab; a BJT amplifier measured gain near 18 at low frequency."
+  summary_es: "Un recortador Zener alcanzó cerca de +7,2/−6,0 V en el banco; un amplificador BJT midió una ganancia cercana a 18 a baja frecuencia."
   tags: ["Circuit analysis", "Bench and simulation"]
   tags_es: ["Análisis de circuitos", "Banco y simulación"]
   category: electronics
   path: electronics
+  case_study: /electronics-ii/
+  case_study_es: /es/electronics-ii/
   subtitle: Analog, diodes, BJT, op-amp
   thumb: /assets/thumbs/electronics-lab-oscilloscope.jpg
 
@@ -42,18 +48,24 @@
   path: logics/traffic-lights-proteus
   subtitle: TTL counters and synchronized lamp logic
   thumb: /assets/thumbs/traffic-lights-v2-schematic.png
-  thumb_fit: contain
+  thumb_fit: detail
+  thumb_alt: "Detail of the Proteus traffic-light circuit diagram"
+  thumb_alt_es: "Detalle del esquema de los semáforos en Proteus"
   report: auto
 
 - title: Electrical Measurements (7 Labs)
+  featured: true
+  year: 2025
   title_es: "Mediciones eléctricas (7 prácticas)"
   subtitle_es: "Metrología y técnicas de medición en CA y CC"
-  summary: "Completed seven supervised labs on instrument class, resistance, impedance, power and uncertainty."
-  summary_es: "Realicé siete prácticas supervisadas sobre clase de instrumentos, resistencia, impedancia, potencia e incertidumbre."
+  summary: "Verified an ammeter as class 1; a Wheatstone bridge gave 479.12 Ω for a nominal 500 Ω resistor."
+  summary_es: "Verifiqué un amperímetro como clase 1; un puente de Wheatstone dio 479,12 Ω para una resistencia nominal de 500 Ω."
   tags: ["Metrology", "Uncertainty"]
   tags_es: ["Metrología", "Incertidumbre"]
   category: measurements
   path: measurements
+  case_study: /measurements/
+  case_study_es: /es/measurements/
   subtitle: Metrology & AC/DC measurement techniques
   thumb: /assets/thumbs/measurements-lab-aron.png
 

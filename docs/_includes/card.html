@@ -4,11 +4,13 @@
 {% assign card_title = p.title %}
 {% assign card_subtitle = p.subtitle %}
 {% assign card_summary = p.summary %}
+{% assign thumb_alt = p.thumb_alt | default: card_title %}
 {% assign docs_label = p.docs_label | default: 'Docs' %}
 {% if lang == 'es' %}
   {% assign card_title = p.title_es | default: p.title %}
   {% assign card_subtitle = p.subtitle_es | default: p.subtitle %}
   {% assign card_summary = p.summary_es | default: p.summary %}
+  {% assign thumb_alt = p.thumb_alt_es | default: thumb_alt %}
   {% assign docs_label = p.docs_label_es | default: docs_label %}
 {% endif %}
 {% assign category_label = t.projects.card[p.category] | default: p.category | capitalize %}
@@ -17,17 +19,18 @@
          data-title="{{ card_title | default: '' | downcase }}"
          data-sub="{{ card_subtitle | default: '' | downcase }}">
 
-  <div class="card__thumb {% if p.thumb_fit == 'contain' %}card__thumb--contain{% endif %} {% unless p.thumb %}card__thumb--empty{% endunless %}">
+  <div class="card__thumb {% if p.thumb_fit == 'contain' %}card__thumb--contain{% endif %} {% if p.thumb_fit == 'detail' %}card__thumb--detail{% endif %} {% unless p.thumb %}card__thumb--empty{% endunless %}">
     {% if p.thumb and p.thumb != '' %}
       <img
         src="{% if p.thumb contains '://' %}{{ p.thumb }}{% else %}{{ p.thumb | relative_url }}{% endif %}"
-        alt="{{ t.projects.card.image }} — {{ card_title }}"
+        alt="{{ thumb_alt }}"
         loading="lazy"
         decoding="async"
       >
     {% endif %}
     <div class="card__tags">
       <span class="tag tag--cat">{{ category_label }}</span>
+      {% if p.year %}<span class="tag tag--year">{{ p.year }}</span>{% endif %}
     </div>
   </div>
 
@@ -59,8 +62,8 @@
           {% assign repo_href = site.repo_url_base | append: '/' | append: repo_href %}
         {% endunless %}
       {% endif %}
-      {% if repo_href and p.case_study == nil %}
-        <a class="btn primary"
+      {% if repo_href %}
+        <a class="btn{% unless p.case_study %} primary{% endunless %}"
            href="{{ repo_href }}"
            target="_blank" rel="noopener noreferrer">{{ t.projects.card.repo }}</a>
       {% endif %}

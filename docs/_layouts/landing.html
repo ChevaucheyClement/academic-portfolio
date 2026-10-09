@@ -2,53 +2,6 @@
 layout: default
 ---
 
-<!-- First-visit language selector. Manual language switching always wins. -->
-<div id="language-modal" class="language-modal" aria-labelledby="language-modal-title">
-  <div class="language-modal__box">
-    <h2 id="language-modal-title">Choose your language</h2>
-    <p>Selecciona tu idioma</p>
-
-    <div class="language-modal__buttons">
-      <a
-        href="{{ '/' | relative_url }}"
-        class="language-choice"
-        data-lang="en"
-      >
-        🇬🇧 English
-      </a>
-
-      <a
-        href="{{ '/es/' | relative_url }}"
-        class="language-choice"
-        data-lang="es"
-      >
-        🇦🇷 Español
-      </a>
-    </div>
-  </div>
-</div>
-
-<script>
-(() => {
-  const STORAGE_KEY = "portfolio-language";
-  const modal = document.getElementById("language-modal");
-
-  if (!modal) return;
-
-  const savedLanguage = localStorage.getItem(STORAGE_KEY);
-
-  if (!savedLanguage) {
-    modal.classList.add("active");
-  }
-
-  modal.querySelectorAll(".language-choice").forEach(link => {
-    link.addEventListener("click", () => {
-      localStorage.setItem(STORAGE_KEY, link.dataset.lang);
-    });
-  });
-})();
-</script>
-
 <div class="page-content">
   <div class="wrapper">
     {{ content }}

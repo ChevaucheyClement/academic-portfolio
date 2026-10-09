@@ -6,6 +6,10 @@
 
 {% assign lang = page.lang | default: "en" %}
 {% assign t = site.data.i18n[lang] %}
+{% assign alternate_path = page.translation %}
+{% unless alternate_path %}
+  {% if page.lang == "es" %}{% assign alternate_path = "/" %}{% else %}{% assign alternate_path = "/es/" %}{% endif %}
+{% endunless %}
 
 <header class="site-header" role="banner">
 
@@ -74,12 +78,12 @@ C17.335,12.032,18,12.696,18,13.516z
 
 <div class="trigger">
 
-<a class="page-link" href="{{ home }}#about">
-{{ t.header.profile }}
-</a>
-
 <a class="page-link" href="{{ home }}#projects">
 {{ t.header.projects }}
+</a>
+
+<a class="page-link" href="{{ home }}#about">
+{{ t.header.profile }}
 </a>
 
 <a class="page-link" href="{{ home }}#experience">
@@ -94,11 +98,10 @@ C17.335,12.032,18,12.696,18,13.516z
 {{ t.header.contact }}
 </a>
 
-<!-- Language switch. Use the same preference key as the first-visit modal. -->
+<!-- Language switch points to this page's translation when one exists. -->
 {% if page.lang == "es" %}
 <a
-  href="{{ '/' | relative_url }}"
-  onclick="localStorage.setItem('portfolio-language','en')"
+  href="{{ alternate_path | relative_url }}"
   class="language-toggle"
   lang="en"
   hreflang="en"
@@ -107,8 +110,7 @@ EN
 </a>
 {% else %}
 <a
-  href="{{ '/es/' | relative_url }}"
-  onclick="localStorage.setItem('portfolio-language','es')"
+  href="{{ alternate_path | relative_url }}"
   class="language-toggle"
   lang="es"
   hreflang="es"

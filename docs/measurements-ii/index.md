@@ -2,6 +2,7 @@
 layout: case-study
 title: Electrical Measurements II | Laboratory case study
 lang: en
+translation: /es/measurements-ii/
 permalink: /measurements-ii/
 description: Supervised university laboratory work on three-phase phasors and insulation-resistance measurements.
 ---
@@ -12,7 +13,7 @@ description: Supervised university laboratory work on three-phase phasors and in
 
 **Two supervised laboratory reports · Universidad Nacional de Santiago del Estero · September 2026**
 
-The two course reports bear my name. I took part in instrument setup, recorded observations and readings, and interpreted the results in the submitted reports under the supervision of the teaching engineers. These were university exercises, not independent equipment inspections.
+The two course reports bear my name. I took part in instrument setup, recorded readings and interpreted the results under the supervision of the teaching engineers.
 
 ## 1. Unbalanced three-phase network
 
@@ -22,7 +23,7 @@ The two course reports bear my name. I took part in instrument setup, recorded o
 
 **Result.** The voltage phasors remained roughly 120° apart. Current was approximately in phase with voltage for a resistive load, lagged with the motor, and led with capacitive loading. Reversing one current sensor shifted its displayed current phasor by 180°, demonstrating why sensor orientation and phase mapping matter.
 
-The report includes analyzer screens and photographs, but no complete table of current magnitudes and angles. These findings are qualitative.
+The report includes analyzer screens and photographs; its phasor findings are qualitative.
 
 ## 2. Insulation-resistance measurements
 
@@ -40,11 +41,11 @@ The report includes analyzer screens and photographs, but no complete table of c
 
 *Photograph from the submitted three-phase laboratory report.*
 
-Additional readings were 111 and 116 GΩ between cable neutral and phases, 208–218 MΩ from motor phase to earth, and 341–350 MΩ between motor phases. The report cautions against interpreting the indices on their own. I do not draw a serviceability or compliance conclusion from them.
+Additional readings were 111 and 116 GΩ between cable neutral and phases, 208–218 MΩ from motor phase to earth, and 341–350 MΩ between motor phases. The ratios alone do not establish equipment condition or compliance.
 
 ## What this work shows
 
-Instrument setup in supervised labs, phasor interpretation, careful recording of resistance readings, ratio calculations and technical reporting. The [English project summary](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.md) explains their scope. No analysis code or reproducible script was used for these reports.
+Instrument setup, phasor interpretation, resistance readings, ratio calculations and technical reporting. The [English project summary](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.md) gives more detail.
 
 ## Original reports
 

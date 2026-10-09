@@ -2,6 +2,7 @@
 layout: case-study
 title: Mediciones Eléctricas II | Caso de estudio
 lang: es
+translation: /measurements-ii/
 permalink: /es/measurements-ii/
 description: Prácticas universitarias supervisadas sobre fasores trifásicos y mediciones de resistencia de aislación.
 ---
@@ -12,7 +13,7 @@ description: Prácticas universitarias supervisadas sobre fasores trifásicos y 
 
 **Dos informes de laboratorio supervisados · Universidad Nacional de Santiago del Estero · septiembre de 2026**
 
-Los dos informes de la cátedra llevan mi nombre. Participé en la configuración de instrumentos, registré observaciones y lecturas e interpreté los resultados en los informes entregados bajo la supervisión de los ingenieros docentes. Fueron prácticas universitarias, no inspecciones independientes de equipos.
+Los dos informes de la cátedra llevan mi nombre. Participé en la configuración de instrumentos, registré lecturas e interpreté los resultados bajo la supervisión de los ingenieros docentes.
 
 ## 1. Red trifásica desequilibrada
 
@@ -22,7 +23,7 @@ Los dos informes de la cátedra llevan mi nombre. Participé en la configuració
 
 **Resultado.** Los fasores de tensión permanecieron separados cerca de 120°. La corriente estuvo aproximadamente en fase con la tensión para una carga resistiva, atrasada con el motor y adelantada con una carga capacitiva. Al invertir un sensor de corriente, el fasor indicado giró 180°, lo que muestra la importancia del sentido del sensor y de la correspondencia de fases.
 
-El informe incluye pantallas del analizador y fotografías, pero no una tabla completa de módulos y ángulos de corriente. Estos resultados son cualitativos.
+El informe incluye pantallas del analizador y fotografías; las observaciones sobre fasores son cualitativas.
 
 ## 2. Mediciones de resistencia de aislación
 
@@ -40,11 +41,11 @@ El informe incluye pantallas del analizador y fotografías, pero no una tabla co
 
 *Fotografía incluida en el informe entregado de la práctica trifásica.*
 
-También se registraron 111 y 116 GΩ entre neutro y fases del cable, 208–218 MΩ entre fase y tierra del motor, y 341–350 MΩ entre fases del motor. El informe advierte sobre las limitaciones de interpretar los índices de forma aislada. No concluyo a partir de ellos si los equipos pueden continuar en servicio ni si cumplen algún criterio de conformidad.
+También se registraron 111 y 116 GΩ entre neutro y fases del cable, 208–218 MΩ entre fase y tierra del motor, y 341–350 MΩ entre fases del motor. Las relaciones calculadas por sí solas no establecen el estado de los equipos ni su conformidad.
 
 ## Qué evidencia este trabajo
 
-Configuración de instrumentos en prácticas supervisadas, interpretación de fasores, registro cuidadoso de resistencias, cálculo de relaciones y redacción de informes técnicos. El [resumen del proyecto en español](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.es.md) explica su alcance. No se utilizó código de análisis ni un script reproducible para estos informes.
+Configuración de instrumentos, interpretación de fasores, registro de resistencias, cálculo de relaciones y redacción de informes técnicos. El [resumen del proyecto en español](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.es.md) amplía los detalles.
 
 ## Informes originales
 
