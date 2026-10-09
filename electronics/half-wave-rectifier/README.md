@@ -18,6 +18,8 @@ Measure VAC at the secondary, then insert rectifier and capacitor, probing nodes
   - 1 kΩ/1.2 W → **I_peak ≈ 17.8 mA** (safe)
 - Waveforms: rectified half-wave; with 100 µF reservoir, DC level rises with ripple consistent with load.
 
+The submitted PDF prints 3.97 W for the 100 Ω resistor. Using its stated 178 mA and P = I²R gives 3.17 W; the value above is the corrected arithmetic, not an additional measurement.
+
 ## What I learned / skills
 Diode rectification, ripple vs. load, power checks against component ratings, scope probing of rectifier nodes.
 

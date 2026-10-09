@@ -19,11 +19,11 @@
   case_study: /measurements-ii/
   case_study_es: /es/measurements-ii/
 
-- title: Electronics II (7 Labs)
-  title_es: "Electrónica II (7 prácticas)"
+- title: Electronics II (7 TPs)
+  title_es: "Electrónica II (7 TPs)"
   subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
-  summary: "Analyzed, simulated and bench-tested analog circuits across seven supervised course reports."
-  summary_es: "Analicé, simulé y ensayé circuitos analógicos en banco a lo largo de siete informes de prácticas supervisadas."
+  summary: "Seven supervised TPs covering circuit calculations, simulations and documented bench work."
+  summary_es: "Siete TP supervisados con cálculos de circuitos, simulaciones y prácticas de banco documentadas."
   tags: ["Circuit analysis", "Bench and simulation"]
   tags_es: ["Análisis de circuitos", "Banco y simulación"]
   category: electronics

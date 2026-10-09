@@ -8,7 +8,7 @@ Electrical Engineering coursework and projects at Universidad Nacional de Santia
 
 | Area | What is here |
 | --- | --- |
-| [Electronics II](electronics/) | Seven diode, transistor and op-amp lab summaries; Spanish originals and six English report PDFs. The BJT amplifier currently has only its Spanish report. |
+| [Electronics II](electronics/) | Seven diode, transistor and op-amp TP summaries with original Spanish reports and five English PDFs. The BJT amplifier and op-amp TP7 have only their Spanish reports; TP7's submitted copy contains unrelated later pages, so its summary is limited to the supported design calculations. |
 | [Electrical Measurements](measurements/) | Seven lab summaries with original Spanish reports and figures from the submitted work. |
 | [Electrical Measurements II](measurements-ii/) | English and Spanish summaries of two supervised labs on unbalanced three-phase loads and insulation resistance, with both original Spanish reports available as PDFs. No analysis code was used. |
 | [Traffic lights in Proteus](logics/traffic-lights-proteus/) | Logic design, two Proteus simulations and a report. No HDL implementation or testbench is included. |
