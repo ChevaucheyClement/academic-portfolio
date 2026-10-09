@@ -1,13 +1,13 @@
-# Determining instrument accuracy class: voltmeter and ammeter
+# Verifying an analog ammeter’s accuracy class
 
 > Electrical Measurements lab (UNSE), Apr 2025. Single-phase bench with variac and analog meters.
 
 ## Problem
-Contrast an analog ammeter against a standard, build the calibration curve, and determine accuracy class.
+Compare an analog ammeter against a class-0.5 reference, plot its indication error and determine its accuracy class. The report states an objective for a voltmeter too, but the published measurements and result concern the ammeter.
 
 ## Setup
-Variac, 100 Ω load, standard ammeter (class 0.5), DUT ammeter (class 1). Scale constant from dial: **0.01 A/div** (20 divisions → 0.2 A).  
-- Diagram/photo: `figures/setup.png`  
+Variac, 100 Ω load, standard ammeter (class 0.5), DUT ammeter (class 1). Scale constant from dial: **0.01 A/div** (20 divisions → 0.2 A).
+- Diagram/photo: `figures/setup.png`
 - Block diagram: `figures/block-diagram.png`
 
 ## Method
@@ -22,15 +22,8 @@ Logged DUT readings Xm against the standard Xp, computed absolute error ΔX = Xm
 Calibration curve building, analog scale resolution and appreciation error, class verification vs spec, uncertainty basics.
 
 ## Files
-- Report: [`report.pdf`](report.pdf)  
-- Data: [`data/`](data/)  
-- Figures: [`figures/`](figures/)  
-- Code: [`code/`](code/)  
-- Spanish report: [`TP1 - Determinacion de Clase - Chevauchey C.pdf`](es/TP1%20-%20Determinacion%20de%20Clase%20-%20Chevauchey%20C.pdf)
 
----
-
-**My analysis approach**  
-Derived scale constant from divisions; built error curve; took worst-case ΔX; justified class against IRAM discrete classes.
-
-*Licensing*: Code MIT. Docs/figures CC BY-NC 4.0.
+- [Original Spanish report](es/TP1%20-%20Determinacion%20de%20Clase%20-%20Chevauchey%20C.pdf)
+- [Data](data/)
+- [Figures](figures/)
+- [Analysis code](code/)

@@ -1,69 +1,20 @@
-# Clément — Engineering Portfolio
+# Clément Chevauchey — Academic Portfolio
 
-<p align="center">
-  <a href="https://chevaucheyclement.github.io/academic-portfolio/">
-    <img alt="View Portfolio"
-         src="https://img.shields.io/badge/View%20Portfolio-6AA7FF?style=for-the-badge&logo=githubpages&logoColor=white">
-  </a>
-  &nbsp;&nbsp;
-  <a href="docs/assets/CV English.pdf">
-    <img alt="English CV"
-         src="https://img.shields.io/badge/Download%20CV-11131A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
-  </a>
-  &nbsp;&nbsp;
-  <a href="docs/assets/CV spanish.pdf">
-    <img alt="Spanish CV"
-         src="https://img.shields.io/badge/Download%20CV-11131A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
-  </a>
-</p>
+[English website](https://chevaucheyclement.github.io/academic-portfolio/) · [Sitio en español](https://chevaucheyclement.github.io/academic-portfolio/es/) · [English CV](docs/assets/CV%20English.pdf) · [CV en español](docs/assets/CV%20spanish.pdf)
 
-<p align="center">
-  <a href="https://chevaucheyclement.github.io/academic-portfolio/">
-    <img src="docs/assets/preview-readme.png" width="900" alt="Portfolio preview">
-  </a>
-</p>
+Electrical Engineering coursework and projects at Universidad Nacional de Santiago del Estero. The lab reports name Clément Chevauchey as a student author and were completed under course supervision. Each section below distinguishes published reports from summaries that do not yet have supporting files here.
 
-<p align="center">
-  <a href="https://chevaucheyclement.github.io/academic-portfolio/">
-    <img alt="Website status"
-         src="https://img.shields.io/website?url=https%3A%2F%2Fchevaucheyclement.github.io%2Facademic-portfolio%2F">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/ChevaucheyClement/academic-portfolio/actions/workflows/pages/pages-build-deployment">
-    <img alt="Pages build"
-         src="https://github.com/ChevaucheyClement/academic-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg">
-  </a>
-</p>
+## Projects
 
-- 🌐 Live site: **https://chevaucheyclement.github.io/academic-portfolio/**
-- 📄 English CV: [`CV English.pdf`](docs/assets/CV English.pdf)
-- 📄 Spanish CV: [`CV spanish.pdf`](docs/assets/CV spanish.pdf)
+| Area | What is here |
+| --- | --- |
+| [Electronics II](electronics/) | Seven diode, transistor and op-amp lab summaries; Spanish originals and six English report PDFs. The BJT amplifier currently has only its Spanish report. |
+| [Electrical Measurements](measurements/) | Seven lab summaries with original Spanish reports, measurement data, analysis scripts and figures. |
+| [Traffic lights in Proteus](logics/traffic-lights-proteus/) | Logic design, two Proteus simulations and a report. No HDL implementation or testbench is included. |
+| [Thermodynamic cycle studies](machines/) | Rankine and Otto/Diesel/Dual project summaries. Reports, calculations, data and code have not been uploaded to these folders. |
 
-# Academic Portfolio — Labs and Projects
+The work documents circuit analysis, analog electronics, electrical measurements, uncertainty calculations, phasors and power, digital logic, simulation and interpretation of experimental results. Power-system analysis and industrial automation are current learning interests, not demonstrated project skills in this repository.
 
-> Selected lab reports and projects for Electrical Engineering coursework (UNSE FCEyT).
+## Licenses
 
-This repo is organized with one-minute READMEs in each project, then full report PDFs, data and code.
-
-## Contents
-- `electronics/` analog/digital electronics labs
-- `measurements/` measurement setups with uncertainty and propagation
-- `logics/` logic systems, timing/state diagrams, HDL/testbench
-- `machines/` Rankine cycle and internal combustion analyses
-- `Portfolio.pdf` one-page index with links
-
-## Structure per project
-```
-<project>/
-  README.md              # ≤1 min read
-  report.pdf             # translated report
-  figures/               # plots, photos
-  data/                  # CSV raw/processed
-  code/                  # LTspice/Proteus/MATLAB/Python/Verilog
-  es/                    # original spanish report
-```
-
-**Skills & Techniques across projects**  
-Circuit analysis, phasors and power calculations, electrical measurements, three-phase power measurement, Type A/B uncertainty analysis, analog circuit testing, finite-state machine design, LTspice, Proteus, MATLAB, Python data analysis, laboratory reporting and experimental data interpretation.
-
-Licensing: Code under MIT. Docs/figures under CC BY-NC 4.0.
+Code: [MIT](LICENSE). Reports and figures: [CC BY-NC 4.0](LICENSE-DOCS). See [NOTICE](NOTICE) for details.

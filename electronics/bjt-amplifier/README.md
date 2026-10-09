@@ -12,18 +12,12 @@ BC337; V_CC=15 V; resistors per design (see report); input/output coupling caps 
 Pick I_C, set V_E for thermal headroom, center Q on load line, compute R_C and R_E; choose divider R1, R2 for V_B; size C_in/C_out/C_E for f_min≈20 Hz. Build, then sweep ~20 Hz to 3.2 MHz and log |A_v|.
 
 ## Key results
-- **Amplifier 1:** settled at **|A_v| ≈ 7** at low frequency without bypass; bandwidth roll-off: **−3.85** @ 500 kHz, **−2** @ 1 MHz, **−1** @ 2 MHz, **−0.75** @ 3.2 MHz.  
-- **Amplifier 2:** design for |A_v| ≈ 15 with partial bypass; lab values documented in report plots; outcome limited by device parasitics and chosen bias.
+- **Amplifier 1:** settled at **|A_v| ≈ 7** at low frequency without bypass; gain magnitude fell to **3.85** at 500 kHz, **2** at 1 MHz, **1** at 2 MHz and **0.75** at 3.2 MHz (inverting gain in the report).
+- **Amplifier 2:** designed for |A_v| ≈ 15 with partial bypass; measured magnitude was about **18** at low frequency and **10.88** at 1 MHz.
 
 ## What I learned / skills
 Q-point tradeoffs, emitter degeneration vs gain/stability, coupling capacitor sizing, measured frequency response vs small-signal model.
 
 ## Files
-- Report: [`report.pdf`](report.pdf) • Spanish original in [`/es/TP5 - Electronica - Chevauchey C.pdf`](es/)
-- Figures: [`figures/`](figures/)
-- Code: [`code/`](code/)
 
----
-
-**My analysis approach**  
-Derived target R_E1 (unbypassed) for gain setpoint, split R_E into AC/DC parts, then matched lab sweep against the expected pole roll-off.
+- [Original Spanish report](es/TP5%20-%20Electronica%20-%20Chevauchey%20C.pdf)

@@ -1,15 +1,16 @@
+# Running the measurement checks
 
-# How to run the analysis scripts
+From the repository root, install the listed Python dependencies:
 
-Each TP has a `code/` folder with a small Python script that:
-- loads CSVs from `../data/`
-- recomputes the key results
-- writes a `*_recomputed.csv`
-- (TP1) produces a calibration plot under `../figures/`
+```bash
+python -m pip install -r measurements/requirements.txt
+```
 
-Setup:
-  pip install -r requirements.txt
+Each lab's `code/` folder contains a script that reads that lab's `data/` CSV files and checks selected results or calculations. Run one directly, for example:
 
-Run examples:
-  python measurements/determining-instrument-accuracy-class-voltmeter-and-ammeter/code/tp1_analysis.py
-  python measurements/resistance-measurement-by-volt-ampere-method-short-and-long-connections/code/tp2_va_analysis.py
+```bash
+python measurements/determining-instrument-accuracy-class-voltmeter-and-ammeter/code/tp1_analysis.py
+python measurements/impedance-measurement-by-three-ammeter-and-three-voltmeter-m/code/tp5_three_meters_analysis.py
+```
+
+Most scripts write a `*_recomputed.csv` into their lab's `data/` folder. TP1 also creates a calibration plot in its `figures/` folder. These are checks of selected published values, not replacements for the full Spanish lab reports. Small differences can arise from rounded inputs. The TP5 power uncertainty follows its report's final result table; an intermediate error row in that report differs and should be reviewed before reusing the uncertainty.

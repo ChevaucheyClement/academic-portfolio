@@ -1,37 +1,11 @@
-# Rankine cycle analysis: pressure/temperature variants, with/without superheat; real vs ideal efficiency; Carnot limit
+# Rankine cycle study
 
-> Context: Undergraduate lab at UNSE.
-> 
+Undergraduate thermodynamics coursework at UNSE. This study compares Rankine-cycle behavior across pressure, temperature and superheating conditions, including ideal and real-cycle efficiency and comparison with a Carnot limit.
 
-## Problem
-1–2 lines describing what was built/measured.
+## Scope
 
-## Setup
-- Instruments/components: Model numbers of DMM/oscilloscope/PSU/signal generator; components list.
-- Diagram/photo: `figures/setup.png` (add your photo/diagram)
-- Block diagram: `figures/block-diagram.png`
+The analysis uses thermodynamic property tables and cycle calculations to compare thermal efficiency and specific work. Its portfolio summary describes the effect of superheating and the gap between ideal and real operation. Numerical results are omitted here because the report and calculation files have not been uploaded to this folder.
 
-## Method
-Brief steps: simulate, build, measure; include sampling rate, averaging, calibration.
+## Repository status
 
-## Key results
-- Mean: …
-- σ (std dev): …
-- % error: …
-- Bandwidth / efficiency / propagation example: …
-
-## What I learned / skills
-e.g., 4-wire resistance, Wheatstone, LTspice, Proteus, MATLAB, Python, HDL/testbench.
-
-## Files
-- Report: [`report.pdf`](report.pdf)
-- Data: [`data/`](data/)
-- Figures: [`figures/`](figures/)
-- Code: [`code/`](code/)
-
----
-
-**My analysis approach**  
-State assumptions, derive expected behavior, simulate for bounds, measure, compute uncertainty (Type A/B), propagate errors, reconcile deltas with non-idealities.
-
-*Licensing*: Code MIT. Docs/figures CC BY-NC 4.0.
+This folder currently contains this project summary only. A report, source calculations, plots and data are not published here yet.

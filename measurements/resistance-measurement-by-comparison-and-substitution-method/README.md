@@ -3,14 +3,14 @@
 > Electrical Measurements lab (UNSE), May 2025. DC source, analog V/A, decade standard.
 
 ## Problem
-Estimate Rx using (a) comparison with a voltmeter and (b) substitution with a standard plus ammeter; quantify uncertainty and compare.
+Document separate resistance measurements by (a) voltmeter comparison and (b) substitution with a standard and ammeter; calculate each result and its uncertainty. The reported resistances differ greatly and should not be presented as agreement on one unknown.
 
 ## Setup
-DC supply ~25 V; analog voltmeter (class 1, RV = 24.6 kΩ), analog ammeter; decade standard ~300 Ω.  
-- photo: 
+DC supply ~25 V; analog voltmeter (class 1, RV = 24.6 kΩ), analog ammeter; decade standard ~300 Ω.
+- photo:
     - `figures/setup_comp.png`
-    - `figures/setup_sub.png` 
-- diagram: 
+    - `figures/setup_sub.png`
+- diagram:
     - `figures/diagram_comp.png`
     - `figures/diagram_sub.png`
 
@@ -27,12 +27,8 @@ Ran both methods, logged readings and meter specs, computed Rx and propagated cl
 Comparison vs substitution tradeoffs, meter loading, uncertainty propagation.
 
 ## Files
-- Report: [`report.pdf`](report.pdf) · Data/Figures/Code folders  
-- Spanish report: [`TP3 - Medidas eléctricas - Chevauchey C.pdf`](es/TP3%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
 
----
-
-**My analysis approach**  
-Modeled meter loading for comparison, used equal-indication substitution with a standard, propagated class and appreciation errors to percent uncertainties.
-
-*Licensing*: Code MIT. Docs/figures CC BY-NC 4.0.
+- [Original Spanish report](es/TP3%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
+- [Data](data/)
+- [Figures](figures/)
+- [Analysis code](code/)

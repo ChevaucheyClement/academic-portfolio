@@ -6,8 +6,8 @@
 Measure active power with a wattmeter and current transformer; compute S, Q, PF; correct for instrument power draw and estimate uncertainty.
 
 ## Setup
-Wattmeter; voltmeter; ammeter via CT; selectable loads (motor and air conditioner).  
-- photo: `figures/setup-AC.png`, `figures/setup-motor.png`  
+Wattmeter; voltmeter; ammeter via CT; selectable loads (motor and air conditioner).
+- photo: `figures/setup-AC.png`, `figures/setup-motor.png`
 - diagram: `figures/diagram-AC.png`, `figures/diagram-motor.png`
 
 ## Method
@@ -28,12 +28,8 @@ Recorded wattmeter indication Pm along with V and I; corrected for instrument po
 Using CTs safely, wattmeter corrections, separating P/Q/S, spotting over-compensation artifacts, uncertainty propagation with angle terms.
 
 ## Files
-- Report: [`report.pdf`](report.pdf) · Data/Figures/Code  
-- Spanish report: [`TP6 - Medidas eléctricas - Chevauchey C.pdf`](es/TP6%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
 
----
-
-**My analysis approach**  
-Accounted for wattmeter/voltmeter power draw, applied CT ratio, then propagated percent errors including wattmeter phase error.
-
-*Licensing*: Code MIT. Docs/figures CC BY-NC 4.0.
+- [Original Spanish report](es/TP6%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
+- [Data](data/)
+- [Figures](figures/)
+- [Analysis code](code/)

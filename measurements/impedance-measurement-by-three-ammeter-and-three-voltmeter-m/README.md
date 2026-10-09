@@ -6,8 +6,8 @@
 Estimate a series RL impedance with the three-voltmeter and three-ammeter methods; compare results and uncertainties.
 
 ## Setup
-AC source 0–250 VAC, ballast load; either three analog voltmeters or three analog ammeters; series standard resistor RP ~100 Ω.  
-- photo: `figures/setup-3V.png`, `figures/setup-3A.png`  
+AC source 0–250 VAC, ballast load; either three analog voltmeters or three analog ammeters; series standard resistor RP ~100 Ω.
+- photo: `figures/setup-3V.png`, `figures/setup-3A.png`
 - diagram: `figures/diagram-3V.png`, `figures/diagram-3A.png`
 
 ## Method
@@ -27,18 +27,16 @@ For 3V: measured U, UZ, and URP and solved for Zx, R, XL, φ, and P. For 3A: mea
 - **|Zₓ| = 159.7 Ω ± 3.55%** → **(159.7 ± 5.67) Ω**
 - **R = 84.39 Ω ± 21.76%** → **(84.39 ± 18.36) Ω**
 - **X_L = 135.58 Ω ± 13.36%** → **(135.58 ± 18.11) Ω**
-- **P = 217.82 W ± 12.74%** → **(217.82 ± 27.75) W**
+- **P = 217.82 W** in the report’s final table; its stated uncertainty is **±27.75 W**
+
+The report’s intermediate power-error row conflicts with its final uncertainty statement. The power values above follow the final table; review the derivation before using that uncertainty in a new calculation.
 
 ## What I learned / skills
 Vector treatment of AC measurements, method selection based on load and sensitivity, practical uncertainty propagation from derived quantities.
 
 ## Files
-- Report: [`report.pdf`](report.pdf) · Data/Figures/Code  
-- Spanish report: [`TP5 - Medidas eléctricas - Chevauchey C.pdf`](es/TP5%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
 
----
-
-**My analysis approach**  
-Applied 3V and 3A formulas, enforced series constraints, then combined class and appreciation errors to obtain uncertainties; compared methods vs load behavior.
-
-*Licensing*: Code MIT. Docs/figures CC BY-NC 4.0.
+- [Original Spanish report](es/TP5%20-%20Medidas%20el%C3%A9ctricas%20-%20Chevauchey%20C.pdf)
+- [Data](data/)
+- [Figures](figures/)
+- [Analysis code](code/)

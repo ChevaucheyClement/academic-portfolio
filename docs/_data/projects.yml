@@ -15,12 +15,12 @@
 - title: Electronics II (7 Labs)
   title_es: "Electrónica II (7 prácticas)"
   subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
-  outcome_es: "Construí y verifiqué rectificadores, limitadores, amplificadores BJT simples y en cascada, y circuitos con amplificadores operacionales según las especificaciones."
+  outcome_es: "Analicé, construí y simulé circuitos con diodos, BJT y amplificadores operacionales en siete prácticas supervisadas."
   skills_es: "Pruebas de circuitos analógicos, LTspice/Proteus, polarización y pequeña señal, medición de ganancia y ancho de banda"
   category: electronics
   path: electronics
   subtitle: Analog, diodes, BJT, op-amp
-  outcome: Built & verified rectifier, clipper, BJT single/cascade, and op-amp labs against specs.
+  outcome: Analyzed, built, and simulated diode, BJT, and op-amp circuits across seven supervised labs.
   skills: Analog circuit testing, LTspice/Proteus, biasing and small-signal analysis, gain and bandwidth measurement
   thumb: /assets/thumbs/electronics.png
   readme: true
@@ -42,14 +42,14 @@
 
 - title: Traffic Lights FSM (Proteus)
   title_es: "Semáforo con máquina de estados (Proteus)"
-  subtitle_es: "Máquina de Moore y divisor de tiempos"
-  outcome_es: "Implementé una máquina de estados con antirrebote y tiempos de fase deterministas."
-  skills_es: "Diseño de máquinas de estados finitos, división de tiempos, simulación en Proteus y casos de prueba"
+  subtitle_es: "Contadores TTL y lógica de sincronización"
+  outcome_es: "Corregí la secuencia de luces amarillas entre ciclos y sincronicé los dos semáforos en la segunda simulación de Proteus."
+  skills_es: "Diseño con contadores y compuertas lógicas, flip-flops JK, simulación en Proteus y verificación de tiempos"
   category: logic
-  path: logics/logic-systems-traffic-lights-in-proteus-optional-hdl-testben
-  subtitle: Moore FSM + timing divider
-  outcome: Working, debounced state machine with deterministic phase timing.
-  skills: Finite-state machine design, timing division, Proteus simulation, test cases
+  path: logics/traffic-lights-proteus
+  subtitle: TTL counters and synchronized lamp logic
+  outcome: Corrected inter-cycle yellow-light timing in Proteus version 2 and synchronized both traffic lights.
+  skills: Counter and logic-gate design, JK flip-flops, Proteus simulation, timing validation
   thumb: /assets/thumbs/Traffic_Lights.png
   readme: true
   report: auto
