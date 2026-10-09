@@ -11,6 +11,8 @@
   path: measurements-ii
   subtitle: Unbalanced three-phase networks and insulation testing
   thumb: /assets/thumbs/measurements-ii-lab.jpg
+  thumb_alt: "Power analyzer and meters connected on an electrical laboratory bench"
+  thumb_alt_es: "Analizador de energía e instrumentos conectados en un banco de laboratorio eléctrico"
   reports:
     - label: "TP1 PDF"
       label_es: "TP1 PDF"
@@ -36,6 +38,8 @@
   case_study_es: /es/electronics-ii/
   subtitle: Analog, diodes, BJT, op-amp
   thumb: /assets/thumbs/electronics-lab-oscilloscope.jpg
+  thumb_alt: "Two oscilloscope traces from the electronics laboratory"
+  thumb_alt_es: "Dos trazas de osciloscopio del laboratorio de electrónica"
 
 - title: Traffic Light Logic (Proteus)
   title_es: "Lógica de semáforos (Proteus)"
@@ -68,6 +72,8 @@
   case_study_es: /es/measurements/
   subtitle: Metrology & AC/DC measurement techniques
   thumb: /assets/thumbs/measurements-lab-aron.png
+  thumb_alt: "Analog meters wired for a three-phase power measurement"
+  thumb_alt_es: "Instrumentos analógicos conectados para medir potencia trifásica"
 
 - title: PlantWeb (CS50 Final)
   title_es: "PlantWeb (proyecto final de CS50)"
@@ -82,6 +88,8 @@
   demo_label: project_page
   subtitle: Full-stack course project
   thumb: /assets/thumbs/plantweb-album.jpg
+  thumb_alt: "PlantWeb screen showing a list of plants and watering controls"
+  thumb_alt_es: "Pantalla de PlantWeb con una lista de plantas y controles de riego"
 
 - title: Rankine Cycle Studies
   title_es: "Estudios del ciclo Rankine"
@@ -94,6 +102,8 @@
   path: machines/rankine-analysis
   subtitle: "Damp steam and Rankine cycle cases"
   thumb: /assets/thumbs/rankine-report.png
+  thumb_alt: "Chart comparing turbine, Rankine and Carnot efficiencies across four cases"
+  thumb_alt_es: "Gráfico de rendimientos de turbina, Rankine y Carnot para cuatro casos"
   report: /assets/reports/machines/tp1-vapor-humedo-rankine.pdf
 
 - title: Otto / Diesel / Dual
@@ -107,4 +117,6 @@
   path: machines/internal-combustion-diesel-otto-dual
   subtitle: "Three assigned ideal-cycle cases"
   thumb: /assets/thumbs/otto-diesel-mixto-report.png
+  thumb_alt: "Pressure-volume diagram of the assigned dual combustion cycle"
+  thumb_alt_es: "Diagrama de presión y volumen del ciclo mixto asignado"
   report: /assets/reports/machines/tp6-otto-diesel-mixto.pdf
