@@ -627,6 +627,10 @@ html[data-theme="light"] .theme-toggle:hover {
     flex: 0 0 auto;
   }
 
+  .site-nav .nav-trigger {
+    display: block !important;
+  }
+
 
   /* Hamburger */
 
