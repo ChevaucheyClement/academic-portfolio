@@ -25,5 +25,5 @@ Diode rectification, ripple vs. load, power checks against component ratings, sc
 
 ## Files
 
-- [English report](report.pdf)
+- [English translation prepared for the portfolio](report.pdf)
 - [Original Spanish report](es/TP1%20-%20Electronica%20-%20Chevauchey%20C.pdf)

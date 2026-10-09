@@ -20,5 +20,5 @@ Gain stacking, interstage coupling design, pole placement and bandwidth, bias st
 
 ## Files
 
-- [English report](report.pdf)
+- [English translation prepared for the portfolio](report.pdf)
 - [Original Spanish report](es/TP6%20-%20Electronica%20-%20Chevauchey%20C.pdf)

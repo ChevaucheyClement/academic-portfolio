@@ -23,5 +23,5 @@ Bias math, load-line reasoning, placing Q for symmetric swing vs thermal stabili
 
 ## Files
 
-- [English report](report.pdf)
+- [English translation prepared for the portfolio](report.pdf)
 - [Original Spanish report](es/TP4%20-%20Electronica%20-%20Chevauchey%20C.pdf)
