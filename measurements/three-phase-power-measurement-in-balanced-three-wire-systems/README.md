@@ -11,12 +11,12 @@ Two analog wattmeters via CTs; three-phase balanced loads (R, RL, RC); lab three
 - diagram: `figures/diagram.png`
 
 ## Method
-Read W1 and W2 and computed total active power Pc = Kt (W1 + W2), with Kt the CT ratio. Evaluated class and angle errors and propagated to Pc.
+Read W1 and W2 and computed indicated power Pm = Kt (W1 + W2), with Kt the CT ratio. The report then subtracted voltmeter and wattmeter voltage-coil loading to estimate load power Pc. It evaluated class and angle errors using a simplified uncertainty calculation.
 
 ## Key results
 - **W1 ≈ 1010 W**, **W2 ≈ 688 W**
 - **Indicated power Pm = 3396 W**; **corrected load power Pc ≈ 3383.77 W** in the submitted report
-- **Combined uncertainty: ~2.9%**
+- **Reported uncertainty: ~2.9%** from a simplified calculation that drops the instrument-loading correction term. The report's conclusion pairs this uncertainty with **3396 W**, even though its calculation table separately gives **3383.77 W** after correction.
 
 ## What I learned / skills
 Two-wattmeter method, interpreting W1/W2 sign changes vs load type, handling CT ratio and angle errors in the uncertainty budget.

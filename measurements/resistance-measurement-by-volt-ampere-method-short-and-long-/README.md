@@ -23,6 +23,8 @@ Took V and I readings with both wiring topologies. Computed Rm = Vm/Im and corre
 - Long connection: **Rx = 357.04 Ω ± 3.08%** → **(357.04 ± 11.001) Ω**
 - Inflection point: **Rₚᵢ ≈ 49.648 Ω** (short preferred below Rₚᵢ, long above)
 
+The report's intermediate error table prints **3.8%** for the long connection, while its listed components sum to **3.08%** and its final result uses **3.08%**. The value above follows that sum and final result.
+
 **Constants used**
 - Voltmeter internal resistance **RV = 24.6 kΩ**
 - Ammeter internal resistance **RA = 0.1 Ω**
