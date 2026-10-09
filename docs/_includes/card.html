@@ -84,6 +84,9 @@
           {% assign readme_url = p.readme %}
         {% endif %}
       {% endif %}
+      {% if lang == 'es' and p.readme_es %}
+        {% assign readme_url = p.readme_es %}
+      {% endif %}
       {% if readme_url %}
         <a class="btn" href="{{ readme_url }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.readme }}</a>
       {% endif %}

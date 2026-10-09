@@ -40,6 +40,20 @@
   docs_label: Code guide
   docs_label_es: Guía del código
 
+- title: Electrical Measurements II (2 Labs)
+  title_es: "Mediciones Eléctricas II (2 prácticas)"
+  subtitle_es: "Redes trifásicas desequilibradas y ensayos de aislación"
+  outcome_es: "Observé cambios en los fasores al variar las cargas y medí la resistencia de aislación de un cable, un transformador seco y un motor en dos prácticas supervisadas."
+  skills_es: "Analizador de redes, transformadores de intensidad, fasores trifásicos, mediciones con megóhmetro y cálculo de índices de aislación"
+  category: measurements
+  path: measurements-ii
+  subtitle: Unbalanced three-phase networks and insulation testing
+  outcome: Observed phasor changes under different loads and measured insulation resistance on a cable, dry transformer and motor in two supervised labs.
+  skills: Power-quality analyzer, current transformers, three-phase phasors, megohmmeter measurements and insulation-index calculations
+  thumb: /assets/thumbs/measurements-ii.svg
+  readme: true
+  readme_es: https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.es.md
+
 - title: Traffic Lights FSM (Proteus)
   title_es: "Semáforo con máquina de estados (Proteus)"
   subtitle_es: "Contadores TTL y lógica de sincronización"
