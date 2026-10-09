@@ -202,9 +202,11 @@ en:
       gpa: "GPA 8.1 / 10"
 
       description: >
-        Engineering studies covering circuit analysis,
-        electromagnetics, electronics, electrical systems,
-        mathematics, physics and engineering computation.
+        Engineering studies covering circuits, electromagnetics,
+        electronics, electrical systems, mathematics, physics
+        and engineering computation. Credited coursework also
+        includes numerical methods, probability and statistics,
+        and technical drawing.
 
 
 
@@ -642,10 +644,11 @@ es:
 
 
       description: >
-        Formación en análisis de circuitos,
-        electromagnetismo, electrónica, sistemas eléctricos,
-        matemáticas, física y computación aplicada
-        a la ingeniería.
+        Formación en circuitos, electromagnetismo, electrónica,
+        sistemas eléctricos, matemáticas, física y computación
+        aplicada. También tengo materias reconocidas por
+        equivalencia en métodos numéricos, probabilidad y
+        estadística, y sistemas de representación (dibujo técnico).
 
 
 
