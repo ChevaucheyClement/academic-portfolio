@@ -26,6 +26,7 @@ jobs:
         shell: python
         run: |
           from html.parser import HTMLParser
+          import json
           from pathlib import Path
           from urllib.parse import unquote, urlsplit
 
@@ -78,5 +79,12 @@ jobs:
               for source, value in missing:
                   print(f"Missing local target: {source} -> {value}")
               raise SystemExit(f"{len(missing)} broken local link(s) found")
+
+          version = json.loads((site / "version.json").read_text(encoding="utf-8"))
+          robots = (site / "robots.txt").read_text(encoding="utf-8")
+          if "{{" in json.dumps(version) or "{{" in robots:
+              raise SystemExit("Unrendered Liquid in version.json or robots.txt")
+          if "https://chevaucheyclement.github.io/academic-portfolio/sitemap.xml" not in robots:
+              raise SystemExit("robots.txt has no rendered sitemap URL")
 
           print("Generated local links: OK")

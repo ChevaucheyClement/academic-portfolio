@@ -21,7 +21,7 @@ jobs:
           KEEP: 3
         run: |
           set -euo pipefail
-          ids=$(gh api -X GET "repos/$REPO/deployments?environment=github-pages" --paginate -q '.[].id' | tac)
+          ids=$(gh api -X GET "repos/$REPO/deployments?environment=github-pages" --paginate -q '.[].id')
           i=0
           for id in $ids; do
             i=$((i+1))
@@ -55,6 +55,6 @@ jobs:
                 echo "Keeping workflow run $id"
               else
                 echo "Deleting workflow run $id"
-                gh run delete "$id" --yes
+                gh run delete "$id"
               fi
             done
