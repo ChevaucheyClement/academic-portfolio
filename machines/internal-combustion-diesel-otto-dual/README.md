@@ -1,11 +1,9 @@
-# Otto, Diesel and dual-cycle comparison
+# Otto, Diesel and mixed ideal cycles — supervised coursework
 
-Undergraduate thermodynamics coursework at UNSE. This study compares the ideal Otto, Diesel and dual internal-combustion cycles and examines how compression ratio, heat-addition model and the specific-heat ratio affect theoretical thermal efficiency.
+[Original submitted TP (Spanish, PDF)](../../docs/assets/reports/machines/tp6-otto-diesel-mixto.pdf) · [Portfolio](https://chevaucheyclement.github.io/academic-portfolio/#projects)
 
-## Scope
+This thirteen-page report bears Clément Chevauchey's name and was submitted for Máquinas Motrices (internal combustion) at Universidad Nacional de Santiago del Estero in June 2025 under Ing. Carlos Maguna. It analyzes assigned ideal-cycle exercises, not a built or tested engine.
 
-The portfolio summary reports a parametric comparison of efficiency against compression ratio. The method is cycle modeling and interpretation of trends; this folder does not contain an engine build or experimental measurements. Numerical results are omitted because the report and calculation files have not been uploaded here.
+The report calculates state properties and thermal efficiencies for one Otto case, one Diesel case and one mixed (Sabathé) case. It includes pressure–volume diagrams and a table comparing the assigned cases. The inputs differ between cases, including compression ratio and heat supplied, so the comparison is **not** a controlled sweep of one parameter.
 
-## Repository status
-
-This folder currently contains this project summary only. A report, source calculations, plots and data are not published here yet.
+The PDF is the evidence for this entry. No separate calculation script is published here, and this summary does not claim an independently reproducible software model.

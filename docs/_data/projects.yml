@@ -75,24 +75,26 @@
 
 - title: Rankine Cycle Studies
   title_es: "Estudios del ciclo Rankine"
-  subtitle_es: "Con y sin sobrecalentamiento; modelos ideales y reales"
-  summary: "Compared thermal efficiency and specific work across ideal and real Rankine cycle cases."
-  summary_es: "Comparé el rendimiento térmico y el trabajo específico de ciclos Rankine ideales y reales."
-  tags: ["Thermodynamics", "Cycle analysis"]
-  tags_es: ["Termodinámica", "Análisis de ciclos"]
+  subtitle_es: "Vapor húmedo y casos del ciclo Rankine"
+  summary: "Used steam tables to compare ideal, real, higher-pressure and superheated Rankine cases in a submitted TP."
+  summary_es: "Usé tablas de vapor para comparar casos Rankine ideales, reales, de mayor presión y con sobrecalentamiento en un TP entregado."
+  tags: ["Steam tables", "Cycle analysis"]
+  tags_es: ["Tablas de vapor", "Análisis de ciclos"]
   category: power
   path: machines/rankine-analysis
-  subtitle: "Superheat vs no superheat; ideal vs real"
-  thumb: /assets/thumbs/Rankine.png
+  subtitle: "Damp steam and Rankine cycle cases"
+  thumb: /assets/thumbs/rankine-report.png
+  report: /assets/reports/machines/tp1-vapor-humedo-rankine.pdf
 
 - title: Otto / Diesel / Dual
   title_es: "Ciclos Otto, Diesel y dual"
-  subtitle_es: "Rendimiento térmico según la relación de compresión"
-  summary: "Compared how compression ratio and heat addition affect cycle efficiency."
-  summary_es: "Comparé cómo afectan la relación de compresión y el aporte de calor al rendimiento de los ciclos."
-  tags: ["Thermodynamics", "Parametric analysis"]
-  tags_es: ["Termodinámica", "Análisis paramétrico"]
+  subtitle_es: "Comparación de tres ciclos ideales asignados"
+  summary: "Calculated and compared thermal efficiency for assigned ideal Otto, Diesel and mixed-cycle cases."
+  summary_es: "Calculé y comparé el rendimiento térmico de los casos asignados de ciclos ideales Otto, Diesel y mixto."
+  tags: ["Ideal cycles", "Thermal efficiency"]
+  tags_es: ["Ciclos ideales", "Rendimiento térmico"]
   category: power
   path: machines/internal-combustion-diesel-otto-dual
-  subtitle: η_th vs compression ratio
-  thumb: /assets/thumbs/Otto_Diesel_Dual.png
+  subtitle: "Three assigned ideal-cycle cases"
+  thumb: /assets/thumbs/otto-diesel-mixto-report.png
+  report: /assets/reports/machines/tp6-otto-diesel-mixto.pdf

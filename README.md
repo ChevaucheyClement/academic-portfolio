@@ -12,7 +12,7 @@ Electrical Engineering coursework and projects at Universidad Nacional de Santia
 | [Electrical Measurements](measurements/) | Seven lab summaries with original Spanish reports, measurement data, analysis scripts and figures. |
 | [Electrical Measurements II](measurements-ii/) | English and Spanish summaries of two supervised labs on unbalanced three-phase loads and insulation resistance, with both original Spanish reports available as PDFs. No analysis code was used. |
 | [Traffic lights in Proteus](logics/traffic-lights-proteus/) | Logic design, two Proteus simulations and a report. No HDL implementation or testbench is included. |
-| [Thermodynamic cycle studies](machines/) | Rankine and Otto/Diesel/Dual project summaries. Reports, calculations, data and code have not been uploaded to these folders. |
+| [Thermodynamic cycle studies](machines/) | Rankine and Otto/Diesel/mixed-cycle summaries with their original submitted Spanish TPs. The PDFs contain calculations and figures; no standalone calculation scripts are published. |
 
 The work documents circuit analysis, analog electronics, electrical measurements, uncertainty calculations, phasors and power, digital logic, simulation and interpretation of experimental results. Power-system analysis and industrial automation are current learning interests, not demonstrated project skills in this repository.
 
