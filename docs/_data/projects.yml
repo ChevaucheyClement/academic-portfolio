@@ -55,7 +55,7 @@
   category: measurements
   path: measurements
   subtitle: Metrology & AC/DC measurement techniques
-  thumb: https://raw.githubusercontent.com/ChevaucheyClement/academic-portfolio/main/measurements/three-phase-power-measurement-in-balanced-three-wire-systems/figures/setup-med.png
+  thumb: /assets/thumbs/measurements-lab-aron.png
 
 - title: PlantWeb (CS50 Final)
   title_es: "PlantWeb (proyecto final de CS50)"
