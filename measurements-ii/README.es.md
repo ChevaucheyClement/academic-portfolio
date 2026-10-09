@@ -2,7 +2,12 @@
 
 [English](README.md) · [Portfolio](https://chevaucheyclement.github.io/academic-portfolio/es/#projects)
 
-Dos informes a nombre de Clément Chevauchey se prepararon para Medidas Eléctricas II en la Universidad Nacional de Santiago del Estero en septiembre de 2026. Los ensayos se realizaron en laboratorios universitarios bajo supervisión de la cátedra. Esta página resume las observaciones de esos informes; los PDF originales permanecen en la carpeta universitaria privada. No presenta los trabajos como una inspección independiente ni como ensayos profesionales de aceptación.
+Dos informes a nombre de Clément Chevauchey se prepararon para Medidas Eléctricas II en la Universidad Nacional de Santiago del Estero en septiembre de 2026. Los ensayos se realizaron en laboratorios universitarios bajo supervisión de la cátedra. Esta página resume las observaciones de esos informes. No presenta los trabajos como una inspección independiente ni como ensayos profesionales de aceptación. No se utilizó código de análisis ni un script reproducible para estos informes.
+
+## Informes originales (español)
+
+- [TP1 — Red trifásica desequilibrada (PDF)](../docs/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf)
+- [TP2 — Ensayos de aislación (PDF)](../docs/assets/reports/measurements-ii/tp2-insulation-testing.pdf)
 
 ## Red trifásica desequilibrada
 

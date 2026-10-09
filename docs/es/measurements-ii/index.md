@@ -36,12 +36,19 @@ El informe incluye pantallas del analizador y fotografías, pero no una tabla co
 | Transformador seco de 13,2 kV | 749 MΩ a 1 min; 1,08 GΩ a 10 min | 10 min / 1 min ≈ 1,44 |
 | Motor | 352 MΩ a 1 min; 356 MΩ a 10 min | 10 min / 1 min ≈ 1,01 |
 
-![Relaciones temporales registradas de resistencia de aislación para el cable, el transformador seco y el motor]({{ '/assets/thumbs/measurements-ii-results.svg' | relative_url }})
+![Analizador de calidad de energía y banco universitario utilizados en la práctica trifásica]({{ '/assets/thumbs/measurements-ii-lab.jpg' | relative_url }})
 
-*Las barras representan las relaciones registradas en una escala numérica común. Para el cable se comparan 30–60 segundos; para el transformador y el motor, 1–10 minutos. Por eso no deben interpretarse como calificaciones comparables del estado de los equipos.*
+*Fotografía incluida en el informe entregado de la práctica trifásica.*
 
 También se registraron 111 y 116 GΩ entre neutro y fases del cable, 208–218 MΩ entre fase y tierra del motor, y 341–350 MΩ entre fases del motor. El informe advierte sobre las limitaciones de interpretar los índices de forma aislada. No concluyo a partir de ellos si los equipos pueden continuar en servicio ni si cumplen algún criterio de conformidad.
 
 ## Qué evidencia este trabajo
 
-Configuración de instrumentos en prácticas supervisadas, interpretación de fasores, registro cuidadoso de resistencias, cálculo de relaciones y redacción de informes técnicos. Los informes originales permanecen en mi carpeta universitaria privada; el [resumen del proyecto en español](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.es.md) explica su alcance.
+Configuración de instrumentos en prácticas supervisadas, interpretación de fasores, registro cuidadoso de resistencias, cálculo de relaciones y redacción de informes técnicos. El [resumen del proyecto en español](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.es.md) explica su alcance. No se utilizó código de análisis ni un script reproducible para estos informes.
+
+## Informes originales
+
+Los dos informes entregados están en español y se pueden abrir en el navegador o descargar:
+
+- **TP1 — Red trifásica desequilibrada (7 páginas):** [Leer PDF]({{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}" download>Descargar PDF</a>
+- **TP2 — Ensayos de aislación (5 páginas):** [Leer PDF]({{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}" download>Descargar PDF</a>

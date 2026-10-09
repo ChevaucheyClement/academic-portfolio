@@ -2,7 +2,12 @@
 
 [Español](README.es.md) · [Portfolio](https://chevaucheyclement.github.io/academic-portfolio/#projects)
 
-Two reports bearing Clément Chevauchey's name were prepared for Electrical Measurements II at Universidad Nacional de Santiago del Estero in September 2026. The experiments took place in university laboratories under course supervision. This page summarizes observations from those reports; the original PDFs remain in the private university folder. It does not claim an independent equipment inspection or a professional acceptance test.
+Two reports bearing Clément Chevauchey's name were prepared for Electrical Measurements II at Universidad Nacional de Santiago del Estero in September 2026. The experiments took place in university laboratories under course supervision. This page summarizes observations from those reports. It does not claim an independent equipment inspection or a professional acceptance test. No analysis code or reproducible script was used for these reports.
+
+## Original reports (Spanish)
+
+- [TP1 — Unbalanced three-phase network (PDF)](../docs/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf)
+- [TP2 — Insulation testing (PDF)](../docs/assets/reports/measurements-ii/tp2-insulation-testing.pdf)
 
 ## Unbalanced three-phase network
 

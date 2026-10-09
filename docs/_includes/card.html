@@ -71,6 +71,14 @@
            target="_blank" rel="noopener noreferrer">{{ t.projects.card[p.demo_label] | default: t.projects.card.demo }}</a>
       {% endif %}
 
+      {% if p.reports %}
+        {% for report in p.reports %}
+          {% assign report_label = report.label %}
+          {% if lang == 'es' and report.label_es %}{% assign report_label = report.label_es %}{% endif %}
+          <a class="btn" href="{{ report.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ report_label }}</a>
+        {% endfor %}
+      {% endif %}
+
       {% if p.docs and p.docs != '' %}
         <a class="btn" href="{{ p.docs }}" target="_blank" rel="noopener noreferrer">
           {{ docs_label }}

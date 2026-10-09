@@ -8,7 +8,14 @@
   category: measurements
   path: measurements-ii
   subtitle: Unbalanced three-phase networks and insulation testing
-  thumb: /assets/thumbs/measurements-ii-results.svg
+  thumb: /assets/thumbs/measurements-ii-lab.jpg
+  reports:
+    - label: "TP1 PDF"
+      label_es: "TP1 PDF"
+      url: /assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf
+    - label: "TP2 PDF"
+      label_es: "TP2 PDF"
+      url: /assets/reports/measurements-ii/tp2-insulation-testing.pdf
   case_study: /measurements-ii/
   case_study_es: /es/measurements-ii/
 

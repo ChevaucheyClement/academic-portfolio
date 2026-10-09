@@ -36,12 +36,19 @@ The report includes analyzer screens and photographs, but no complete table of c
 | 13.2 kV dry transformer | 749 MΩ at 1 min; 1.08 GΩ at 10 min | 10 min / 1 min ≈ 1.44 |
 | Motor | 352 MΩ at 1 min; 356 MΩ at 10 min | 10 min / 1 min ≈ 1.01 |
 
-![Recorded insulation-resistance time ratios for the cable, dry transformer and motor]({{ '/assets/thumbs/measurements-ii-results.svg' | relative_url }})
+![Power-quality analyzer and university laboratory bench used in the three-phase exercise]({{ '/assets/thumbs/measurements-ii-lab.jpg' | relative_url }})
 
-*The bars show the recorded ratios on a common numeric scale. The cable interval is 30–60 seconds; the transformer and motor intervals are 1–10 minutes. The ratios therefore should not be treated as comparable equipment ratings.*
+*Photograph from the submitted three-phase laboratory report.*
 
 Additional readings were 111 and 116 GΩ between cable neutral and phases, 208–218 MΩ from motor phase to earth, and 341–350 MΩ between motor phases. The report cautions against interpreting the indices on their own. I do not draw a serviceability or compliance conclusion from them.
 
 ## What this work shows
 
-Instrument setup in supervised labs, phasor interpretation, careful recording of resistance readings, ratio calculations and technical reporting. The source reports remain in my private university folder; the [English project summary](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.md) explains their scope.
+Instrument setup in supervised labs, phasor interpretation, careful recording of resistance readings, ratio calculations and technical reporting. The [English project summary](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.md) explains their scope. No analysis code or reproducible script was used for these reports.
+
+## Original reports
+
+Both submitted reports are in Spanish and can be opened in the browser or downloaded:
+
+- **TP1 — Unbalanced three-phase network (7 pages):** [Read PDF]({{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}" download>Download PDF</a>
+- **TP2 — Insulation testing (5 pages):** [Read PDF]({{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}" download>Download PDF</a>
