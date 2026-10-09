@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<main class="case-study">
+  <div class="case-study__language">
+    {% if page.lang == 'es' %}
+      <a href="{{ '/measurements-ii/' | relative_url }}" lang="en">English</a>
+    {% else %}
+      <a href="{{ '/es/measurements-ii/' | relative_url }}" lang="es">Español</a>
+    {% endif %}
+  </div>
+  {{ content }}
+</main>

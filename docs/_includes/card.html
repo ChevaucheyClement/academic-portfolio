@@ -3,14 +3,12 @@
 {% assign t = site.data.i18n[lang] %}
 {% assign card_title = p.title %}
 {% assign card_subtitle = p.subtitle %}
-{% assign card_outcome = p.outcome %}
-{% assign card_skills = p.skills %}
+{% assign card_summary = p.summary %}
 {% assign docs_label = p.docs_label | default: 'Docs' %}
 {% if lang == 'es' %}
   {% assign card_title = p.title_es | default: p.title %}
   {% assign card_subtitle = p.subtitle_es | default: p.subtitle %}
-  {% assign card_outcome = p.outcome_es | default: p.outcome %}
-  {% assign card_skills = p.skills_es | default: p.skills %}
+  {% assign card_summary = p.summary_es | default: p.summary %}
   {% assign docs_label = p.docs_label_es | default: docs_label %}
 {% endif %}
 {% assign category_label = t.projects.card[p.category] | default: p.category | capitalize %}
@@ -22,7 +20,7 @@
   <div class="card__thumb {% unless p.thumb %}card__thumb--empty{% endunless %}">
     {% if p.thumb and p.thumb != '' %}
       <img
-        src="{{ p.thumb | relative_url }}"
+        src="{% if p.thumb contains '://' %}{{ p.thumb }}{% else %}{{ p.thumb | relative_url }}{% endif %}"
         alt="{{ t.projects.card.image }} — {{ card_title }}"
         loading="lazy"
         decoding="async"
@@ -30,7 +28,6 @@
     {% endif %}
     <div class="card__tags">
       <span class="tag tag--cat">{{ category_label }}</span>
-      {% if p.tags %}{% for tag in p.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endif %}
     </div>
   </div>
 
@@ -38,15 +35,22 @@
     <h3 class="card__title">{{ card_title }}</h3>
     <p class="card__subtitle">{{ card_subtitle }}</p>
 
-    {% if card_outcome or card_skills %}
-    <p class="card__meta">
-      {% if card_outcome %}<strong>{{ t.projects.card.outcome }}</strong> {{ card_outcome }}{% endif %}
-      {% if card_outcome and card_skills %} · {% endif %}
-      {% if card_skills %}<strong>{{ t.projects.card.skills }}</strong> {{ card_skills }}{% endif %}
-    </p>
+    {% if card_summary %}<p class="card__meta">{{ card_summary }}</p>{% endif %}
+
+    {% assign card_tags = p.tags %}
+    {% if lang == 'es' and p.tags_es %}{% assign card_tags = p.tags_es %}{% endif %}
+    {% if card_tags %}
+    <ul class="card__skill-tags" aria-label="{{ t.projects.card.topics }}">
+      {% for tag in card_tags %}<li>{{ tag }}</li>{% endfor %}
+    </ul>
     {% endif %}
 
     <div class="card__actions">
+      {% if p.case_study %}
+        {% assign case_href = p.case_study %}
+        {% if lang == 'es' and p.case_study_es %}{% assign case_href = p.case_study_es %}{% endif %}
+        <a class="btn primary" href="{{ case_href | relative_url }}">{{ t.projects.card.case_study }}</a>
+      {% endif %}
       {%- comment -%} Repository URL: explicit repo wins; relative path falls back to this repository. {%- endcomment -%}
       {% assign repo_href = p.repo %}
       {% if repo_href == nil and p.path %}
@@ -55,7 +59,7 @@
           {% assign repo_href = site.repo_url_base | append: '/' | append: repo_href %}
         {% endunless %}
       {% endif %}
-      {% if repo_href %}
+      {% if repo_href and p.case_study == nil %}
         <a class="btn primary"
            href="{{ repo_href }}"
            target="_blank" rel="noopener noreferrer">{{ t.projects.card.repo }}</a>
@@ -65,30 +69,6 @@
         <a class="btn"
            href="{{ p.demo }}"
            target="_blank" rel="noopener noreferrer">{{ t.projects.card[p.demo_label] | default: t.projects.card.demo }}</a>
-      {% endif %}
-
-      {%- comment -%} README: auto for repository-relative paths, or use an explicit URL. {%- endcomment -%}
-      {% assign readme_url = nil %}
-      {% if p.readme %}
-        {% if p.readme == true or p.readme == 'auto' %}
-          {% if p.path %}
-            {% if p.path contains '://' %}
-              {% assign readme_url = p.path | append: '#readme' %}
-            {% else %}
-              {% assign readme_url = site.repo_url_base | append: '/' | append: p.path | append: '#readme' %}
-            {% endif %}
-          {% elsif p.repo %}
-            {% assign readme_url = p.repo | append: '#readme' %}
-          {% endif %}
-        {% else %}
-          {% assign readme_url = p.readme %}
-        {% endif %}
-      {% endif %}
-      {% if lang == 'es' and p.readme_es %}
-        {% assign readme_url = p.readme_es %}
-      {% endif %}
-      {% if readme_url %}
-        <a class="btn" href="{{ readme_url }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.readme }}</a>
       {% endif %}
 
       {% if p.docs and p.docs != '' %}

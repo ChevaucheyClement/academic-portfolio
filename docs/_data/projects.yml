@@ -1,95 +1,91 @@
+- title: Electrical Measurements II (2 Labs)
+  title_es: "Mediciones Eléctricas II (2 prácticas)"
+  subtitle_es: "Redes trifásicas desequilibradas y ensayos de aislación"
+  summary: "Investigated three-phase phasors and insulation resistance in two supervised labs."
+  summary_es: "Analicé fasores trifásicos y resistencia de aislación en dos prácticas supervisadas."
+  tags: ["Three-phase systems", "Insulation testing"]
+  tags_es: ["Sistemas trifásicos", "Ensayos de aislación"]
+  category: measurements
+  path: measurements-ii
+  subtitle: Unbalanced three-phase networks and insulation testing
+  thumb: /assets/thumbs/measurements-ii-results.svg
+  case_study: /measurements-ii/
+  case_study_es: /es/measurements-ii/
+
+- title: Electronics II (7 Labs)
+  title_es: "Electrónica II (7 prácticas)"
+  subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
+  summary: "Built and tested diode, transistor and op-amp circuits across seven supervised labs."
+  summary_es: "Construí y ensayé circuitos con diodos, transistores y amplificadores operacionales en siete prácticas supervisadas."
+  tags: ["Analog circuits", "LTspice / Proteus"]
+  tags_es: ["Circuitos analógicos", "LTspice / Proteus"]
+  category: electronics
+  path: electronics
+  subtitle: Analog, diodes, BJT, op-amp
+  thumb: /assets/thumbs/electronics.png
+
+- title: Traffic Lights FSM (Proteus)
+  title_es: "Semáforo con máquina de estados (Proteus)"
+  subtitle_es: "Contadores TTL y lógica de sincronización"
+  summary: "Corrected transition timing and synchronized two traffic lights in a Proteus simulation."
+  summary_es: "Corregí los tiempos de transición y sincronicé dos semáforos en una simulación de Proteus."
+  tags: ["Digital logic", "Proteus"]
+  tags_es: ["Lógica digital", "Proteus"]
+  category: logic
+  path: logics/traffic-lights-proteus
+  subtitle: TTL counters and synchronized lamp logic
+  thumb: /assets/thumbs/Traffic_Lights.png
+  report: auto
+
+- title: Electrical Measurements (7 Labs)
+  title_es: "Mediciones eléctricas (7 prácticas)"
+  subtitle_es: "Metrología y técnicas de medición en CA y CC"
+  summary: "Measured electrical quantities and estimated uncertainty across seven supervised labs."
+  summary_es: "Medí magnitudes eléctricas y estimé la incertidumbre en siete prácticas supervisadas."
+  tags: ["Metrology", "Uncertainty"]
+  tags_es: ["Metrología", "Incertidumbre"]
+  category: measurements
+  path: measurements
+  subtitle: Metrology & AC/DC measurement techniques
+  thumb: https://raw.githubusercontent.com/ChevaucheyClement/academic-portfolio/main/measurements/three-phase-power-measurement-in-balanced-three-wire-systems/figures/setup-med.png
+  docs: https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements/CODE-HOWTO.md
+  docs_label: Code guide
+  docs_label_es: Guía del código
+
 - title: PlantWeb (CS50 Final)
   title_es: "PlantWeb (proyecto final de CS50)"
   subtitle_es: "Proyecto integral de desarrollo web"
-  outcome_es: "Desarrollé, documenté y presenté una aplicación web funcional como proyecto final de CS50."
-  skills_es: "CS50, Python/JavaScript, diseño de aplicaciones web, documentación y demostraciones"
+  summary: "Built and demonstrated a working web app for the CS50 final project."
+  summary_es: "Desarrollé y presenté una aplicación web funcional como proyecto final de CS50."
+  tags: ["Web development", "CS50"]
+  tags_es: ["Desarrollo web", "CS50"]
   category: web
   repo: https://github.com/ChevaucheyClement/Final-Project-CS50
   demo: https://chevaucheyclement.github.io/Final-Project-CS50/
   demo_label: project_page
   subtitle: Full-stack course project
-  outcome: Built, documented, and demoed a working web app as my CS50 final project.
-  skills: CS50, Python/JS, web app design, documentation, demos
   thumb: /assets/thumbs/plantweb.png
-
-- title: Electronics II (7 Labs)
-  title_es: "Electrónica II (7 prácticas)"
-  subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
-  outcome_es: "Analicé, construí y simulé circuitos con diodos, BJT y amplificadores operacionales en siete prácticas supervisadas."
-  skills_es: "Pruebas de circuitos analógicos, LTspice/Proteus, polarización y pequeña señal, medición de ganancia y ancho de banda"
-  category: electronics
-  path: electronics
-  subtitle: Analog, diodes, BJT, op-amp
-  outcome: Analyzed, built, and simulated diode, BJT, and op-amp circuits across seven supervised labs.
-  skills: Analog circuit testing, LTspice/Proteus, biasing and small-signal analysis, gain and bandwidth measurement
-  thumb: /assets/thumbs/electronics.png
-  readme: true
-
-- title: Electrical Measurements (7 Labs)
-  title_es: "Mediciones eléctricas (7 prácticas)"
-  subtitle_es: "Metrología y técnicas de medición en CA y CC"
-  outcome_es: "Verifiqué la clase de instrumentos; medí resistencia, impedancia y potencia monofásica y trifásica mediante distintos métodos, y cuantifiqué la incertidumbre."
-  skills_es: "Verificación de clase de instrumentos, incertidumbre de tipo A/B, puente de Wheatstone, fasores y factor de potencia, conexión de vatímetros, análisis e interpretación de datos con Python e informes de laboratorio"
-  category: measurements
-  path: measurements
-  subtitle: Metrology & AC/DC measurement techniques
-  outcome: "Verified instrument class; measured R, Z, and single/three-phase power using VA, comparison/substitution, Wheatstone, 3A/3V, wattmeter & Aron; quantified uncertainty."
-  skills: "Instrument class verification, Type A/B uncertainty, bridge balancing, phasors and power factor, wattmeter wiring, Python data analysis and interpretation, lab reporting"
-  thumb: /assets/thumbs/measurements.png
-  docs: https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements/CODE-HOWTO.md
-  docs_label: Code guide
-  docs_label_es: Guía del código
-
-- title: Electrical Measurements II (2 Labs)
-  title_es: "Mediciones Eléctricas II (2 prácticas)"
-  subtitle_es: "Redes trifásicas desequilibradas y ensayos de aislación"
-  outcome_es: "Observé cambios en los fasores al variar las cargas y medí la resistencia de aislación de un cable, un transformador seco y un motor en dos prácticas supervisadas."
-  skills_es: "Analizador de redes, transformadores de intensidad, fasores trifásicos, mediciones con megóhmetro y cálculo de índices de aislación"
-  category: measurements
-  path: measurements-ii
-  subtitle: Unbalanced three-phase networks and insulation testing
-  outcome: Observed phasor changes under different loads and measured insulation resistance on a cable, dry transformer and motor in two supervised labs.
-  skills: Power-quality analyzer, current transformers, three-phase phasors, megohmmeter measurements and insulation-index calculations
-  thumb: /assets/thumbs/measurements-ii.svg
-  readme: true
-  readme_es: https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.es.md
-
-- title: Traffic Lights FSM (Proteus)
-  title_es: "Semáforo con máquina de estados (Proteus)"
-  subtitle_es: "Contadores TTL y lógica de sincronización"
-  outcome_es: "Corregí la secuencia de luces amarillas entre ciclos y sincronicé los dos semáforos en la segunda simulación de Proteus."
-  skills_es: "Diseño con contadores y compuertas lógicas, flip-flops JK, simulación en Proteus y verificación de tiempos"
-  category: logic
-  path: logics/traffic-lights-proteus
-  subtitle: TTL counters and synchronized lamp logic
-  outcome: Corrected inter-cycle yellow-light timing in Proteus version 2 and synchronized both traffic lights.
-  skills: Counter and logic-gate design, JK flip-flops, Proteus simulation, timing validation
-  thumb: /assets/thumbs/Traffic_Lights.png
-  readme: true
-  report: auto
 
 - title: Rankine Cycle Studies
   title_es: "Estudios del ciclo Rankine"
   subtitle_es: "Con y sin sobrecalentamiento; modelos ideales y reales"
-  outcome_es: "Comparé el rendimiento térmico y el trabajo específico para distintas presiones, temperaturas y condiciones de sobrecalentamiento."
-  skills_es: "Modelado de ciclos, tablas de propiedades, diferencias entre modelos ideales y reales, gráficos"
+  summary: "Compared thermal efficiency and specific work across ideal and real Rankine cycle cases."
+  summary_es: "Comparé el rendimiento térmico y el trabajo específico de ciclos Rankine ideales y reales."
+  tags: ["Thermodynamics", "Cycle analysis"]
+  tags_es: ["Termodinámica", "Análisis de ciclos"]
   category: power
   path: machines/rankine-analysis
   subtitle: "Superheat vs no superheat; ideal vs real"
-  outcome: "Compared η_th and specific work across pressure/temperature/superheat cases."
-  skills: "Cycle modeling, property tables, η_th gap (ideal vs real), plots"
   thumb: /assets/thumbs/Rankine.png
-  readme: true
 
 - title: Otto / Diesel / Dual
   title_es: "Ciclos Otto, Diesel y dual"
   subtitle_es: "Rendimiento térmico según la relación de compresión"
-  outcome_es: "Cuantifiqué el efecto de la relación de compresión, γ y el modelo de aporte de calor sobre el rendimiento."
-  skills_es: "Ciclos termodinámicos, barridos paramétricos e interpretación de resultados"
+  summary: "Compared how compression ratio and heat addition affect cycle efficiency."
+  summary_es: "Comparé cómo afectan la relación de compresión y el aporte de calor al rendimiento de los ciclos."
+  tags: ["Thermodynamics", "Parametric analysis"]
+  tags_es: ["Termodinámica", "Análisis paramétrico"]
   category: power
   path: machines/internal-combustion-diesel-otto-dual
   subtitle: η_th vs compression ratio
-  outcome: Quantified efficiency impact of r, γ, and heat-addition model (Otto/Diesel/Dual).
-  skills: Thermo cycles, parametric sweeps, result interpretation
   thumb: /assets/thumbs/Otto_Diesel_Dual.png
-  readme: true

@@ -163,10 +163,9 @@ en:
 
     card:
       image: "Thumbnail"
-      outcome: "Outcome:"
-      skills: "Skills:"
       repo: "Repo"
-      readme: "README"
+      case_study: "View case study"
+      topics: "Topics"
       report: "Report"
       web: "Web"
       electronics: "Electronics"
@@ -596,10 +595,9 @@ es:
 
     card:
       image: "Miniatura"
-      outcome: "Resultado:"
-      skills: "Habilidades:"
       repo: "Repositorio"
-      readme: "Descripción"
+      case_study: "Ver caso de estudio"
+      topics: "Temas"
       report: "Informe"
       web: "Web"
       electronics: "Electrónica"
