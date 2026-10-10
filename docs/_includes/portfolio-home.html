@@ -164,108 +164,12 @@
 
 
 
-      <div class="hero-panel__item">
-
-
-        <span>
-
-          {{ t.technical.power.title }}
-
-        </span>
-
-
-
-        <strong>
-
-          {{ t.technical.power.value }}
-
-        </strong>
-
-
-      </div>
-
-
-
-
-
-
-
-      <div class="hero-panel__item">
-
-
-        <span>
-
-          {{ t.technical.automation.title }}
-
-        </span>
-
-
-
-        <strong>
-
-          {{ t.technical.automation.value }}
-
-        </strong>
-
-
-      </div>
-
-
-
-
-
-
-
-      <div class="hero-panel__item">
-
-
-        <span>
-
-          {{ t.technical.simulation.title }}
-
-        </span>
-
-
-
-        <strong>
-
-          {{ t.technical.simulation.value }}
-
-        </strong>
-
-
-      </div>
-
-
-
-
-
-
-
-      <div class="hero-panel__item">
-
-
-        <span>
-
-          {{ t.technical.computing.title }}
-
-        </span>
-
-
-
-        <strong>
-
-          {{ t.technical.computing.value }}
-
-        </strong>
-
-
-      </div>
-
-
-
-
-
+      {% for item in t.technical.work %}
+      <a class="hero-panel__item" href="{{ item.href | relative_url }}">
+        <span>{{ item.title }}</span>
+        <strong>{{ item.detail }}</strong>
+      </a>
+      {% endfor %}
 
       <div class="hero-panel__footer">
 
@@ -652,282 +556,33 @@
      CERTIFICATIONS
 ======================================================= -->
 
-
-
-
 <div class="subsection-heading">
-
-
-  <span class="section-kicker">
-
-    {{ t.certifications.kicker }}
-
-  </span>
-
-
-
-
-
-  <h2>
-
-    {{ t.certifications.title }}
-
-  </h2>
-
-
-
+  <span class="section-kicker">{{ t.certifications.kicker }}</span>
+  <h2>{{ t.certifications.title }}</h2>
 </div>
 
-
-
-
-
-
-<div class="timeline">
-
-
-
-
-
-
-<article class="timeline-item">
-
-
-  <div class="timeline-item__date">
-
-    {{ t.dates.cambridge }}
-
-  </div>
-
-
-
-
-  <div class="timeline-item__content">
-
-
-
-    <h3>
-
-      {{ t.certifications.cambridge.title }}
-
-    </h3>
-
-
-
-
-
-    <p class="timeline-item__meta">
-
-      {{ t.certifications.cambridge.issuer }}
-
-    </p>
-
-
-
-
-
-    <div class="timeline-badges">
-
-
-      {% for badge in t.certifications.cambridge.badges %}
-
-      <span>
-
-        {{ badge }}
-
-      </span>
-
-      {% endfor %}
-
-
-
-    </div>
-
-
-
-
-
-    <p>
-
-      {{ t.certifications.cambridge.description }}
-
-    </p>
-
-
-
-
-  </div>
-
-
-</article>
-
-
-
-
-
-
-
-
-<article class="timeline-item">
-
-
-  <div class="timeline-item__date">
-
-    {{ t.dates.cs50 }}
-
-  </div>
-
-
-
-
-
-  <div class="timeline-item__content">
-
-
-
-    <h3>
-
-      {{ t.certifications.cs50.title }}
-
-    </h3>
-
-
-
-
-
-    <p class="timeline-item__meta">
-
-      {{ t.certifications.cs50.issuer }}
-
-    </p>
-
-
-
-
-
-    <div class="timeline-badges">
-
-
-      {% for badge in t.certifications.cs50.badges %}
-
-      <span>
-
-        {{ badge }}
-
-      </span>
-
-      {% endfor %}
-
-
-
-    </div>
-
-
-
-
-
-    <p>
-
-      {{ t.certifications.cs50.description }}
-
-    </p>
-
-
-
-
-  </div>
-
-
-</article>
-
-
-
-
-
-
-
-
-<article class="timeline-item">
-
-
-  <div class="timeline-item__date">
-
-    {{ t.dates.r }}
-
-  </div>
-
-
-
-
-
-  <div class="timeline-item__content">
-
-
-
-    <h3>
-
-      {{ t.certifications.r.title }}
-
-    </h3>
-
-
-
-
-
-    <p class="timeline-item__meta">
-
-      {{ t.certifications.r.issuer }}
-
-    </p>
-
-
-
-
-
-    <div class="timeline-badges">
-
-
-      {% for badge in t.certifications.r.badges %}
-
-      <span>
-
-        {{ badge }}
-
-      </span>
-
-      {% endfor %}
-
-
-
-    </div>
-
-
-
-
-
-    <p>
-
-      {{ t.certifications.r.description }}
-
-    </p>
-
-
-
-
-  </div>
-
-
-</article>
-
-
-
-
-
+<div class="certification-grid">
+  <article class="certification-card">
+    <span class="certification-card__date">{{ t.dates.cambridge }}</span>
+    <h3>{{ t.certifications.cambridge.title }}</h3>
+    <p class="certification-card__issuer">{{ t.certifications.cambridge.issuer }}</p>
+    <p>{{ t.certifications.cambridge.description }}</p>
+  </article>
+
+  <article class="certification-card">
+    <span class="certification-card__date">{{ t.dates.cs50 }}</span>
+    <h3>{{ t.certifications.cs50.title }}</h3>
+    <p class="certification-card__issuer">{{ t.certifications.cs50.issuer }}</p>
+    <p>{{ t.certifications.cs50.description }}</p>
+  </article>
+
+  <article class="certification-card">
+    <span class="certification-card__date">{{ t.dates.r }}</span>
+    <h3>{{ t.certifications.r.title }}</h3>
+    <p class="certification-card__issuer">{{ t.certifications.r.issuer }}</p>
+    <p>{{ t.certifications.r.description }}</p>
+  </article>
 </div>
-
-
-
-
 
 </section>
 

@@ -528,11 +528,37 @@ html {
 }
 
 .hero-panel__item {
+  display: block;
+
+  position: relative;
+
   padding:
-    16px 0;
+    16px 22px 16px 0;
 
   border-bottom:
     1px solid rgba(255, 255, 255, .09);
+
+  text-decoration: none;
+}
+
+.hero-panel__item::after {
+  position: absolute;
+  top: 22px;
+  right: 1px;
+
+  color: #74daf0;
+
+  content: "↗";
+}
+
+.hero-panel__item:hover strong,
+.hero-panel__item:focus-visible strong {
+  color: #74daf0;
+}
+
+.hero-panel__item:focus-visible {
+  outline: 2px solid #74daf0;
+  outline-offset: 4px;
 }
 
 .hero-panel__item span {
@@ -1303,6 +1329,45 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
     clamp(1.7rem, 3vw, 2.35rem);
 }
 
+.certification-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.certification-card {
+  padding: 22px;
+
+  border: 1px solid var(--pf-border);
+  border-radius: var(--pf-radius-lg);
+
+  background: var(--pf-surface);
+  box-shadow: var(--pf-shadow);
+}
+
+.certification-card__date {
+  color: var(--pf-blue);
+  font-size: .78rem;
+  font-weight: 800;
+}
+
+.certification-card h3 {
+  margin: 12px 0 4px;
+  font-size: 1.05rem;
+}
+
+.certification-card p {
+  margin: 0;
+  color: var(--pf-muted);
+  font-size: .88rem;
+}
+
+.certification-card .certification-card__issuer {
+  margin-bottom: 10px;
+  color: var(--pf-card-meta-strong);
+  font-weight: 650;
+}
+
 
 /* =========================================================
    CV
@@ -1590,6 +1655,10 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
   }
 
   .portfolio-page .additional-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .certification-grid {
     grid-template-columns: 1fr;
   }
 
