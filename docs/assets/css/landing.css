@@ -1537,7 +1537,7 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 
   .portfolio-hero h1 {
     font-size:
-      clamp(2.8rem, 14vw, 4.3rem);
+      clamp(2.5rem, 12.5vw, 4.3rem);
   }
 
   .portfolio-hero h2 {
