@@ -1048,6 +1048,7 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 }
 
 .portfolio-page .card__tags {
+  position: static;
   display: flex;
   flex-wrap: wrap;
 
