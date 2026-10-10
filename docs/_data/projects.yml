@@ -40,6 +40,9 @@
   thumb: /assets/thumbs/measurements-lab-aron.png
   thumb_alt: "Analog meters wired for a three-phase power measurement"
   thumb_alt_es: "Instrumentos analógicos conectados para medir potencia trifásica"
+  reports:
+    - label: "TP7 PDF"
+      url: /assets/reports/measurements/tp7-three-phase-power.pdf
 
 - title: Electronics II (7 TPs)
   featured: true
@@ -58,6 +61,9 @@
   thumb: /assets/thumbs/electronics-lab-oscilloscope.jpg
   thumb_alt: "Two oscilloscope traces from the electronics laboratory"
   thumb_alt_es: "Dos trazas de osciloscopio del laboratorio de electrónica"
+  reports:
+    - label: "TP5 PDF"
+      url: /assets/reports/electronics-ii/tp5-bjt-amplifier.pdf
 
 - title: Traffic Light Logic (Proteus)
   title_es: "Lógica de semáforos (Proteus)"
@@ -73,6 +79,9 @@
   thumb_fit: detail
   thumb_alt: "Detail of the Proteus traffic-light circuit diagram"
   thumb_alt_es: "Detalle del esquema de los semáforos en Proteus"
+  repo: https://github.com/ChevaucheyClement/academic-portfolio/tree/main/logics/traffic-lights-proteus
+  repo_label: "Proteus files"
+  repo_label_es: "Archivos Proteus"
   report: auto
 
 - title: PlantWeb (CS50 Final)

@@ -54,18 +54,13 @@
         {% if lang == 'es' and p.case_study_es %}{% assign case_href = p.case_study_es %}{% endif %}
         <a class="btn primary" href="{{ case_href | relative_url }}">{{ t.projects.card.case_study }}</a>
       {% endif %}
-      {%- comment -%} Repository URL: explicit repo wins; relative path falls back to this repository. {%- endcomment -%}
       {% assign repo_href = p.repo %}
-      {% if repo_href == nil and p.path %}
-        {% assign repo_href = p.path %}
-        {% unless repo_href contains '://' %}
-          {% assign repo_href = site.repo_url_base | append: '/' | append: repo_href %}
-        {% endunless %}
-      {% endif %}
+      {% assign repo_label = p.repo_label | default: t.projects.card.repo %}
+      {% if lang == 'es' and p.repo_label_es %}{% assign repo_label = p.repo_label_es %}{% endif %}
       {% if repo_href %}
         <a class="btn{% unless p.case_study %} primary{% endunless %}"
            href="{{ repo_href }}"
-           target="_blank" rel="noopener noreferrer">{{ t.projects.card.repo }}</a>
+           target="_blank" rel="noopener noreferrer">{{ repo_label }}</a>
       {% endif %}
 
       {% if p.demo and p.demo != '' %}
