@@ -384,9 +384,9 @@
     <p>{{ t.projects.more_description }}</p>
   </div>
 
-  <div class="grid grid--additional">
+  <div class="additional-projects">
     {% for p in site.data.projects %}
-      {% unless p.featured %}{% include card.html p=p %}{% endunless %}
+      {% unless p.featured %}{% include compact-project.html p=p %}{% endunless %}
     {% endfor %}
   </div>
 
@@ -1270,4 +1270,3 @@
 
 
 </div>
-

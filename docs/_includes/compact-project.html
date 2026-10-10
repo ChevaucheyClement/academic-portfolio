@@ -1,0 +1,48 @@
+{% assign p = include.p %}
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.i18n[lang] %}
+{% assign project_title = p.title %}
+{% assign project_summary = p.summary %}
+{% if lang == 'es' %}
+  {% assign project_title = p.title_es | default: p.title %}
+  {% assign project_summary = p.summary_es | default: p.summary %}
+{% endif %}
+{% assign category_label = t.projects.card[p.category] | default: p.category | capitalize %}
+{% assign repo_href = p.repo %}
+{% if repo_href == nil and p.path %}
+  {% assign repo_href = p.path %}
+  {% unless repo_href contains '://' %}
+    {% assign repo_href = site.repo_url_base | append: '/' | append: repo_href %}
+  {% endunless %}
+{% endif %}
+{% assign report_href = nil %}
+{% if p.report and p.report != '' %}
+  {% if p.report == true or p.report == 'auto' %}
+    {% if p.path and p.path contains '://' %}
+      {% assign report_href = nil %}
+    {% elsif p.path %}
+      {% assign report_href = '/' | append: p.path | append: '/report.pdf' %}
+    {% endif %}
+  {% else %}
+    {% assign report_href = p.report %}
+  {% endif %}
+{% endif %}
+
+<article class="compact-project">
+  <span class="compact-project__category">{{ category_label }}</span>
+  <h4>{{ project_title }}</h4>
+  <p>{{ project_summary }}</p>
+  <div class="compact-project__links">
+    {% if repo_href %}<a href="{{ repo_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.repo }} ↗</a>{% endif %}
+    {% if p.demo %}<a href="{{ p.demo }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card[p.demo_label] | default: t.projects.card.demo }} ↗</a>{% endif %}
+    {% if report_href %}
+      {% unless report_href contains '://' %}{% assign report_href = report_href | relative_url %}{% endunless %}
+      <a href="{{ report_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.report }} ↗</a>
+    {% endif %}
+    {% if p.report_es %}
+      {% assign report_es_href = p.report_es %}
+      {% unless report_es_href contains '://' %}{% assign report_es_href = report_es_href | relative_url %}{% endunless %}
+      <a href="{{ report_es_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.report }} (ES) ↗</a>
+    {% endif %}
+  </div>
+</article>

@@ -799,9 +799,56 @@ html {
   gap: 22px;
 }
 
-.portfolio-page .grid--additional {
+.portfolio-page .additional-projects {
+  display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 32px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
+
+.compact-project {
+  min-width: 0;
+  padding: 22px 0;
+  border-top: 1px solid var(--pf-border);
+}
+
+.compact-project__category {
+  color: var(--pf-muted);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.compact-project h4 {
+  margin: 7px 0 9px;
+  color: var(--pf-text);
+  font-size: 1.12rem;
+  line-height: 1.3;
+}
+
+.compact-project p {
+  margin: 0;
+  color: var(--pf-muted);
+  line-height: 1.55;
+}
+
+.compact-project__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 14px;
+}
+
+.compact-project__links a {
+  font-size: .82rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.compact-project__links a:hover { text-decoration: underline; }
 
 .portfolio-page .card {
   position: relative;
@@ -1585,6 +1632,10 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
   }
 
   .portfolio-page .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-page .additional-projects {
     grid-template-columns: 1fr;
   }
 
