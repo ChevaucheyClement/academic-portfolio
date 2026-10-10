@@ -10,3 +10,22 @@ kramdown:
 baseurl: '/academic-portfolio'
 url: 'https://chevaucheyclement.github.io'
 repo_url_base: "https://github.com/ChevaucheyClement/academic-portfolio/tree/main"
+defaults:
+- scope:
+    path: ""
+    type: pages
+  values:
+    image:
+      path: /assets/social/portfolio-en.png
+      width: 1200
+      height: 630
+      alt: "Clément Chevauchey — Electrical engineering, electronics and measurements"
+- scope:
+    path: es
+    type: pages
+  values:
+    image:
+      path: /assets/social/portfolio-es.png
+      width: 1200
+      height: 630
+      alt: "Clément Chevauchey — Ingeniería eléctrica, electrónica y mediciones"
