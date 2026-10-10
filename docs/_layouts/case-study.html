@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main class="case-study">
+<div class="case-study">
   <div class="case-study__language">
     {% if page.lang == 'es' %}
       <a href="{{ page.translation | relative_url }}" lang="en">English</a>
@@ -10,4 +10,4 @@ layout: default
     {% endif %}
   </div>
   {{ content }}
-</main>
+</div>
