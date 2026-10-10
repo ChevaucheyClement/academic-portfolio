@@ -54,10 +54,10 @@
   category: measurements
   case_study: /measurements-ii/#insulation-testing
   case_study_es: /es/measurements-ii/#ensayos-de-aislacion
-  thumb: /assets/thumbs/insulation-readings-report.jpg
+  thumb: /assets/thumbs/insulation-transformer-table-report.jpg
   thumb_fit: contain
-  thumb_alt: "Transformer insulation readings and resistance-ratio calculation from the submitted TP2 report"
-  thumb_alt_es: "Lecturas de aislación del transformador y cálculo de la relación de resistencias del informe TP2 entregado"
+  thumb_alt: "Transformer insulation readings table from the submitted TP2 report"
+  thumb_alt_es: "Tabla de lecturas de aislación del transformador del informe TP2 entregado"
   reports:
     - label: "Original TP2 PDF"
       label_es: "Informe TP2 original"

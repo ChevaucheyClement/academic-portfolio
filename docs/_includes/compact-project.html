@@ -42,7 +42,7 @@
     {% if project_subtitle %}<p class="compact-project__subtitle">{{ project_subtitle }}</p>{% endif %}
     <p class="compact-project__summary">{{ project_summary }}</p>
     <div class="compact-project__links">
-      {% if case_href %}<a href="{{ case_href | relative_url }}">{{ t.projects.card.case_study }} →</a>{% endif %}
+      {% if case_href %}<a href="{{ case_href | relative_url }}">{{ t.projects.card.all_reports }} →</a>{% endif %}
       {% if repo_href %}<a href="{{ repo_href }}" target="_blank" rel="noopener noreferrer">{{ repo_label }} ↗</a>{% endif %}
       {% if p.demo %}<a href="{{ p.demo }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card[p.demo_label] | default: t.projects.card.demo }} ↗</a>{% endif %}
       {% if report_href %}

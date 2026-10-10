@@ -52,7 +52,7 @@
       {% if p.case_study %}
         {% assign case_href = p.case_study %}
         {% if lang == 'es' and p.case_study_es %}{% assign case_href = p.case_study_es %}{% endif %}
-        <a class="btn primary" href="{{ case_href | relative_url }}">{{ t.projects.card.case_study }}</a>
+        <a class="btn primary" href="{{ case_href | relative_url }}">{{ t.projects.card.findings }}</a>
       {% endif %}
       {% assign repo_href = p.repo %}
       {% assign repo_label = p.repo_label | default: t.projects.card.repo %}
