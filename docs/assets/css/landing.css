@@ -1467,8 +1467,13 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 ========================================================= */
 
 .contact-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 270px);
+  align-items: center;
+  gap: clamp(32px, 6vw, 80px);
+
   padding:
-    70px 32px;
+    clamp(36px, 5vw, 64px);
 
   border:
     1px solid var(--pf-border);
@@ -1479,32 +1484,32 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
   background:
     var(--pf-surface);
 
-  text-align: center;
+  text-align: left;
 }
 
 .contact-card .section-kicker {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .contact-card h2 {
-  max-width: 700px;
-
-  margin:
-    0 auto 13px;
+  margin: 0 0 13px;
 
   font-size:
     clamp(2rem, 5vw, 3.4rem);
 }
 
-.contact-card > p {
-  max-width: 620px;
-
-  margin:
-    0 auto 26px;
+.contact-card__copy > p {
+  margin: 0;
 }
 
-.contact-card .hero__actions {
-  justify-content: center;
+.contact-card__actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.contact-card__actions .btn--primary {
+  grid-column: 1 / -1;
 }
 
 
@@ -1546,6 +1551,17 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 
   background:
     var(--pf-small-button-hover);
+}
+
+@media (max-width: 850px) {
+  .contact-card {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card__actions {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 
