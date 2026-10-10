@@ -25,13 +25,20 @@
 
 
 
-      <h1>
-
-        {{ t.hero.title.first }}<br>
-
-        {{ t.hero.title.last }}
-
-      </h1>
+      <div class="hero__identity">
+        <h1>
+          {{ t.hero.title.first }}<br>
+          {{ t.hero.title.last }}
+        </h1>
+        <img
+          class="hero__portrait"
+          src="{{ '/assets/portrait-clement.jpg' | relative_url }}"
+          alt="Clément Chevauchey"
+          width="136"
+          height="136"
+          decoding="async"
+        >
+      </div>
 
 
 

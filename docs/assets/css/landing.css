@@ -321,6 +321,29 @@ html {
   letter-spacing: -.065em;
 }
 
+.hero__identity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.hero__identity h1 {
+  margin-bottom: 0;
+}
+
+.hero__portrait {
+  display: block;
+  flex: 0 0 auto;
+  width: 136px;
+  height: 136px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .2);
+}
+
 .portfolio-hero h2 {
   max-width: 740px;
 
@@ -1666,6 +1689,21 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
    RESPONSIVE — TABLET
 ========================================================= */
 
+@media (min-width: 1021px) and (max-width: 1200px) {
+  .hero__identity {
+    gap: 16px;
+  }
+
+  .hero__identity h1 {
+    font-size: clamp(3rem, 5vw, 4rem);
+  }
+
+  .hero__portrait {
+    width: 112px;
+    height: 112px;
+  }
+}
+
 @media (max-width: 1020px) {
 
   .portfolio-hero__inner {
@@ -1727,6 +1765,18 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
   .portfolio-hero h1 {
     font-size:
       clamp(2.5rem, 12.5vw, 4.3rem);
+  }
+
+  .hero__identity {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero__portrait {
+    order: -1;
+    width: 112px;
+    height: 112px;
   }
 
   .hero__eyebrow {
