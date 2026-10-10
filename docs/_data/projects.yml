@@ -43,14 +43,14 @@
 
 - title: Traffic Light Logic (Proteus)
   title_es: "Lógica de semáforos (Proteus)"
-  subtitle_es: "Contadores TTL y lógica de sincronización"
+  subtitle_es: "Dos semáforos sincronizados con contadores TTL"
   summary: "Corrected transition timing and synchronized two traffic lights in a Proteus simulation."
   summary_es: "Corregí los tiempos de transición y sincronicé dos semáforos en una simulación de Proteus."
   tags: ["Digital logic", "Proteus"]
   tags_es: ["Lógica digital", "Proteus"]
   category: logic
   path: logics/traffic-lights-proteus
-  subtitle: TTL counters and synchronized lamp logic
+  subtitle: Two synchronized traffic lights built with TTL counters
   thumb: /assets/thumbs/traffic-lights-v2-schematic.png
   thumb_fit: detail
   thumb_alt: "Detail of the Proteus traffic-light circuit diagram"
@@ -77,7 +77,7 @@
 
 - title: PlantWeb (CS50 Final)
   title_es: "PlantWeb (proyecto final de CS50)"
-  subtitle_es: "Proyecto integral de desarrollo web"
+  subtitle_es: "Aplicación web para organizar plantas y riegos"
   summary: "Built and demonstrated a working web app for the CS50 final project."
   summary_es: "Desarrollé y presenté una aplicación web funcional como proyecto final de CS50."
   tags: ["Web development", "CS50"]
@@ -86,21 +86,21 @@
   repo: https://github.com/ChevaucheyClement/Final-Project-CS50
   demo: https://chevaucheyclement.github.io/Final-Project-CS50/
   demo_label: project_page
-  subtitle: Full-stack course project
+  subtitle: Web app for organizing plants and watering
   thumb: /assets/thumbs/plantweb-album.jpg
   thumb_alt: "PlantWeb screen showing a list of plants and watering controls"
   thumb_alt_es: "Pantalla de PlantWeb con una lista de plantas y controles de riego"
 
 - title: Rankine Cycle Studies
   title_es: "Estudios del ciclo Rankine"
-  subtitle_es: "Vapor húmedo y casos del ciclo Rankine"
+  subtitle_es: "Análisis de casos Rankine con tablas de vapor"
   summary: "Used steam tables to compare ideal and assumed nonideal Rankine cases, plus higher-pressure and superheated cases, in a submitted TP."
   summary_es: "Usé tablas de vapor para comparar casos Rankine ideales y con eficiencias no ideales supuestas, además de casos de mayor presión y sobrecalentamiento, en un TP entregado."
   tags: ["Steam tables", "Cycle analysis"]
   tags_es: ["Tablas de vapor", "Análisis de ciclos"]
   category: power
   path: machines/rankine-analysis
-  subtitle: "Damp steam and Rankine cycle cases"
+  subtitle: "Steam-table analysis of Rankine cycle cases"
   thumb: /assets/thumbs/rankine-report.png
   thumb_alt: "Chart comparing turbine, Rankine and Carnot efficiencies across four cases"
   thumb_alt_es: "Gráfico de rendimientos de turbina, Rankine y Carnot para cuatro casos"
@@ -108,14 +108,14 @@
 
 - title: Otto / Diesel / Dual
   title_es: "Ciclos Otto, Diesel y dual"
-  subtitle_es: "Comparación de tres ciclos ideales asignados"
+  subtitle_es: "Comparación de rendimiento de tres ciclos ideales"
   summary: "Calculated and compared thermal efficiency for assigned ideal Otto, Diesel and mixed-cycle cases."
   summary_es: "Calculé y comparé el rendimiento térmico de los casos asignados de ciclos ideales Otto, Diesel y mixto."
   tags: ["Ideal cycles", "Thermal efficiency"]
   tags_es: ["Ciclos ideales", "Rendimiento térmico"]
   category: power
   path: machines/internal-combustion-diesel-otto-dual
-  subtitle: "Three assigned ideal-cycle cases"
+  subtitle: "Thermal-efficiency comparison of three assigned ideal cycles"
   thumb: /assets/thumbs/otto-diesel-mixto-report.png
   thumb_alt: "Pressure-volume diagram of the assigned dual combustion cycle"
   thumb_alt_es: "Diagrama de presión y volumen del ciclo mixto asignado"

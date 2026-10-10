@@ -2,10 +2,14 @@
 {% assign lang = page.lang | default: 'en' %}
 {% assign t = site.data.i18n[lang] %}
 {% assign project_title = p.title %}
+{% assign project_subtitle = p.subtitle %}
 {% assign project_summary = p.summary %}
+{% assign thumb_alt = p.thumb_alt | default: project_title %}
 {% if lang == 'es' %}
   {% assign project_title = p.title_es | default: p.title %}
+  {% assign project_subtitle = p.subtitle_es | default: p.subtitle %}
   {% assign project_summary = p.summary_es | default: p.summary %}
+  {% assign thumb_alt = p.thumb_alt_es | default: thumb_alt %}
 {% endif %}
 {% assign category_label = t.projects.card[p.category] | default: p.category | capitalize %}
 {% assign repo_href = p.repo %}
@@ -29,20 +33,28 @@
 {% endif %}
 
 <article class="compact-project">
-  <span class="compact-project__category">{{ category_label }}</span>
-  <h4>{{ project_title }}</h4>
-  <p>{{ project_summary }}</p>
-  <div class="compact-project__links">
-    {% if repo_href %}<a href="{{ repo_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.repo }} ↗</a>{% endif %}
-    {% if p.demo %}<a href="{{ p.demo }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card[p.demo_label] | default: t.projects.card.demo }} ↗</a>{% endif %}
-    {% if report_href %}
-      {% unless report_href contains '://' %}{% assign report_href = report_href | relative_url %}{% endunless %}
-      <a href="{{ report_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.report }} ↗</a>
-    {% endif %}
-    {% if p.report_es %}
-      {% assign report_es_href = p.report_es %}
-      {% unless report_es_href contains '://' %}{% assign report_es_href = report_es_href | relative_url %}{% endunless %}
-      <a href="{{ report_es_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.report }} (ES) ↗</a>
-    {% endif %}
+  {% if p.thumb %}
+  <div class="compact-project__thumb{% if p.category == 'logic' or p.category == 'power' %} compact-project__thumb--diagram{% endif %}">
+    <img src="{{ p.thumb | relative_url }}" alt="{{ thumb_alt }}" loading="lazy" decoding="async">
+  </div>
+  {% endif %}
+  <div class="compact-project__body">
+    <span class="compact-project__category">{{ category_label }}</span>
+    <h4>{{ project_title }}</h4>
+    {% if project_subtitle %}<p class="compact-project__subtitle">{{ project_subtitle }}</p>{% endif %}
+    <p class="compact-project__summary">{{ project_summary }}</p>
+    <div class="compact-project__links">
+      {% if repo_href %}<a href="{{ repo_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.repo }} ↗</a>{% endif %}
+      {% if p.demo %}<a href="{{ p.demo }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card[p.demo_label] | default: t.projects.card.demo }} ↗</a>{% endif %}
+      {% if report_href %}
+        {% unless report_href contains '://' %}{% assign report_href = report_href | relative_url %}{% endunless %}
+        <a href="{{ report_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.report }} ↗</a>
+      {% endif %}
+      {% if p.report_es %}
+        {% assign report_es_href = p.report_es %}
+        {% unless report_es_href contains '://' %}{% assign report_es_href = report_es_href | relative_url %}{% endunless %}
+        <a href="{{ report_es_href }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card.report }} (ES) ↗</a>
+      {% endif %}
+    </div>
   </div>
 </article>
