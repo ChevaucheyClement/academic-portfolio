@@ -275,7 +275,7 @@ en:
 
 
   footer:
-    tagline: "Electrical Engineering, Electronics & Measurements"
+    tagline: "Electrical Engineering · Measurements · Power Systems"
     build: "Build"
 
 es:
@@ -613,5 +613,5 @@ es:
       "GitHub ↗"
 
   footer:
-    tagline: "Ingeniería eléctrica, electrónica y mediciones"
+    tagline: "Ingeniería eléctrica · Mediciones · Sistemas de potencia"
     build: "Versión"
