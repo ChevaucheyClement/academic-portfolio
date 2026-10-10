@@ -296,6 +296,27 @@
 
 </section>
 
+<section class="portfolio-section skills-section" id="skills">
+  <div class="section-heading">
+    <span class="section-kicker">{{ t.skills.kicker }}</span>
+    <h2>{{ t.skills.title }}</h2>
+    <p>{{ t.skills.description }}</p>
+  </div>
+
+  <div class="skills-grid">
+    {% assign skill_groups = 'documented,tools,learning' | split: ',' %}
+    {% for group in skill_groups %}
+      {% assign skill_group = t.skills[group] %}
+      <div class="skills-group">
+        <h3>{{ skill_group.title }}</h3>
+        <ul>
+          {% for item in skill_group.items %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
 <!-- ======================================================
      EXPERIENCE
 ======================================================= -->

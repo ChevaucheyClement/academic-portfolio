@@ -1228,6 +1228,67 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 
 
 /* =========================================================
+   TECHNICAL SKILLS
+========================================================= */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--pf-border);
+  border-bottom: 1px solid var(--pf-border);
+}
+
+.skills-group {
+  min-width: 0;
+  padding: 27px 28px;
+}
+
+.skills-group:first-child {
+  padding-left: 0;
+}
+
+.skills-group + .skills-group {
+  border-left: 1px solid var(--pf-border);
+}
+
+.skills-group h3 {
+  margin: 0 0 14px;
+  font-size: 1.05rem;
+}
+
+.skills-group ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--pf-muted);
+  font-size: .91rem;
+  line-height: 1.6;
+}
+
+.skills-group li + li {
+  margin-top: 7px;
+}
+
+.skills-group li::marker {
+  color: var(--pf-blue);
+}
+
+@media (max-width: 800px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-group,
+  .skills-group:first-child {
+    padding: 22px 0;
+  }
+
+  .skills-group + .skills-group {
+    border-top: 1px solid var(--pf-border);
+    border-left: 0;
+  }
+}
+
+/* =========================================================
    EXPERIENCE / EDUCATION
 ========================================================= */
 

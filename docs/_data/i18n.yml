@@ -91,6 +91,33 @@ en:
       demo: "Live site"
       project_page: "Project page"
 
+  skills:
+    kicker: "Technical skills"
+    title: "Methods, tools & current studies."
+    description: >
+      Work shown in the published reports, tools I have used,
+      and subjects I am studying now.
+    documented:
+      title: "Documented in reports"
+      items:
+        - "Circuit analysis"
+        - "Three-phase measurements and phasors"
+        - "Insulation-resistance measurements"
+        - "Circuit simulation and bench observation"
+        - "Laboratory reporting and data interpretation"
+    tools:
+      title: "Tools used"
+      items:
+        - "LTspice and Proteus"
+        - "MATLAB and Scilab"
+        - "Python, NumPy, Pandas and Matplotlib"
+    learning:
+      title: "Currently studying"
+      items:
+        - "Power transmission and distribution"
+        - "Electrical machines and transformers"
+        - "Control systems"
+
   dates:
     present: "Present"
     since_2016: "Since 2016"
@@ -386,6 +413,34 @@ es:
       power: "Termodinámica"
       demo: "Sitio web"
       project_page: "Página del proyecto"
+
+
+  skills:
+    kicker: "Habilidades técnicas"
+    title: "Métodos, herramientas y estudios actuales."
+    description: >
+      Trabajo documentado en los informes publicados,
+      herramientas que he usado y materias que estoy cursando.
+    documented:
+      title: "Documentado en informes"
+      items:
+        - "Análisis de circuitos"
+        - "Mediciones trifásicas e interpretación de fasores"
+        - "Mediciones de resistencia de aislación"
+        - "Simulación de circuitos y observación en laboratorio"
+        - "Informes de laboratorio e interpretación de datos"
+    tools:
+      title: "Herramientas utilizadas"
+      items:
+        - "LTspice y Proteus"
+        - "MATLAB y Scilab"
+        - "Python, NumPy, Pandas y Matplotlib"
+    learning:
+      title: "En formación"
+      items:
+        - "Transmisión y distribución de energía eléctrica"
+        - "Máquinas eléctricas y transformadores"
+        - "Sistemas de control"
 
 
   dates:
