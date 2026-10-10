@@ -20,7 +20,7 @@ en:
       last: "Chevauchey"
 
     heading:
-      before: "Electrical Engineering student working with"
+      before: "Electrical Engineering student at UNSE working with"
       highlight: "measurements, circuits and electronics."
 
     intro: >
@@ -364,7 +364,7 @@ es:
 
     heading:
 
-      before: "Estudiante de Ingeniería Eléctrica con trabajos en"
+      before: "Estudiante de Ingeniería Eléctrica en la UNSE con trabajos en"
 
       highlight: "mediciones, circuitos y electrónica."
 
