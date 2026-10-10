@@ -12,20 +12,20 @@ en:
 
   hero:
 
-    eyebrow: "Electrical Engineering · Electronics · Measurements"
+    eyebrow: "Electrical Engineering · Measurements · Power Systems"
 
     title:
       first: "Clément"
       last: "Chevauchey"
 
     heading:
-      before: "Electrical Engineering student at UNSE working with"
-      highlight: "measurements, circuits and electronics."
+      before: "Electrical Engineering student at UNSE with a growing focus on"
+      highlight: "power systems."
 
     intro: >
-      My supervised laboratory reports and simulations show
-      the methods and results behind my work. I am developing
-      toward power systems and industrial automation.
+      My supervised reports document three-phase measurements,
+      insulation testing and circuit work. I want to apply that
+      foundation in power engineering while continuing to learn.
 
     buttons:
       projects: "Explore projects"
@@ -38,21 +38,21 @@ en:
 
   technical:
 
-    label: "From the reports"
+    label: "Original lab reports · Spanish"
     native: "Native"
 
-    headline: "Documented work"
+    headline: "Power-related lab work"
 
     work:
-      - title: "Three-phase & insulation"
-        detail: "Load comparisons and insulation readings"
-        href: /measurements-ii/
-      - title: "Circuits & simulation"
-        detail: "Zener clipping, BJT gain and a Proteus sweep"
-        href: /electronics-ii/
-      - title: "Measurement methods"
-        detail: "Ammeter class and Wheatstone bridge results"
-        href: /measurements/
+      - title: "TP1 · Three-phase loads"
+        detail: "Resistive, motor and capacitive load phasors"
+        href: /assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf
+      - title: "TP7 · Three-phase power"
+        detail: "Two-wattmeter readings with current transformers"
+        href: /assets/reports/measurements/tp7-three-phase-power.pdf
+      - title: "TP2 · Insulation resistance"
+        detail: "Cable, transformer and motor insulation readings"
+        href: /assets/reports/measurements-ii/tp2-insulation-testing.pdf
 
 
 
@@ -292,7 +292,7 @@ es:
 
   hero:
 
-    eyebrow: "Ingeniería Eléctrica · Electrónica · Mediciones"
+    eyebrow: "Ingeniería Eléctrica · Mediciones · Sistemas de Potencia"
 
     title:
 
@@ -303,16 +303,15 @@ es:
 
     heading:
 
-      before: "Estudiante de Ingeniería Eléctrica en la UNSE con trabajos en"
+      before: "Estudiante de Ingeniería Eléctrica en la UNSE con interés en"
 
-      highlight: "mediciones, circuitos y electrónica."
+      highlight: "sistemas eléctricos de potencia."
 
 
     intro: >
-      Mis informes de laboratorio supervisado y simulaciones
-      muestran los métodos y resultados de mi trabajo.
-      Continúo formándome en sistemas eléctricos y
-      automatización industrial.
+      Mis informes supervisados documentan mediciones trifásicas,
+      ensayos de aislación y trabajo con circuitos. Busco aplicar
+      esa base en el área de potencia mientras continúo formándome.
   
     buttons:
 
@@ -331,21 +330,21 @@ es:
 
   technical:
 
-    label: "En los informes"
+    label: "Informes originales"
     native: "Nativo"
 
-    headline: "Trabajo documentado"
+    headline: "Prácticas de potencia y medición"
 
     work:
-      - title: "Sistemas trifásicos y aislación"
-        detail: "Comparación de cargas y lecturas de aislación"
-        href: /es/measurements-ii/
-      - title: "Circuitos y simulación"
-        detail: "Recorte Zener, ganancia BJT y barrido en Proteus"
-        href: /es/electronics-ii/
-      - title: "Métodos de medición"
-        detail: "Clase de un amperímetro y resultados del puente de Wheatstone"
-        href: /es/measurements/
+      - title: "TP1 · Cargas trifásicas"
+        detail: "Fasores con cargas resistivas, motor y capacitores"
+        href: /assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf
+      - title: "TP7 · Potencia trifásica"
+        detail: "Dos vatímetros y transformadores de corriente"
+        href: /assets/reports/measurements/tp7-three-phase-power.pdf
+      - title: "TP2 · Resistencia de aislación"
+        detail: "Aislación de cable, transformador y motor"
+        href: /assets/reports/measurements-ii/tp2-insulation-testing.pdf
 
 
 

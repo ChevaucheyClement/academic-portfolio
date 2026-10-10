@@ -165,7 +165,7 @@
 
 
       {% for item in t.technical.work %}
-      <a class="hero-panel__item" href="{{ item.href | relative_url }}">
+      <a class="hero-panel__item" href="{{ item.href | relative_url }}" target="_blank" rel="noopener noreferrer">
         <span>{{ item.title }}</span>
         <strong>{{ item.detail }}</strong>
       </a>
