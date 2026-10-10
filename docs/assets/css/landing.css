@@ -1149,6 +1149,16 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 .case-study th, .case-study td { padding: 11px 13px; border: 1px solid var(--pf-border, #dce4e8); text-align: left; vertical-align: top; }
 .case-study th { background: var(--pf-surface, #f3f6f8); }
 
+.case-study__next { margin-top: 56px; }
+.case-study__next ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 20px 0; padding: 0; list-style: none; }
+.case-study__next li a { display: flex; height: 100%; align-items: center; justify-content: space-between; gap: 12px; padding: 16px; border: 1px solid var(--pf-border); border-radius: 12px; background: var(--pf-surface); color: var(--pf-text); text-decoration: none; }
+.case-study__next li a:hover { border-color: var(--pf-blue); color: var(--pf-blue); }
+.case-study__all { display: inline-block; margin-top: 8px; }
+
+@media (max-width: 680px) {
+  .case-study__next ul { grid-template-columns: 1fr; }
+}
+
 
 /* =========================================================
    EXPERIENCE / EDUCATION

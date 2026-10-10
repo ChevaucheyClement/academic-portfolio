@@ -91,6 +91,9 @@ en:
 
     kicker: "Selected work"
 
+    related_title: "Other laboratory work"
+    all_projects: "All projects"
+
     title: "Engineering projects."
 
     description: >
@@ -461,6 +464,9 @@ es:
   projects:
 
     kicker: "Trabajos seleccionados"
+
+    related_title: "Otras prácticas de laboratorio"
+    all_projects: "Todos los proyectos"
 
     title: "Proyectos de ingeniería."
 

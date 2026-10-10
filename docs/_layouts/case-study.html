@@ -10,4 +10,27 @@ layout: default
     {% endif %}
   </div>
   {{ content }}
+  {% assign lang = page.lang | default: 'en' %}
+  {% assign t = site.data.i18n[lang] %}
+  {% assign home = '/' %}
+  {% if lang == 'es' %}{% assign home = '/es/' %}{% endif %}
+  <nav class="case-study__next" aria-labelledby="other-lab-work">
+    <h2 id="other-lab-work">{{ t.projects.related_title }}</h2>
+    <ul>
+      {% for p in site.data.projects %}
+        {% if p.featured %}
+          {% assign case_href = p.case_study %}
+          {% assign case_title = p.title %}
+          {% if lang == 'es' %}
+            {% assign case_href = p.case_study_es %}
+            {% assign case_title = p.title_es %}
+          {% endif %}
+          {% unless case_href == page.url %}
+            <li><a href="{{ case_href | relative_url }}">{{ case_title }} <span aria-hidden="true">→</span></a></li>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <a class="case-study__all" href="{{ home | relative_url }}#projects">← {{ t.projects.all_projects }}</a>
+  </nav>
 </div>
