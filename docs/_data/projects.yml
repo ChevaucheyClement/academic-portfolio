@@ -23,6 +23,24 @@
   case_study: /measurements-ii/
   case_study_es: /es/measurements-ii/
 
+- title: Electrical Measurements (7 Labs)
+  featured: true
+  year: 2025
+  title_es: "Mediciones eléctricas (7 prácticas)"
+  subtitle_es: "Metrología y medición de potencia trifásica"
+  summary: "Two-wattmeter readings gave 3396 W indicated power after current-transformer scaling in a balanced three-phase setup."
+  summary_es: "Las lecturas de dos vatímetros dieron 3396 W de potencia indicada tras aplicar la relación de los transformadores de corriente en un sistema trifásico equilibrado."
+  tags: ["Metrology", "Three-phase power"]
+  tags_es: ["Metrología", "Potencia trifásica"]
+  category: measurements
+  path: measurements
+  case_study: /measurements/
+  case_study_es: /es/measurements/
+  subtitle: Metrology and three-phase power measurement
+  thumb: /assets/thumbs/measurements-lab-aron.png
+  thumb_alt: "Analog meters wired for a three-phase power measurement"
+  thumb_alt_es: "Instrumentos analógicos conectados para medir potencia trifásica"
+
 - title: Electronics II (7 TPs)
   featured: true
   year: 2025
@@ -56,24 +74,6 @@
   thumb_alt: "Detail of the Proteus traffic-light circuit diagram"
   thumb_alt_es: "Detalle del esquema de los semáforos en Proteus"
   report: auto
-
-- title: Electrical Measurements (7 Labs)
-  featured: true
-  year: 2025
-  title_es: "Mediciones eléctricas (7 prácticas)"
-  subtitle_es: "Metrología y técnicas de medición en CA y CC"
-  summary: "Verified an ammeter as class 1; a Wheatstone bridge gave 479.12 Ω for a nominal 500 Ω resistor."
-  summary_es: "Verifiqué un amperímetro como clase 1; un puente de Wheatstone dio 479,12 Ω para una resistencia nominal de 500 Ω."
-  tags: ["Metrology", "Uncertainty"]
-  tags_es: ["Metrología", "Incertidumbre"]
-  category: measurements
-  path: measurements
-  case_study: /measurements/
-  case_study_es: /es/measurements/
-  subtitle: Metrology & AC/DC measurement techniques
-  thumb: /assets/thumbs/measurements-lab-aron.png
-  thumb_alt: "Analog meters wired for a three-phase power measurement"
-  thumb_alt_es: "Instrumentos analógicos conectados para medir potencia trifásica"
 
 - title: PlantWeb (CS50 Final)
   title_es: "PlantWeb (proyecto final de CS50)"
