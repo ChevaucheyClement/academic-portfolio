@@ -28,13 +28,13 @@
         decoding="async"
       >
     {% endif %}
+  </div>
+
+  <div class="card__body">
     <div class="card__tags">
       <span class="tag tag--cat">{{ category_label }}</span>
       {% if p.year %}<span class="tag tag--year">{{ p.year }}</span>{% endif %}
     </div>
-  </div>
-
-  <div class="card__body">
     <h3 class="card__title">{{ card_title }}</h3>
     <p class="card__subtitle">{{ card_subtitle }}</p>
 

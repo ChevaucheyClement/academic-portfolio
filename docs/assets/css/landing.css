@@ -1048,14 +1048,6 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 }
 
 .portfolio-page .card__tags {
-  position: absolute;
-
-  top: auto;
-
-  left: 12px;
-  right: 12px;
-  bottom: 12px;
-
   display: flex;
   flex-wrap: wrap;
 
@@ -1063,8 +1055,7 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
   align-content: flex-start;
 
   gap: 5px;
-
-  height: auto;
+  margin-bottom: 14px;
 }
 
 .portfolio-page .tag {
