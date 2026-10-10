@@ -61,7 +61,7 @@ en:
 
     kicker: "Selected work"
 
-    related_title: "Other laboratory work"
+    related_title: "Featured studies"
     all_projects: "All projects"
 
     title: "Engineering projects."
@@ -70,10 +70,10 @@ en:
       Start with the electrical laboratory work. Each featured
       project links its findings to the original reports.
 
-    more_title: "Additional work"
-    more_description: "Digital logic, software and thermodynamic cycle coursework."
+    more_title: "Lab collections & other work"
+    more_description: "Browse the complete lab sets and additional work in electronics, logic, software and thermodynamics."
 
-    count: "projects"
+    count: "featured studies"
 
 
 
@@ -381,7 +381,7 @@ es:
 
     kicker: "Trabajos seleccionados"
 
-    related_title: "Otras prácticas de laboratorio"
+    related_title: "Estudios destacados"
     all_projects: "Todos los proyectos"
 
     title: "Proyectos de ingeniería."
@@ -392,11 +392,11 @@ es:
       Cada proyecto destacado vincula sus resultados
       con los informes originales.
 
-    more_title: "Otros trabajos"
-    more_description: "Lógica digital, software y trabajos sobre ciclos termodinámicos."
+    more_title: "Colecciones de prácticas y otros trabajos"
+    more_description: "Consultá las colecciones completas y otros trabajos de electrónica, lógica, software y termodinámica."
 
 
-    count: "proyectos"
+    count: "estudios destacados"
 
 
 

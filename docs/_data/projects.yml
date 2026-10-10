@@ -1,5 +1,70 @@
-- title: Electrical Measurements II (2 Labs)
+- title: TP1 · Unbalanced Three-Phase Loads
+  title_es: "TP1 · Cargas trifásicas desequilibradas"
   featured: true
+  year: 2026
+  subtitle: Resistive, motor and capacitive load measurements
+  subtitle_es: "Mediciones con cargas resistivas, inductivas y capacitivas"
+  summary: "Observed current lead or lag as the load changed; reversing one current sensor shifted its displayed phasor by 180°."
+  summary_es: "Observé cómo se adelantaba o atrasaba la corriente según la carga; al invertir una pinza, el fasor indicado giró 180°."
+  tags: ["Three-phase measurements", "Phasors"]
+  tags_es: ["Mediciones trifásicas", "Fasores"]
+  category: measurements
+  case_study: /measurements-ii/#three-phase-loads
+  case_study_es: /es/measurements-ii/#cargas-trifasicas
+  thumb: /assets/thumbs/three-phase-phasors-report.jpg
+  thumb_fit: contain
+  thumb_alt: "Power analyzer phasor screen for a resistive load, reproduced from the submitted TP1 report"
+  thumb_alt_es: "Pantalla de fasores del analizador para una carga resistiva, tomada del informe TP1 entregado"
+  reports:
+    - label: "Original TP1 PDF"
+      label_es: "Informe TP1 original"
+      url: /assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf
+
+- title: TP7 · Three-Phase Power Measurement
+  title_es: "TP7 · Medición de potencia trifásica"
+  featured: true
+  year: 2025
+  subtitle: Two-wattmeter method with current transformers
+  subtitle_es: "Método de dos vatímetros con transformadores de corriente"
+  summary: "Two wattmeters read about 1010 W and 688 W; applying the current-transformer ratio gave 3396 W indicated power."
+  summary_es: "Dos vatímetros indicaron cerca de 1010 W y 688 W; al aplicar la relación de transformación se obtuvieron 3396 W de potencia indicada."
+  tags: ["Three-phase power", "Instrument readings"]
+  tags_es: ["Potencia trifásica", "Lecturas de instrumentos"]
+  category: measurements
+  case_study: /measurements/#three-phase-power
+  case_study_es: /es/measurements/#potencia-trifasica
+  thumb: /assets/thumbs/measurements-lab-aron.png
+  thumb_alt: "Two-wattmeter bench arrangement photographed in the submitted TP7 report"
+  thumb_alt_es: "Montaje de dos vatímetros fotografiado en el informe TP7 entregado"
+  reports:
+    - label: "Original TP7 PDF"
+      label_es: "Informe TP7 original"
+      url: /assets/reports/measurements/tp7-three-phase-power.pdf
+
+- title: TP2 · Insulation-Resistance Tests
+  title_es: "TP2 · Ensayos de resistencia de aislación"
+  featured: true
+  year: 2026
+  subtitle: Cable, dry transformer and motor measurements
+  subtitle_es: "Mediciones en cable, transformador seco y motor"
+  summary: "Recorded insulation readings for three test objects; the transformer’s 10 min / 1 min resistance ratio was about 1.44."
+  summary_es: "Registré lecturas de aislación de tres elementos; la relación entre las resistencias del transformador a 10 y 1 min fue cercana a 1,44."
+  tags: ["Insulation resistance", "Laboratory measurements"]
+  tags_es: ["Resistencia de aislación", "Mediciones de laboratorio"]
+  category: measurements
+  case_study: /measurements-ii/#insulation-testing
+  case_study_es: /es/measurements-ii/#ensayos-de-aislacion
+  thumb: /assets/thumbs/insulation-readings-report.jpg
+  thumb_fit: contain
+  thumb_alt: "Transformer insulation readings and resistance-ratio calculation from the submitted TP2 report"
+  thumb_alt_es: "Lecturas de aislación del transformador y cálculo de la relación de resistencias del informe TP2 entregado"
+  reports:
+    - label: "Original TP2 PDF"
+      label_es: "Informe TP2 original"
+      url: /assets/reports/measurements-ii/tp2-insulation-testing.pdf
+
+- title: Electrical Measurements II (2 Labs)
+  featured: false
   year: 2026
   title_es: "Mediciones Eléctricas II (2 prácticas)"
   subtitle_es: "Redes trifásicas desequilibradas y ensayos de aislación"
@@ -24,7 +89,7 @@
   case_study_es: /es/measurements-ii/
 
 - title: Electrical Measurements (7 Labs)
-  featured: true
+  featured: false
   year: 2025
   title_es: "Mediciones eléctricas (7 prácticas)"
   subtitle_es: "Metrología y medición de potencia trifásica"
@@ -45,7 +110,7 @@
       url: /assets/reports/measurements/tp7-three-phase-power.pdf
 
 - title: Electronics II (7 TPs)
-  featured: true
+  featured: false
   year: 2025
   title_es: "Electrónica II (7 TPs)"
   subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"

@@ -26,10 +26,17 @@ I compared an analog ammeter with a class-0.5 reference across six readings. The
 Balancing a DC bridge gave **479.12 Ω** for a resistor nominally rated **500 Ω**. The report calculates **8.227% uncertainty** and **4.14% relative difference** from the nominal value. This exercise shows how bridge balance and component tolerances affect the result.
 
 ### Three-phase power · TP7
+{: #three-phase-power }
 
-For a balanced three-wire setup, the two-wattmeter method gave readings of roughly **1010 W** and **688 W**. Applying the current-transformer ratio gives **3396 W indicated power**; the report separately calculates approximately **3383.77 W** after instrument-loading correction. Its conclusion uses the indicated figure, so the two values should not be treated as the same result.
-
-![Bench arrangement used for the three-phase power laboratory report]({{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }})
+<div class="case-study__evidence">
+  <div>
+    <p>For a balanced three-wire setup, the two-wattmeter method gave readings of roughly <strong>1010 W</strong> and <strong>688 W</strong>. Applying the current-transformer ratio gives <strong>3396 W indicated power</strong>; the report separately calculates approximately <strong>3383.77 W</strong> after instrument-loading correction. Its conclusion uses the indicated figure, so the two values should not be treated as the same result.</p>
+  </div>
+  <figure>
+    <a href="{{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }}"><img src="{{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }}" alt="Two-wattmeter bench arrangement used in the three-phase power laboratory report" loading="lazy"></a>
+    <figcaption>Two-wattmeter bench arrangement from the submitted TP7 report, page 7.</figcaption>
+  </figure>
+</div>
 
 ## Original reports
 

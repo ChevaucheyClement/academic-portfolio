@@ -25,9 +25,7 @@ layout: default
             {% assign case_href = p.case_study_es %}
             {% assign case_title = p.title_es %}
           {% endif %}
-          {% unless case_href == page.url %}
-            <li><a href="{{ case_href | relative_url }}">{{ case_title }} <span aria-hidden="true">→</span></a></li>
-          {% endunless %}
+          <li><a href="{{ case_href | relative_url }}">{{ case_title }} <span aria-hidden="true">→</span></a></li>
         {% endif %}
       {% endfor %}
     </ul>

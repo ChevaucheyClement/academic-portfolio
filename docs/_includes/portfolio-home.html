@@ -265,10 +265,14 @@
 
 
 
+    {% assign featured_count = 0 %}
+    {% for p in site.data.projects %}
+      {% if p.featured %}{% assign featured_count = featured_count | plus: 1 %}{% endif %}
+    {% endfor %}
     <span class="project-count">
 
 
-      {{ site.data.projects | size }}
+      {{ featured_count }}
 
       {{ t.projects.count }}
 

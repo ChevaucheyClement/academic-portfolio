@@ -26,10 +26,17 @@ Comparé un amperímetro analógico con un instrumento patrón de clase 0,5 en s
 El equilibrio de un puente de CC dio **479,12 Ω** para una resistencia de valor nominal **500 Ω**. El informe calcula una **incertidumbre del 8,227%** y una **diferencia relativa del 4,14%** respecto del valor nominal. La práctica muestra la influencia del equilibrio del puente y de las tolerancias de los componentes.
 
 ### Potencia trifásica · TP7
+{: #potencia-trifasica }
 
-En un sistema equilibrado de tres hilos, el método de dos vatímetros dio lecturas cercanas a **1010 W** y **688 W**. Al aplicar la relación de los transformadores de corriente se obtiene una **potencia indicada de 3396 W**; el informe calcula por separado aproximadamente **3383,77 W** tras corregir el consumo de los instrumentos. La conclusión utiliza la cifra indicada, por lo que no presento ambos valores como un único resultado.
-
-![Montaje utilizado en la práctica de medición de potencia trifásica]({{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }})
+<div class="case-study__evidence">
+  <div>
+    <p>En un sistema equilibrado de tres hilos, el método de dos vatímetros dio lecturas cercanas a <strong>1010 W</strong> y <strong>688 W</strong>. Al aplicar la relación de los transformadores de corriente se obtiene una <strong>potencia indicada de 3396 W</strong>; el informe calcula por separado aproximadamente <strong>3383,77 W</strong> tras corregir el consumo de los instrumentos. La conclusión utiliza la cifra indicada, por lo que no presento ambos valores como un único resultado.</p>
+  </div>
+  <figure>
+    <a href="{{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }}"><img src="{{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }}" alt="Montaje de dos vatímetros usado en la práctica de potencia trifásica" loading="lazy"></a>
+    <figcaption>Montaje de dos vatímetros del informe TP7 entregado, página 7.</figcaption>
+  </figure>
+</div>
 
 ## Informes originales
 

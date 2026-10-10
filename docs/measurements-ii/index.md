@@ -16,16 +16,25 @@ description: Supervised university laboratory work on three-phase phasors and in
 The two course reports bear my name. I took part in instrument setup, recorded readings and interpreted the results under the supervision of the teaching engineers.
 
 ## 1. Unbalanced three-phase network
+{: #three-phase-loads }
 
 **Task.** Observe how resistive, inductive and capacitive loads change the current phasors of a three-phase network.
 
 **Method.** We used resistive and capacitive load banks, a motor, three current transformers and a Fluke 434 power-quality analyzer. The bench readings were approximately 400 V line-to-line, 230 V phase-to-neutral and 50 Hz.
 
-**Result.** The voltage phasors remained roughly 120° apart. Current was approximately in phase with voltage for a resistive load, lagged with the motor, and led with capacitive loading. Reversing one current sensor shifted its displayed current phasor by 180°, demonstrating why sensor orientation and phase mapping matter.
-
-The report includes analyzer screens and photographs; its phasor findings are qualitative.
+<div class="case-study__evidence">
+  <div>
+    <p><strong>Result.</strong> The voltage phasors remained roughly 120° apart. Current was approximately in phase with voltage for a resistive load, lagged with the motor, and led with capacitive loading. Reversing one current sensor shifted its displayed current phasor by 180°, demonstrating why sensor orientation and phase mapping matter.</p>
+    <p>The report includes analyzer screens and photographs; its phasor findings are qualitative.</p>
+  </div>
+  <figure>
+    <a href="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}" alt="Power analyzer phasor display for the resistive load" loading="lazy"></a>
+    <figcaption>Resistive-load phasor screen from the submitted TP1 report, page 6.</figcaption>
+  </figure>
+</div>
 
 ## 2. Insulation-resistance measurements
+{: #insulation-testing }
 
 **Task.** Measure insulation resistance on a cable, dry transformer and motor, then calculate selected time-based ratios.
 
@@ -37,11 +46,16 @@ The report includes analyzer screens and photographs; its phasor findings are qu
 | 13.2 kV dry transformer | 749 MΩ at 1 min; 1.08 GΩ at 10 min | 10 min / 1 min ≈ 1.44 |
 | Motor | 352 MΩ at 1 min; 356 MΩ at 10 min | 10 min / 1 min ≈ 1.01 |
 
-![Power-quality analyzer and university laboratory bench used in the three-phase exercise]({{ '/assets/thumbs/measurements-ii-lab.jpg' | relative_url }})
-
-*Photograph from the submitted three-phase laboratory report.*
-
-Additional readings were 111 and 116 GΩ between cable neutral and phases, 208–218 MΩ from motor phase to earth, and 341–350 MΩ between motor phases. The ratios alone do not establish equipment condition or compliance.
+<div class="case-study__evidence">
+  <div>
+    <p>Additional readings were 111 and 116 GΩ between cable neutral and phases, 208–218 MΩ from motor phase to earth, and 341–350 MΩ between motor phases.</p>
+    <p>The ratios alone do not establish equipment condition or compliance.</p>
+  </div>
+  <figure>
+    <a href="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}" alt="Transformer insulation readings and resistance-ratio calculation from TP2" loading="lazy"></a>
+    <figcaption>Transformer readings and calculation from the submitted TP2 report, page 5. Excerpt of the original report.</figcaption>
+  </figure>
+</div>
 
 ## What this work shows
 

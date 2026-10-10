@@ -1235,6 +1235,9 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 
 .case-study p { margin-bottom: 18px; }
 .case-study img { display: block; width: 100%; border: 1px solid #d9e0dd; border-radius: 8px; }
+.case-study__evidence { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); gap: 26px; align-items: start; margin: 22px 0 30px; }
+.case-study__evidence figure { min-width: 0; margin: 0; }
+.case-study__evidence figcaption { margin-top: 8px; color: var(--pf-muted); font-size: .82rem; line-height: 1.5; }
 .case-study table { display: block; overflow-x: auto; border-collapse: collapse; margin: 24px 0; }
 .case-study th, .case-study td { padding: 11px 13px; border: 1px solid var(--pf-border, #dce4e8); text-align: left; vertical-align: top; }
 .case-study th { background: var(--pf-surface, #f3f6f8); }
@@ -1246,6 +1249,7 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
 .case-study__all { display: inline-block; margin-top: 8px; }
 
 @media (max-width: 680px) {
+  .case-study__evidence { grid-template-columns: 1fr; gap: 12px; }
   .case-study__next ul { grid-template-columns: 1fr; }
 }
 

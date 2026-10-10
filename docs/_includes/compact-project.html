@@ -12,6 +12,8 @@
   {% assign thumb_alt = p.thumb_alt_es | default: thumb_alt %}
 {% endif %}
 {% assign category_label = t.projects.card[p.category] | default: p.category | capitalize %}
+{% assign case_href = p.case_study %}
+{% if lang == 'es' and p.case_study_es %}{% assign case_href = p.case_study_es %}{% endif %}
 {% assign repo_href = p.repo %}
 {% assign repo_label = p.repo_label | default: t.projects.card.repo %}
 {% if lang == 'es' and p.repo_label_es %}{% assign repo_label = p.repo_label_es %}{% endif %}
@@ -40,6 +42,7 @@
     {% if project_subtitle %}<p class="compact-project__subtitle">{{ project_subtitle }}</p>{% endif %}
     <p class="compact-project__summary">{{ project_summary }}</p>
     <div class="compact-project__links">
+      {% if case_href %}<a href="{{ case_href | relative_url }}">{{ t.projects.card.case_study }} →</a>{% endif %}
       {% if repo_href %}<a href="{{ repo_href }}" target="_blank" rel="noopener noreferrer">{{ repo_label }} ↗</a>{% endif %}
       {% if p.demo %}<a href="{{ p.demo }}" target="_blank" rel="noopener noreferrer">{{ t.projects.card[p.demo_label] | default: t.projects.card.demo }} ↗</a>{% endif %}
       {% if report_href %}
