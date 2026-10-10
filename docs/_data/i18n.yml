@@ -1,7 +1,6 @@
 en:
 
   header:
-    profile: "Profile"
     projects: "Projects"
     experience: "Experience"
     cv: "CV"
@@ -59,30 +58,6 @@ en:
     computing:
       title: "Engineering computing"
       value: "Python · NumPy · Pandas · Matplotlib"
-
-
-
-  about:
-
-    kicker: "Profile"
-
-    title: "From coursework to measured results."
-
-    intro: >
-      Selected university work with original reports,
-      calculations and documented laboratory observations.
-
-    paragraphs:
-
-      - >
-        I study Electrical Engineering at UNSE. My documented
-        work includes electrical measurements, analog circuits,
-        digital logic and engineering computation.
-
-      - >
-        I am currently learning about load flow, short circuits,
-        protection concepts and industrial automation. I want
-        to apply these subjects in supervised engineering work.
 
 
 
@@ -341,7 +316,6 @@ en:
 es:
 
   header:
-    profile: "Perfil"
     projects: "Proyectos"
     experience: "Experiencia"
     cv: "CV"
@@ -424,38 +398,6 @@ es:
       title: "Computación aplicada"
 
       value: "Python · NumPy · Pandas · Matplotlib"
-
-
-
-
-  about:
-
-    kicker: "Perfil"
-
-    title: "De las prácticas a los resultados medidos."
-
-
-    intro: >
-      Trabajos universitarios seleccionados con informes
-      originales, cálculos y observaciones de laboratorio.
-
-
-    paragraphs:
-
-
-      - >
-        Estudio Ingeniería Eléctrica en la UNSE. Mis trabajos
-        documentados abarcan mediciones eléctricas, circuitos
-        analógicos, lógica digital y computación aplicada.
-
-
-      - >
-        Actualmente aprendo sobre flujo de carga,
-        cortocircuitos, conceptos de protección y
-        automatización industrial. Busco aplicar estos temas
-        en trabajos de ingeniería supervisados.
-
-
 
 
 

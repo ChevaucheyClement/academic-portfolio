@@ -173,7 +173,6 @@ html {
 /* Smooth theme changes */
 
 .page-content,
-.about-card,
 .projects-section,
 .portfolio-page .card,
 .timeline,
@@ -697,47 +696,6 @@ html {
   font-weight: 700;
 }
 
-
-/* =========================================================
-   ABOUT
-========================================================= */
-
-.about-layout {
-  display: grid;
-
-  grid-template-columns: 1fr;
-
-  gap: 24px;
-}
-
-.about-card {
-  border:
-    1px solid var(--pf-border);
-
-  border-radius:
-    var(--pf-radius-lg);
-
-  background:
-    var(--pf-surface);
-
-  box-shadow:
-    var(--pf-shadow);
-}
-
-.about-card {
-  padding:
-    clamp(28px, 4vw, 48px);
-}
-
-.about-card p {
-  max-width: 730px;
-
-  font-size: 1.02rem;
-}
-
-.about-card p:last-child {
-  margin-bottom: 0;
-}
 
 /* =========================================================
    PROJECT SECTION
@@ -1559,10 +1517,6 @@ html[data-theme="dark"] .portfolio-page .card__thumb--empty {
   .portfolio-page .grid {
     grid-template-columns:
       repeat(2, minmax(0, 1fr));
-  }
-
-  .about-layout {
-    grid-template-columns: 1fr;
   }
 
 }
