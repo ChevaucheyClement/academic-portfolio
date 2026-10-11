@@ -9,8 +9,8 @@
   tags: ["Three-phase measurements", "Phasors"]
   tags_es: ["Mediciones trifásicas", "Fasores"]
   category: measurements
-  case_study: /measurements-ii/#three-phase-loads
-  case_study_es: /es/measurements-ii/#cargas-trifasicas
+  case_study: /studies/tp1-three-phase-loads/
+  case_study_es: /es/studies/tp1-cargas-trifasicas/
   thumb: /assets/thumbs/three-phase-phasors-report.jpg
   thumb_fit: contain
   thumb_alt: "Power analyzer phasor screen for a resistive load, reproduced from the submitted TP1 report"
@@ -31,8 +31,8 @@
   tags: ["Three-phase power", "Instrument readings"]
   tags_es: ["Potencia trifásica", "Lecturas de instrumentos"]
   category: measurements
-  case_study: /measurements/#three-phase-power
-  case_study_es: /es/measurements/#potencia-trifasica
+  case_study: /studies/tp7-three-phase-power/
+  case_study_es: /es/studies/tp7-potencia-trifasica/
   thumb: /assets/thumbs/measurements-lab-aron.png
   thumb_alt: "Two-wattmeter bench arrangement photographed in the submitted TP7 report"
   thumb_alt_es: "Montaje de dos vatímetros fotografiado en el informe TP7 entregado"
@@ -52,8 +52,8 @@
   tags: ["Insulation resistance", "Laboratory measurements"]
   tags_es: ["Resistencia de aislación", "Mediciones de laboratorio"]
   category: measurements
-  case_study: /measurements-ii/#insulation-testing
-  case_study_es: /es/measurements-ii/#ensayos-de-aislacion
+  case_study: /studies/tp2-insulation-testing/
+  case_study_es: /es/studies/tp2-ensayos-de-aislacion/
   thumb: /assets/thumbs/insulation-transformer-table-report.jpg
   thumb_fit: contain
   thumb_alt: "Transformer insulation readings table from the submitted TP2 report"

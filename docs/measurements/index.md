@@ -13,7 +13,7 @@ description: Seven supervised electrical measurement labs with original reports 
 
 **Seven supervised laboratory TPs · Universidad Nacional de Santiago del Estero · 2025**
 
-The reports bearing my name document instrument setups, readings and calculations completed as university laboratory work under teaching supervision. They cover DC resistance methods, AC impedance, instrument accuracy and power measurement. The figures and values below come from the submitted reports.
+I wrote the reports, performed their calculations and drew their conclusions. The laboratory measurements and instrument work were generally carried out with classmates under the supervision of the teaching engineers. The reports cover DC resistance methods, AC impedance, instrument accuracy and power measurement. The figures and values below come from the submitted reports.
 
 ## Selected findings
 
@@ -27,6 +27,8 @@ Balancing a DC bridge gave **479.12 Ω** for a resistor nominally rated **500 Ω
 
 ### Three-phase power · TP7
 {: #three-phase-power }
+
+[Read the individual TP7 study]({{ '/studies/tp7-three-phase-power/' | relative_url }}).
 
 <div class="case-study__evidence">
   <div>

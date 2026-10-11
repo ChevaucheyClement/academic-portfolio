@@ -13,10 +13,12 @@ description: Prácticas universitarias supervisadas sobre fasores trifásicos y 
 
 **Dos informes de laboratorio supervisados · Universidad Nacional de Santiago del Estero · septiembre de 2026**
 
-Los dos informes de la cátedra llevan mi nombre. Participé en la configuración de instrumentos, registré lecturas e interpreté los resultados bajo la supervisión de los ingenieros docentes.
+Redacté ambos informes, realicé sus cálculos y elaboré sus conclusiones. Las mediciones y el trabajo con los instrumentos en el laboratorio se hicieron generalmente con compañeros, bajo la supervisión de los ingenieros docentes.
 
 ## 1. Red trifásica desequilibrada
 {: #cargas-trifasicas }
+
+[Leer el estudio individual del TP1]({{ '/es/studies/tp1-cargas-trifasicas/' | relative_url }}).
 
 **Objetivo.** Observar cómo las cargas resistivas, inductivas y capacitivas modifican los fasores de corriente de una red trifásica.
 
@@ -35,6 +37,8 @@ Los dos informes de la cátedra llevan mi nombre. Participé en la configuració
 
 ## 2. Mediciones de resistencia de aislación
 {: #ensayos-de-aislacion }
+
+[Leer el estudio individual del TP2]({{ '/es/studies/tp2-ensayos-de-aislacion/' | relative_url }}).
 
 **Objetivo.** Medir la resistencia de aislación de un cable, un transformador seco y un motor, y calcular algunas relaciones temporales.
 

@@ -2,7 +2,7 @@
 
 [English](README.md) · [Portfolio](https://chevaucheyclement.github.io/academic-portfolio/es/#projects)
 
-Dos informes a nombre de Clément Chevauchey se prepararon para Medidas Eléctricas II en la Universidad Nacional de Santiago del Estero en septiembre de 2026. Los ensayos se realizaron en laboratorios universitarios bajo supervisión de la cátedra. Esta página resume las observaciones de esos informes. No presenta los trabajos como una inspección independiente ni como ensayos profesionales de aceptación. No se utilizó código de análisis ni un script reproducible para estos informes.
+Clément Chevauchey redactó los dos informes de Medidas Eléctricas II, realizó sus cálculos y elaboró sus conclusiones en la Universidad Nacional de Santiago del Estero en septiembre de 2026. Las mediciones y el trabajo con los instrumentos se hicieron generalmente con compañeros, bajo la supervisión de los ingenieros docentes. Esta página resume las observaciones de esos informes. No presenta los trabajos como una inspección independiente ni como ensayos profesionales de aceptación. No se utilizó código de análisis ni un script reproducible para estos informes.
 
 ## Informes originales (español)
 

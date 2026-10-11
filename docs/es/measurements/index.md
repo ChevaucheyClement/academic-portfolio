@@ -13,7 +13,7 @@ description: Siete prácticas supervisadas de mediciones eléctricas con informe
 
 **Siete TP de laboratorio supervisados · Universidad Nacional de Santiago del Estero · 2025**
 
-Los informes que llevan mi nombre documentan montajes, lecturas y cálculos realizados en prácticas universitarias bajo supervisión docente. Tratan métodos de medición de resistencia en CC, impedancia en CA, clase de exactitud de instrumentos y potencia. Las imágenes y cifras siguientes proceden de los informes entregados.
+Redacté los informes, realicé sus cálculos y elaboré sus conclusiones. Las mediciones y el trabajo con los instrumentos en el laboratorio se hicieron generalmente con compañeros, bajo la supervisión de los ingenieros docentes. Los informes tratan métodos de medición de resistencia en CC, impedancia en CA, clase de exactitud de instrumentos y potencia. Las imágenes y cifras siguientes proceden de los informes entregados.
 
 ## Resultados seleccionados
 
@@ -27,6 +27,8 @@ El equilibrio de un puente de CC dio **479,12 Ω** para una resistencia de valor
 
 ### Potencia trifásica · TP7
 {: #potencia-trifasica }
+
+[Leer el estudio individual del TP7]({{ '/es/studies/tp7-potencia-trifasica/' | relative_url }}).
 
 <div class="case-study__evidence">
   <div>

@@ -2,7 +2,7 @@
 
 [Español](README.es.md) · [Portfolio](https://chevaucheyclement.github.io/academic-portfolio/#projects)
 
-Two reports bearing Clément Chevauchey's name were prepared for Electrical Measurements II at Universidad Nacional de Santiago del Estero in September 2026. The experiments took place in university laboratories under course supervision. This page summarizes observations from those reports. It does not claim an independent equipment inspection or a professional acceptance test. No analysis code or reproducible script was used for these reports.
+Clément Chevauchey wrote both Electrical Measurements II reports, performed their calculations and drew their conclusions at Universidad Nacional de Santiago del Estero in September 2026. Laboratory measurements and instrument work were generally carried out with classmates under the supervision of the teaching engineers. This page summarizes observations from those reports. It does not claim an independent equipment inspection or a professional acceptance test. No analysis code or reproducible script was used for these reports.
 
 ## Original reports (Spanish)
 

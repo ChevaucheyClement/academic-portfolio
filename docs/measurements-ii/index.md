@@ -13,10 +13,12 @@ description: Supervised university laboratory work on three-phase phasors and in
 
 **Two supervised laboratory reports · Universidad Nacional de Santiago del Estero · September 2026**
 
-The two course reports bear my name. I took part in instrument setup, recorded readings and interpreted the results under the supervision of the teaching engineers.
+I wrote both reports, performed their calculations and drew their conclusions. The laboratory measurements and instrument work were generally carried out with classmates under the supervision of the teaching engineers.
 
 ## 1. Unbalanced three-phase network
 {: #three-phase-loads }
+
+[Read the individual TP1 study]({{ '/studies/tp1-three-phase-loads/' | relative_url }}).
 
 **Task.** Observe how resistive, inductive and capacitive loads change the current phasors of a three-phase network.
 
@@ -35,6 +37,8 @@ The two course reports bear my name. I took part in instrument setup, recorded r
 
 ## 2. Insulation-resistance measurements
 {: #insulation-testing }
+
+[Read the individual TP2 study]({{ '/studies/tp2-insulation-testing/' | relative_url }}).
 
 **Task.** Measure insulation resistance on a cable, dry transformer and motor, then calculate selected time-based ratios.
 

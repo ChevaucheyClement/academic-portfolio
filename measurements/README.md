@@ -1,6 +1,6 @@
 # Electrical Measurements — seven labs
 
-Electrical Engineering coursework at UNSE in 2025, completed under course supervision. Each lab has an original Spanish report in its `es/` folder, plus figures from the reports. There are no English `report.pdf` files in these project folders.
+Electrical Engineering coursework at UNSE in 2025. I wrote the reports, performed their calculations and drew their conclusions. Laboratory measurements and instrument work were generally done with classmates under the supervision of the teaching engineers. Each lab has an original Spanish report in its `es/` folder, plus figures from the reports. There are no English `report.pdf` files in these project folders.
 
 | Lab | Topic | Summary |
 | --- | --- | --- |
