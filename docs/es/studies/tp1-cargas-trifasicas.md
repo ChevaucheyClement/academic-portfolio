@@ -13,6 +13,19 @@ description: Práctica supervisada de la UNSE con cargas resistivas, motor y cap
 
 **Mediciones Eléctricas II · Universidad Nacional de Santiago del Estero · 2026**
 
+## Resultado principal
+
+<div class="case-study__evidence">
+  <div>
+    <p>Los fasores de tensión permanecieron separados cerca de 120°. La corriente estuvo aproximadamente en fase con la tensión para la carga resistiva, atrasada con el motor y adelantada con una carga capacitiva. Al invertir un sensor de corriente, su fasor indicado giró 180°.</p>
+    <p class="case-study__report-links"><strong>Informe original:</strong> <a href="{{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}">Leer PDF</a> · <a href="{{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}" download>Descargar PDF</a></p>
+  </div>
+  <figure>
+    <a href="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}" alt="Pantalla de fasores del analizador para la carga resistiva" loading="lazy"></a>
+    <figcaption>Pantalla de fasores con carga resistiva del informe TP1 entregado, página 6.</figcaption>
+  </figure>
+</div>
+
 ## Mi aporte y contexto de la práctica
 
 Redacté el informe entregado, realicé sus cálculos y elaboré sus conclusiones. Las mediciones y el trabajo con los instrumentos se hicieron generalmente con compañeros, bajo la supervisión de los ingenieros docentes.
@@ -21,19 +34,6 @@ Redacté el informe entregado, realicé sus cálculos y elaboré sus conclusione
 
 Observamos cómo las cargas resistivas, inductivas y capacitivas afectaban los fasores de corriente de una red trifásica. Utilizamos bancos de cargas resistivas y capacitivas, un motor, tres transformadores de intensidad y un analizador de calidad de energía Fluke 434. En el banco se registraron aproximadamente 400 V entre fases, 230 V de fase a neutro y 50 Hz.
 
-## Resultado del informe
+## Alcance y límites
 
-<div class="case-study__evidence">
-  <div>
-    <p>Los fasores de tensión permanecieron separados cerca de 120°. La corriente estuvo aproximadamente en fase con la tensión para la carga resistiva, atrasada con el motor y adelantada con una carga capacitiva. Al invertir un sensor de corriente, su fasor indicado giró 180°.</p>
-    <p><strong>Límite.</strong> El informe documenta estas observaciones con pantallas del analizador y fotografías, sin una tabla numérica completa de corrientes y ángulos por fase. Es un resultado cualitativo de laboratorio.</p>
-  </div>
-  <figure>
-    <a href="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}" alt="Pantalla de fasores del analizador para la carga resistiva" loading="lazy"></a>
-    <figcaption>Pantalla de fasores con carga resistiva del informe TP1 entregado, página 6.</figcaption>
-  </figure>
-</div>
-
-## Informe original
-
-El informe tiene siete páginas y está en español: [Leer el PDF del TP1]({{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}" download>Descargar el PDF del TP1</a>.
+El informe documenta estas observaciones con pantallas del analizador y fotografías, sin una tabla numérica completa de corrientes y ángulos por fase. Es un resultado cualitativo de laboratorio.

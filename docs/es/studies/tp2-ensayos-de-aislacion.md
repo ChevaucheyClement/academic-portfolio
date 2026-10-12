@@ -13,6 +13,19 @@ description: Práctica supervisada de la UNSE con lecturas de aislación de un c
 
 **Mediciones Eléctricas II · Universidad Nacional de Santiago del Estero · 2026**
 
+## Resultado principal
+
+<div class="case-study__evidence">
+  <div>
+    <p>Se registraron lecturas de aislación de un cable, un transformador seco y un motor. La resistencia del transformador pasó de <strong>749 MΩ a 1 min</strong> a <strong>1,08 GΩ a 10 min</strong>: una relación cercana a <strong>1,44</strong>.</p>
+    <p class="case-study__report-links"><strong>Informe original:</strong> <a href="{{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}">Leer PDF</a> · <a href="{{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}" download>Descargar PDF</a></p>
+  </div>
+  <figure>
+    <a href="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}" alt="Lecturas de aislación del transformador y cálculo de la relación de resistencias del TP2" loading="lazy"></a>
+    <figcaption>Lecturas y cálculo del transformador en el informe TP2 entregado, página 5.</figcaption>
+  </figure>
+</div>
+
 ## Mi aporte y contexto de la práctica
 
 Redacté el informe entregado, realicé sus cálculos y elaboré sus conclusiones. Las mediciones y el trabajo con los instrumentos se hicieron generalmente con compañeros, bajo la supervisión de los ingenieros docentes.
@@ -21,7 +34,7 @@ Redacté el informe entregado, realicé sus cálculos y elaboré sus conclusione
 
 Medimos la resistencia de aislación de un cable de 0,6/1 kV, un transformador seco de 13,2 kV y un motor. En la práctica se utilizó un megóhmetro a 1 kV CC para el cable, 5 kV CC para el transformador y 500 V CC para el motor. Calculé relaciones temporales de resistencia a partir de lecturas seleccionadas.
 
-## Resultados del informe
+## Lecturas registradas
 
 | Elemento | Lecturas registradas | Relación temporal |
 | --- | --- | --- |
@@ -29,17 +42,6 @@ Medimos la resistencia de aislación de un cable de 0,6/1 kV, un transformador s
 | Transformador seco | 749 MΩ a 1 min; 1,08 GΩ a 10 min | 10 min / 1 min ≈ 1,44 |
 | Motor | 352 MΩ a 1 min; 356 MΩ a 10 min | 10 min / 1 min ≈ 1,01 |
 
-<div class="case-study__evidence">
-  <div>
-    <p>También se registraron 111 y 116 GΩ entre el neutro y las fases del cable, 208–218 MΩ entre fase y tierra del motor, y 341–350 MΩ entre fases del motor.</p>
-    <p><strong>Límite.</strong> Estas relaciones por sí solas no establecen el estado de los equipos, su aptitud para continuar en servicio ni su conformidad.</p>
-  </div>
-  <figure>
-    <a href="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}" alt="Lecturas de aislación del transformador y cálculo de la relación de resistencias del TP2" loading="lazy"></a>
-    <figcaption>Lecturas y cálculo del transformador en el informe TP2 entregado, página 5.</figcaption>
-  </figure>
-</div>
+<p>También se registraron 111 y 116 GΩ entre el neutro y las fases del cable, 208–218 MΩ entre fase y tierra del motor, y 341–350 MΩ entre fases del motor.</p>
 
-## Informe original
-
-El informe tiene cinco páginas y está en español: [Leer el PDF del TP2]({{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}" download>Descargar el PDF del TP2</a>.
+<p><strong>Límite.</strong> Estas relaciones por sí solas no establecen el estado de los equipos, su aptitud para continuar en servicio ni su conformidad.</p>
