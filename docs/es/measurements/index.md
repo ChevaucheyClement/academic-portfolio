@@ -4,54 +4,40 @@ title: Mediciones Eléctricas | Siete informes de laboratorio
 lang: es
 translation: /measurements/
 permalink: /es/measurements/
-description: Siete prácticas supervisadas de mediciones eléctricas con informes originales sobre instrumentos, resistencia, impedancia y potencia.
+description: Índice de siete prácticas supervisadas de mediciones eléctricas con informes originales sobre instrumentos, resistencia, impedancia y potencia.
 ---
 
 [← Volver a proyectos]({{ '/es/#projects' | relative_url }})
 
 # Mediciones Eléctricas
 
-**Siete TP de laboratorio supervisados · Universidad Nacional de Santiago del Estero · 2025**
+**Siete informes de laboratorio · Universidad Nacional de Santiago del Estero · 2025**
 
-Redacté los informes, realicé sus cálculos y elaboré sus conclusiones. Las mediciones y el trabajo con los instrumentos en el laboratorio se hicieron generalmente con compañeros, bajo la supervisión de los ingenieros docentes. Los informes tratan métodos de medición de resistencia en CC, impedancia en CA, clase de exactitud de instrumentos y potencia. Las imágenes y cifras siguientes proceden de los informes entregados.
+Redacté los informes, realicé sus cálculos y elaboré sus conclusiones. Las mediciones y el trabajo con los instrumentos en el laboratorio se hicieron generalmente con compañeros, bajo la supervisión de los ingenieros docentes. Los siete informes originales están en español.
 
-## Resultados seleccionados
+## Informes
 
-### Clase de exactitud de un amperímetro · TP1
+- **TP1 · Clase de exactitud de un amperímetro.** Se comparó un amperímetro analógico con un instrumento patrón de clase 0,5 y se estimó su clase a partir de los errores de indicación registrados. Las lecturas publicadas corresponden al amperímetro.<br>
+  [Leer PDF]({{ '/assets/reports/measurements/tp1-ammeter-class.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp1-ammeter-class.pdf' | relative_url }}" download>Descargar PDF</a>
 
-Comparé un amperímetro analógico con un instrumento patrón de clase 0,5 en seis lecturas. El mayor error absoluto registrado fue **0,01 A**; dividido por el alcance de **1,2 A**, dio aproximadamente **0,84%**, redondeado a **clase 1**. Las lecturas publicadas corresponden al amperímetro, aunque el enunciado también menciona un voltímetro.
+- **TP2 · Resistencia por los métodos voltímetro–amperímetro.** Se compararon las conexiones corta y larga y se calculó cómo la carga de los instrumentos afecta la estimación de resistencia.<br>
+  [Leer PDF]({{ '/assets/reports/measurements/tp2-volt-ampere.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp2-volt-ampere.pdf' | relative_url }}" download>Descargar PDF</a>
 
-### Puente de Wheatstone · TP4
+- **TP3 · Resistencia por comparación y sustitución.** Se aplicaron dos métodos distintos de medición en CC y se calcularon los resultados y las incertidumbres de cada uno.<br>
+  [Leer PDF]({{ '/assets/reports/measurements/tp3-comparison-substitution.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp3-comparison-substitution.pdf' | relative_url }}" download>Descargar PDF</a>
 
-El equilibrio de un puente de CC dio **479,12 Ω** para una resistencia de valor nominal **500 Ω**. El informe calcula una **incertidumbre del 8,227%** y una **diferencia relativa del 4,14%** respecto del valor nominal. La práctica muestra la influencia del equilibrio del puente y de las tolerancias de los componentes.
+- **TP4 · Puente de Wheatstone.** Se equilibró un puente de CC para estimar una resistencia y compararla con su valor nominal.<br>
+  [Leer PDF]({{ '/assets/reports/measurements/tp4-wheatstone-bridge.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp4-wheatstone-bridge.pdf' | relative_url }}" download>Descargar PDF</a>
 
-### Potencia trifásica · TP7
-{: #potencia-trifasica }
+- **TP5 · Métodos de tres voltímetros y tres amperímetros.** Se utilizaron ambos métodos en CA para estimar una impedancia RL y evaluar la incertidumbre.<br>
+  [Leer PDF]({{ '/assets/reports/measurements/tp5-three-meters.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp5-three-meters.pdf' | relative_url }}" download>Descargar PDF</a>
 
-[Leer el estudio individual del TP7]({{ '/es/studies/tp7-potencia-trifasica/' | relative_url }}).
+- **TP6 · Potencia monofásica con un vatímetro.** Se midió potencia con un vatímetro y un transformador de corriente; luego se examinaron potencia aparente, factor de potencia y correcciones por consumo de los instrumentos.<br>
+  [Leer PDF]({{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}" download>Descargar PDF</a>
 
-<div class="case-study__evidence">
-  <div>
-    <p>En un sistema equilibrado de tres hilos, el método de dos vatímetros dio lecturas cercanas a <strong>1010 W</strong> y <strong>688 W</strong>. Al aplicar la relación de los transformadores de corriente se obtiene una <strong>potencia indicada de 3396 W</strong>; el informe calcula por separado aproximadamente <strong>3383,77 W</strong> tras corregir el consumo de los instrumentos. La conclusión utiliza la cifra indicada, por lo que no presento ambos valores como un único resultado.</p>
-  </div>
-  <figure>
-    <a href="{{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }}"><img src="{{ '/assets/thumbs/measurements-lab-aron.png' | relative_url }}" alt="Montaje de dos vatímetros usado en la práctica de potencia trifásica" loading="lazy"></a>
-    <figcaption>Montaje de dos vatímetros del informe TP7 entregado, página 7.</figcaption>
-  </figure>
-</div>
+<span id="potencia-trifasica"></span>
 
-## Informes originales
+- **TP7 · Potencia trifásica por el método de dos vatímetros.** Se utilizaron dos vatímetros y transformadores de corriente en un sistema equilibrado de tres hilos. El [estudio individual del TP7]({{ '/es/studies/tp7-potencia-trifasica/' | relative_url }}) explica las cifras de potencia indicada y corregida.<br>
+  [Leer PDF]({{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}" download>Descargar PDF</a>
 
-Los siete informes entregados están en español. Cada PDF se puede abrir en el navegador o descargar:
-
-| TP | Tema | PDF |
-| --- | --- | --- |
-| 1 | Clase de exactitud de un amperímetro | [Leer]({{ '/assets/reports/measurements/tp1-ammeter-class.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp1-ammeter-class.pdf' | relative_url }}" download>Descargar</a> |
-| 2 | Resistencia por conexiones corta y larga | [Leer]({{ '/assets/reports/measurements/tp2-volt-ampere.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp2-volt-ampere.pdf' | relative_url }}" download>Descargar</a> |
-| 3 | Resistencia por comparación y sustitución | [Leer]({{ '/assets/reports/measurements/tp3-comparison-substitution.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp3-comparison-substitution.pdf' | relative_url }}" download>Descargar</a> |
-| 4 | Puente de Wheatstone | [Leer]({{ '/assets/reports/measurements/tp4-wheatstone-bridge.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp4-wheatstone-bridge.pdf' | relative_url }}" download>Descargar</a> |
-| 5 | Impedancia por tres voltímetros y tres amperímetros | [Leer]({{ '/assets/reports/measurements/tp5-three-meters.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp5-three-meters.pdf' | relative_url }}" download>Descargar</a> |
-| 6 | Potencia monofásica con un vatímetro | [Leer]({{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}" download>Descargar</a> |
-| 7 | Potencia trifásica por el método de Aron | [Leer]({{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}" download>Descargar</a> |
-
-Los [resúmenes de cada TP en GitHub](https://github.com/ChevaucheyClement/academic-portfolio/tree/main/measurements) explican el método y las inconsistencias de cada informe. No se utilizaron scripts de análisis para producir estos trabajos.
+Las [notas de los proyectos en GitHub](https://github.com/ChevaucheyClement/academic-portfolio/tree/main/measurements) documentan los métodos y las inconsistencias conocidas en algunos cálculos entregados. No se utilizaron scripts de análisis para producir estos informes.

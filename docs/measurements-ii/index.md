@@ -1,73 +1,34 @@
 ---
 layout: case-study
-title: Electrical Measurements II | Laboratory case study
+title: Electrical Measurements II | Laboratory reports
 lang: en
 translation: /es/measurements-ii/
 permalink: /measurements-ii/
-description: Supervised university laboratory work on three-phase phasors and insulation-resistance measurements.
+description: Two supervised university laboratory reports on three-phase loads and insulation-resistance measurements.
 ---
 
 [← Back to projects]({{ '/#projects' | relative_url }})
 
 # Electrical Measurements II
 
-**Two supervised laboratory reports · Universidad Nacional de Santiago del Estero · September 2026**
+**Two laboratory reports · Universidad Nacional de Santiago del Estero · September 2026**
 
-I wrote both reports, performed their calculations and drew their conclusions. The laboratory measurements and instrument work were generally carried out with classmates under the supervision of the teaching engineers.
+I wrote both reports, performed their calculations and drew their conclusions. The laboratory measurements and instrument work were generally carried out with classmates under the supervision of the teaching engineers. Both original reports are in Spanish.
 
-## 1. Unbalanced three-phase network
+## Reports
+
+### TP1 · Unbalanced three-phase network
 {: #three-phase-loads }
 
-[Read the individual TP1 study]({{ '/studies/tp1-three-phase-loads/' | relative_url }}).
+Resistive, motor and capacitive loads were used to observe changes in current phasors. The report documents analyzer screens and qualitative observations, including the effect of reversing a current sensor.
 
-**Task.** Observe how resistive, inductive and capacitive loads change the current phasors of a three-phase network.
+[Read the TP1 study]({{ '/studies/tp1-three-phase-loads/' | relative_url }}) · [Read original PDF]({{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}" download>Download PDF</a>
 
-**Method.** We used resistive and capacitive load banks, a motor, three current transformers and a Fluke 434 power-quality analyzer. The bench readings were approximately 400 V line-to-line, 230 V phase-to-neutral and 50 Hz.
-
-<div class="case-study__evidence">
-  <div>
-    <p><strong>Result.</strong> The voltage phasors remained roughly 120° apart. Current was approximately in phase with voltage for a resistive load, lagged with the motor, and led with capacitive loading. Reversing one current sensor shifted its displayed current phasor by 180°, demonstrating why sensor orientation and phase mapping matter.</p>
-    <p>The report includes analyzer screens and photographs; its phasor findings are qualitative.</p>
-  </div>
-  <figure>
-    <a href="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/three-phase-phasors-report.jpg' | relative_url }}" alt="Power analyzer phasor display for the resistive load" loading="lazy"></a>
-    <figcaption>Resistive-load phasor screen from the submitted TP1 report, page 6.</figcaption>
-  </figure>
-</div>
-
-## 2. Insulation-resistance measurements
+### TP2 · Insulation-resistance measurements
 {: #insulation-testing }
 
-[Read the individual TP2 study]({{ '/studies/tp2-insulation-testing/' | relative_url }}).
+A cable, dry transformer and motor were tested with a megohmmeter. The report records resistance readings and selected time-based ratios; those ratios alone do not establish equipment condition.
 
-**Task.** Measure insulation resistance on a cable, dry transformer and motor, then calculate selected time-based ratios.
+[Read the TP2 study]({{ '/studies/tp2-insulation-testing/' | relative_url }}) · [Read original PDF]({{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}" download>Download PDF</a>
 
-**Method.** We used a megohmmeter at 1 kV DC for the cable, 5 kV DC for the dry transformer and 500 V DC for the motor. The table reproduces readings and rounded ratios from the submitted report.
-
-| Test object | Recorded readings | Time ratio |
-| --- | --- | --- |
-| 0.6/1 kV cable | 114 GΩ at 30 s; 116 GΩ at 60 s | 60 s / 30 s ≈ 1.02 |
-| 13.2 kV dry transformer | 749 MΩ at 1 min; 1.08 GΩ at 10 min | 10 min / 1 min ≈ 1.44 |
-| Motor | 352 MΩ at 1 min; 356 MΩ at 10 min | 10 min / 1 min ≈ 1.01 |
-
-<div class="case-study__evidence">
-  <div>
-    <p>Additional readings were 111 and 116 GΩ between cable neutral and phases, 208–218 MΩ from motor phase to earth, and 341–350 MΩ between motor phases.</p>
-    <p>The ratios alone do not establish equipment condition or compliance.</p>
-  </div>
-  <figure>
-    <a href="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}"><img src="{{ '/assets/thumbs/insulation-readings-report.jpg' | relative_url }}" alt="Transformer insulation readings and resistance-ratio calculation from TP2" loading="lazy"></a>
-    <figcaption>Transformer readings and calculation from the submitted TP2 report, page 5. Excerpt of the original report.</figcaption>
-  </figure>
-</div>
-
-## What this work shows
-
-Instrument setup, phasor interpretation, resistance readings, ratio calculations and technical reporting. The [English project summary](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.md) gives more detail.
-
-## Original reports
-
-Both submitted reports are in Spanish and can be opened in the browser or downloaded:
-
-- **TP1 — Unbalanced three-phase network (7 pages):** [Read PDF]({{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf' | relative_url }}" download>Download PDF</a>
-- **TP2 — Insulation testing (5 pages):** [Read PDF]({{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements-ii/tp2-insulation-testing.pdf' | relative_url }}" download>Download PDF</a>
+The [project notes on GitHub](https://github.com/ChevaucheyClement/academic-portfolio/blob/main/measurements-ii/README.md) provide additional context. No analysis script was used to produce these reports.
