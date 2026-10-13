@@ -35,9 +35,7 @@ I wrote the reports, performed their calculations and drew their conclusions. Th
 - **TP6 · Single-phase power with a wattmeter.** Measured power with a wattmeter and current transformer, then examined apparent power, power factor and instrument-loading corrections.<br>
   [Read PDF]({{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}" download>Download PDF</a>
 
-<span id="three-phase-power"></span>
-
-- **TP7 · Three-phase power by the two-wattmeter method.** Used two wattmeters and current transformers in a balanced three-wire setup. The [individual TP7 study]({{ '/studies/tp7-three-phase-power/' | relative_url }}) explains the indicated and corrected power figures.<br>
+- <span id="three-phase-power"></span>**TP7 · Three-phase power by the two-wattmeter method.** Used two wattmeters and current transformers in a balanced three-wire setup. The [individual TP7 study]({{ '/studies/tp7-three-phase-power/' | relative_url }}) explains the indicated and corrected power figures.<br>
   [Read PDF]({{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}" download>Download PDF</a>
 
 The [project notes on GitHub](https://github.com/ChevaucheyClement/academic-portfolio/tree/main/measurements) document methods and known inconsistencies in some submitted calculations. No analysis script was used to produce these reports.

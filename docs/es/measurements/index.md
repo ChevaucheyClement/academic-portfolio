@@ -35,9 +35,7 @@ Redacté los informes, realicé sus cálculos y elaboré sus conclusiones. Las m
 - **TP6 · Potencia monofásica con un vatímetro.** Se midió potencia con un vatímetro y un transformador de corriente; luego se examinaron potencia aparente, factor de potencia y correcciones por consumo de los instrumentos.<br>
   [Leer PDF]({{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp6-single-phase-power.pdf' | relative_url }}" download>Descargar PDF</a>
 
-<span id="potencia-trifasica"></span>
-
-- **TP7 · Potencia trifásica por el método de dos vatímetros.** Se utilizaron dos vatímetros y transformadores de corriente en un sistema equilibrado de tres hilos. El [estudio individual del TP7]({{ '/es/studies/tp7-potencia-trifasica/' | relative_url }}) explica las cifras de potencia indicada y corregida.<br>
+- <span id="potencia-trifasica"></span>**TP7 · Potencia trifásica por el método de dos vatímetros.** Se utilizaron dos vatímetros y transformadores de corriente en un sistema equilibrado de tres hilos. El [estudio individual del TP7]({{ '/es/studies/tp7-potencia-trifasica/' | relative_url }}) explica las cifras de potencia indicada y corregida.<br>
   [Leer PDF]({{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}) · <a href="{{ '/assets/reports/measurements/tp7-three-phase-power.pdf' | relative_url }}" download>Descargar PDF</a>
 
 Las [notas de los proyectos en GitHub](https://github.com/ChevaucheyClement/academic-portfolio/tree/main/measurements) documentan los métodos y las inconsistencias conocidas en algunos cálculos entregados. No se utilizaron scripts de análisis para producir estos informes.
