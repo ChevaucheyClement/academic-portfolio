@@ -46,7 +46,9 @@
 
   // Auto-select only at the default homepage; explicit language URLs remain stable.
   if (location.pathname === routes.en) {
-    const language = savedLanguage() || detectedLanguage();
+    const explicitEnglish = new URLSearchParams(location.search).get('lang') === 'en';
+    if (explicitEnglish) rememberLanguage('en');
+    const language = explicitEnglish ? 'en' : (savedLanguage() || detectedLanguage());
     if (language !== 'en') location.replace(routes[language] + location.search + location.hash);
   }
 
