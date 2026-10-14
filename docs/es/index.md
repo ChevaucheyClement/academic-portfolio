@@ -2,6 +2,7 @@
 layout: landing
 title: "Portafolio de ingeniería eléctrica"
 lang: es
+translation_key: home
 translation: /
 description: "Estudiante de Ingeniería Eléctrica en la UNSE con informes supervisados de mediciones y circuitos e interés en sistemas de potencia."
 permalink: /es/

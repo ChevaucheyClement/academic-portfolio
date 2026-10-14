@@ -674,3 +674,195 @@ es:
   footer:
     tagline: "Ingeniería eléctrica · Mediciones · Sistemas de potencia"
     build: "Versión"
+
+fr:
+  header:
+    projects: "Projets"
+    experience: "Parcours"
+    cv: "CV"
+    contact: "Contact"
+    theme: "Clair"
+    home: "Clément Chevauchey — Accueil"
+    navigation: "Navigation principale"
+    menu: "Ouvrir le menu de navigation"
+
+  hero:
+    eyebrow: "Génie électrique · Mesures · Réseaux électriques"
+    title:
+      first: "Clément"
+      last: "Chevauchey"
+    heading:
+      before: "Étudiant en génie électrique à l'UNSE, je m'intéresse de plus en plus aux"
+      highlight: "réseaux électriques."
+    intro: >
+      Mes comptes rendus de travaux pratiques encadrés portent sur les mesures
+      triphasées, les essais d'isolement et les circuits. Je souhaite mettre
+      ces bases en pratique dans le domaine de l'énergie électrique tout en
+      poursuivant ma formation.
+    buttons:
+      projects: "Voir les projets"
+      cv: "Voir le CV"
+      github: "GitHub ↗"
+    availability: >
+      Ouvert aux stages et aux premières expériences en génie électrique,
+      en Argentine ou à distance.
+
+  technical:
+    label: "Comptes rendus originaux · en espagnol"
+    native: "Langue maternelle"
+    headline: "Travaux pratiques liés à l'énergie électrique"
+    work:
+      - title: "TP1 · Charges triphasées"
+        detail: "Déphasages avec charges résistives, moteur et condensateurs"
+        href: /assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf
+      - title: "TP7 · Puissance triphasée"
+        detail: "Deux wattmètres et transformateurs de courant"
+        href: /assets/reports/measurements/tp7-three-phase-power.pdf
+      - title: "TP2 · Résistance d'isolement"
+        detail: "Mesures sur un câble, un transformateur et un moteur"
+        href: /assets/reports/measurements-ii/tp2-insulation-testing.pdf
+
+  projects:
+    kicker: "Travaux sélectionnés"
+    related_title: "Études à la une"
+    all_projects: "Tous les projets"
+    title: "Projets de génie électrique."
+    description: >
+      Commencez par mes travaux pratiques d'électricité. Chaque étude
+      présentée relie ses résultats au compte rendu original.
+    more_title: "Séries de TP et autres travaux"
+    more_description: >
+      Retrouvez toutes les séries de TP ainsi que d'autres travaux en
+      électronique, logique, informatique et thermodynamique.
+    count: "études à la une"
+    card:
+      image: "Aperçu"
+      repo: "Dépôt"
+      case_study: "Voir l'étude"
+      findings: "Lire les résultats"
+      all_reports: "Voir tous les comptes rendus"
+      topics: "Sujets"
+      report: "Compte rendu (ES)"
+      web: "Web"
+      electronics: "Électronique"
+      measurements: "Mesures"
+      logic: "Logique"
+      power: "Thermodynamique"
+      demo: "Site en ligne"
+      project_page: "Page du projet"
+
+  skills:
+    kicker: "Compétences techniques"
+    title: "Méthodes, outils et matières étudiées."
+    description: >
+      Des travaux documentés dans les comptes rendus publiés, des outils
+      que j'ai utilisés et des sujets que j'étudie actuellement.
+    documented:
+      title: "Documenté dans les comptes rendus"
+      items:
+        - "Analyse de circuits"
+        - "Mesures triphasées et diagrammes de Fresnel"
+        - "Mesures de résistance d'isolement"
+        - "Simulation de circuits et observations au laboratoire"
+        - "Rédaction de comptes rendus et interprétation des données"
+    tools:
+      title: "Outils utilisés"
+      items:
+        - "LTspice et Proteus"
+        - "MATLAB et Scilab"
+        - "Python, NumPy, Pandas et Matplotlib"
+    learning:
+      title: "En cours d'apprentissage"
+      items:
+        - "Transport et distribution de l'énergie électrique"
+        - "Machines électriques et transformateurs"
+        - "Systèmes de commande"
+
+  dates:
+    present: "Actuellement"
+    since_2016: "Depuis 2016"
+    teaching: "2022 — 2025"
+    cambridge: "Décembre 2025"
+    cs50: "Août 2025"
+    r: "Août 2023"
+
+  experience:
+    kicker: "Parcours"
+    title: "Formation et expérience."
+    education:
+      title: "Génie électrique"
+      institution: "Universidad Nacional de Santiago del Estero"
+      year: "3e année"
+      gpa: "Moyenne : 8,1 / 10"
+      description: >
+        Formation en circuits, électromagnétisme, électronique,
+        systèmes électriques, mathématiques, physique et calcul pour
+        l'ingénierie. Des cours validés par équivalence portent aussi
+        sur les méthodes numériques, les probabilités et statistiques,
+        et le dessin technique.
+    teaching:
+      title: "Assistant d'enseignement universitaire"
+      institution: "Universidad Nacional de Santiago del Estero"
+      bullets:
+        - >
+          Enseignement des algorithmes et du pseudo-code avec PSeInt,
+          ainsi que de la programmation scientifique avec Scilab,
+          à des étudiants en ingénierie.
+        - >
+          Enseignement de Microsoft Word, Excel et Access à des étudiants
+          de filières scientifiques, notamment en biotechnologie et en chimie.
+        - >
+          Explication de concepts techniques par des exercices pratiques,
+          auprès d'environ 120 étudiants par an.
+    tutor:
+      title: "Professeur particulier"
+      institution: "Indépendant"
+      description: >
+        Cours particuliers d'anglais, de français, de mathématiques
+        et de sciences à des élèves du secondaire, axés sur les méthodes
+        de travail, la résolution de problèmes et le soutien scolaire.
+
+  certifications:
+    kicker: "Formation complémentaire"
+    title: "Certifications"
+    cambridge:
+      title: "C1 Advanced"
+      issuer: "Cambridge English"
+      description: >
+        Mention A à l'examen Cambridge C1 Advanced, correspondant
+        au niveau C2 du CECRL.
+    cs50:
+      title: "CS50x : Introduction to Computer Science"
+      issuer: "Université Harvard"
+      description: >
+        Algorithmes, structures de données, programmation et développement
+        web ; projet final individuel réalisé.
+    r:
+      title: "R for Research"
+      issuer: "CONICET"
+      description: >
+        Formation de 20 heures à l'analyse de données de recherche avec R.
+
+  cv:
+    kicker: "Curriculum vitæ"
+    title: "Vous préférez un CV classique ?"
+    description: "Mon CV est disponible en anglais et en espagnol."
+    english: "CV en anglais ↗"
+    spanish: "CV en espagnol ↗"
+
+  contact:
+    kicker: "Contact"
+    title: "À la recherche d'un stage ou d'un travail encadré en réseaux électriques."
+    description: >
+      Je recherche un stage ou une première expérience dans les réseaux
+      électriques, le transport et la distribution d'énergie, ou un domaine
+      voisin. Mes comptes rendus de laboratoire témoignent de bases en
+      mesures électriques et en circuits que je souhaite développer
+      au sein d'une équipe d'ingénierie.
+    email: "M'écrire"
+    linkedin: "LinkedIn ↗"
+    github: "GitHub ↗"
+
+  footer:
+    tagline: "Génie électrique · Mesures · Réseaux électriques"
+    build: "Version"

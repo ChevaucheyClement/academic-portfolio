@@ -2,6 +2,7 @@
 layout: case-study
 title: Electrical Measurements II | Laboratory reports
 lang: en
+translation_key: measurements_ii
 translation: /es/measurements-ii/
 permalink: /measurements-ii/
 description: Two supervised university laboratory reports on three-phase loads and insulation-resistance measurements.

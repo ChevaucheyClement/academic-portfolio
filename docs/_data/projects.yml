@@ -1,110 +1,145 @@
 - title: TP1 · Unbalanced Three-Phase Loads
   title_es: "TP1 · Cargas trifásicas desequilibradas"
+  title_fr: "TP1 · Charges triphasées déséquilibrées"
   featured: true
   year: 2026
   subtitle: Resistive, motor and capacitive load measurements
   subtitle_es: "Mediciones con cargas resistivas, inductivas y capacitivas"
+  subtitle_fr: "Mesures avec charges résistives, moteur et condensateurs"
   summary: "Observed current lead or lag as the load changed; reversing one current sensor shifted its displayed phasor by 180°."
   summary_es: "Observé cómo se adelantaba o atrasaba la corriente según la carga; al invertir una pinza, el fasor indicado giró 180°."
+  summary_fr: "Le courant était en avance ou en retard selon la charge ; l'inversion d'un capteur de courant a décalé son vecteur affiché de 180°."
   tags: ["Three-phase measurements", "Phasors"]
   tags_es: ["Mediciones trifásicas", "Fasores"]
+  tags_fr: ["Mesures triphasées", "Diagrammes de Fresnel"]
   category: measurements
   case_study: /studies/tp1-three-phase-loads/
   case_study_es: /es/studies/tp1-cargas-trifasicas/
+  case_study_fr: /fr/studies/tp1-charges-triphasees/
   thumb: /assets/thumbs/three-phase-phasors-report.jpg
   thumb_fit: contain
   thumb_alt: "Power analyzer phasor screen for a resistive load, reproduced from the submitted TP1 report"
   thumb_alt_es: "Pantalla de fasores del analizador para una carga resistiva, tomada del informe TP1 entregado"
+  thumb_alt_fr: "Écran des vecteurs de l'analyseur pour une charge résistive, tiré du compte rendu TP1 remis"
   reports:
     - label: "Original TP1 PDF"
       label_es: "Informe TP1 original"
+      label_fr: "Compte rendu TP1 original (ES)"
       url: /assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf
 
 - title: TP7 · Three-Phase Power Measurement
   title_es: "TP7 · Medición de potencia trifásica"
+  title_fr: "TP7 · Mesure de puissance triphasée"
   featured: true
   year: 2025
   subtitle: Two-wattmeter method with current transformers
   subtitle_es: "Método de dos vatímetros con transformadores de corriente"
+  subtitle_fr: "Méthode des deux wattmètres avec transformateurs de courant"
   summary: "Two wattmeters read about 1010 W and 688 W; applying the current-transformer ratio gave 3396 W indicated power."
   summary_es: "Dos vatímetros indicaron cerca de 1010 W y 688 W; al aplicar la relación de transformación se obtuvieron 3396 W de potencia indicada."
+  summary_fr: "Les wattmètres indiquaient environ 1 010 W et 688 W ; après application du rapport des transformateurs de courant, la puissance indiquée était de 3 396 W."
   tags: ["Three-phase power", "Instrument readings"]
   tags_es: ["Potencia trifásica", "Lecturas de instrumentos"]
+  tags_fr: ["Puissance triphasée", "Mesures instrumentales"]
   category: measurements
   case_study: /studies/tp7-three-phase-power/
   case_study_es: /es/studies/tp7-potencia-trifasica/
+  case_study_fr: /fr/studies/tp7-puissance-triphasee/
   thumb: /assets/thumbs/measurements-lab-aron.png
   thumb_alt: "Two-wattmeter bench arrangement photographed in the submitted TP7 report"
   thumb_alt_es: "Montaje de dos vatímetros fotografiado en el informe TP7 entregado"
+  thumb_alt_fr: "Montage à deux wattmètres photographié dans le compte rendu TP7 remis"
   reports:
     - label: "Original TP7 PDF"
       label_es: "Informe TP7 original"
+      label_fr: "Compte rendu TP7 original (ES)"
       url: /assets/reports/measurements/tp7-three-phase-power.pdf
 
 - title: TP2 · Insulation-Resistance Tests
   title_es: "TP2 · Ensayos de resistencia de aislación"
+  title_fr: "TP2 · Essais de résistance d'isolement"
   featured: true
   year: 2026
   subtitle: Cable, dry transformer and motor measurements
   subtitle_es: "Mediciones en cable, transformador seco y motor"
+  subtitle_fr: "Mesures sur un câble, un transformateur sec et un moteur"
   summary: "Recorded insulation readings for three test objects; the transformer’s 10 min / 1 min resistance ratio was about 1.44."
   summary_es: "Registré lecturas de aislación de tres elementos; la relación entre las resistencias del transformador a 10 y 1 min fue cercana a 1,44."
+  summary_fr: "Des résistances d'isolement ont été relevées sur trois équipements ; le rapport entre les valeurs du transformateur à 10 et à 1 min était proche de 1,44."
   tags: ["Insulation resistance", "Laboratory measurements"]
   tags_es: ["Resistencia de aislación", "Mediciones de laboratorio"]
+  tags_fr: ["Résistance d'isolement", "Mesures de laboratoire"]
   category: measurements
   case_study: /studies/tp2-insulation-testing/
   case_study_es: /es/studies/tp2-ensayos-de-aislacion/
+  case_study_fr: /fr/studies/tp2-resistance-isolement/
   thumb: /assets/thumbs/insulation-transformer-table-report.jpg
   thumb_fit: contain
   thumb_alt: "Transformer insulation readings table from the submitted TP2 report"
   thumb_alt_es: "Tabla de lecturas de aislación del transformador del informe TP2 entregado"
+  thumb_alt_fr: "Tableau des mesures d'isolement du transformateur dans le compte rendu TP2 remis"
   reports:
     - label: "Original TP2 PDF"
       label_es: "Informe TP2 original"
+      label_fr: "Compte rendu TP2 original (ES)"
       url: /assets/reports/measurements-ii/tp2-insulation-testing.pdf
 
 - title: Electrical Measurements II (2 Labs)
   featured: false
   year: 2026
   title_es: "Mediciones Eléctricas II (2 prácticas)"
+  title_fr: "Mesures électriques II (2 TP)"
   subtitle_es: "Redes trifásicas desequilibradas y ensayos de aislación"
+  subtitle_fr: "Réseaux triphasés déséquilibrés et essais d'isolement"
   summary: "Three-phase current changed with the load type; recorded insulation readings for a cable, transformer and motor."
   summary_es: "La corriente trifásica cambió según la carga; registré lecturas de aislación de un cable, un transformador y un motor."
+  summary_fr: "Le courant triphasé variait selon la charge ; des résistances d'isolement ont été relevées sur un câble, un transformateur et un moteur."
   tags: ["Three-phase systems", "Insulation testing"]
   tags_es: ["Sistemas trifásicos", "Ensayos de aislación"]
+  tags_fr: ["Réseaux triphasés", "Essais d'isolement"]
   category: measurements
   path: measurements-ii
   subtitle: Unbalanced three-phase networks and insulation testing
   thumb: /assets/thumbs/measurements-ii-lab.jpg
   thumb_alt: "Power analyzer and meters connected on an electrical laboratory bench"
   thumb_alt_es: "Analizador de energía e instrumentos conectados en un banco de laboratorio eléctrico"
+  thumb_alt_fr: "Analyseur de puissance et instruments branchés sur un banc de laboratoire électrique"
   reports:
     - label: "TP1 PDF"
       label_es: "TP1 PDF"
+      label_fr: "TP1 PDF (ES)"
       url: /assets/reports/measurements-ii/tp1-unbalanced-three-phase-network.pdf
     - label: "TP2 PDF"
       label_es: "TP2 PDF"
+      label_fr: "TP2 PDF (ES)"
       url: /assets/reports/measurements-ii/tp2-insulation-testing.pdf
   case_study: /measurements-ii/
   case_study_es: /es/measurements-ii/
+  case_study_fr: /fr/measurements-ii/
 
 - title: Electrical Measurements (7 Labs)
   featured: false
   year: 2025
   title_es: "Mediciones eléctricas (7 prácticas)"
+  title_fr: "Mesures électriques (7 TP)"
   subtitle_es: "Metrología y medición de potencia trifásica"
+  subtitle_fr: "Métrologie et mesure de puissance triphasée"
   summary: "Two-wattmeter readings gave 3396 W indicated power after current-transformer scaling in a balanced three-phase setup."
   summary_es: "Las lecturas de dos vatímetros dieron 3396 W de potencia indicada tras aplicar la relación de los transformadores de corriente en un sistema trifásico equilibrado."
+  summary_fr: "Dans un système triphasé équilibré, les deux wattmètres indiquaient 3 396 W après prise en compte du rapport des transformateurs de courant."
   tags: ["Metrology", "Three-phase power"]
   tags_es: ["Metrología", "Potencia trifásica"]
+  tags_fr: ["Métrologie", "Puissance triphasée"]
   category: measurements
   path: measurements
   case_study: /measurements/
   case_study_es: /es/measurements/
+  case_study_fr: /fr/measurements/
   subtitle: Metrology and three-phase power measurement
   thumb: /assets/thumbs/measurements-lab-aron.png
   thumb_alt: "Analog meters wired for a three-phase power measurement"
   thumb_alt_es: "Instrumentos analógicos conectados para medir potencia trifásica"
+  thumb_alt_fr: "Instruments analogiques branchés pour mesurer une puissance triphasée"
   reports:
     - label: "TP7 PDF"
       url: /assets/reports/measurements/tp7-three-phase-power.pdf
@@ -113,30 +148,40 @@
   featured: false
   year: 2025
   title_es: "Electrónica II (7 TPs)"
+  title_fr: "Électronique II (7 TP)"
   subtitle_es: "Circuitos analógicos, diodos, BJT y amplificadores operacionales"
+  subtitle_fr: "Circuits analogiques, diodes, transistors BJT et amplificateurs opérationnels"
   summary: "A Zener clipper reached about +7.2/−6.0 V in the lab; a BJT amplifier measured gain near 18 at low frequency."
   summary_es: "Un recortador Zener alcanzó cerca de +7,2/−6,0 V en el banco; un amplificador BJT midió una ganancia cercana a 18 a baja frecuencia."
+  summary_fr: "Un écrêteur Zener a atteint environ +7,2/−6,0 V au laboratoire ; le gain mesuré d'un amplificateur BJT était proche de 18 à basse fréquence."
   tags: ["Circuit analysis", "Bench and simulation"]
   tags_es: ["Análisis de circuitos", "Banco y simulación"]
+  tags_fr: ["Analyse de circuits", "Laboratoire et simulation"]
   category: electronics
   path: electronics
   case_study: /electronics-ii/
   case_study_es: /es/electronics-ii/
+  case_study_fr: /fr/electronics-ii/
   subtitle: Analog, diodes, BJT, op-amp
   thumb: /assets/thumbs/electronics-lab-oscilloscope.jpg
   thumb_alt: "Two oscilloscope traces from the electronics laboratory"
   thumb_alt_es: "Dos trazas de osciloscopio del laboratorio de electrónica"
+  thumb_alt_fr: "Deux traces d'oscilloscope du laboratoire d'électronique"
   reports:
     - label: "TP5 PDF"
       url: /assets/reports/electronics-ii/tp5-bjt-amplifier.pdf
 
 - title: Traffic Light Logic (Proteus)
   title_es: "Lógica de semáforos (Proteus)"
+  title_fr: "Logique de feux de circulation (Proteus)"
   subtitle_es: "Dos semáforos sincronizados con contadores TTL"
+  subtitle_fr: "Deux feux synchronisés à l'aide de compteurs TTL"
   summary: "Corrected transition timing and synchronized two traffic lights in a Proteus simulation."
   summary_es: "Corregí los tiempos de transición y sincronicé dos semáforos en una simulación de Proteus."
+  summary_fr: "J'ai corrigé les temporisations et synchronisé deux feux de circulation dans une simulation Proteus."
   tags: ["Digital logic", "Proteus"]
   tags_es: ["Lógica digital", "Proteus"]
+  tags_fr: ["Logique numérique", "Proteus"]
   category: logic
   path: logics/traffic-lights-proteus
   subtitle: Two synchronized traffic lights built with TTL counters
@@ -144,18 +189,24 @@
   thumb_fit: detail
   thumb_alt: "Detail of the Proteus traffic-light circuit diagram"
   thumb_alt_es: "Detalle del esquema de los semáforos en Proteus"
+  thumb_alt_fr: "Détail du schéma des feux de circulation dans Proteus"
   repo: https://github.com/ChevaucheyClement/academic-portfolio/tree/main/logics/traffic-lights-proteus
   repo_label: "Proteus files"
   repo_label_es: "Archivos Proteus"
+  repo_label_fr: "Fichiers Proteus"
   report: auto
 
 - title: PlantWeb (CS50 Final)
   title_es: "PlantWeb (proyecto final de CS50)"
+  title_fr: "PlantWeb (projet final CS50)"
   subtitle_es: "Aplicación web para organizar plantas y riegos"
+  subtitle_fr: "Application web pour organiser les plantes et leur arrosage"
   summary: "Built and demonstrated a working web app for the CS50 final project."
   summary_es: "Desarrollé y presenté una aplicación web funcional como proyecto final de CS50."
+  summary_fr: "J'ai développé et présenté une application web fonctionnelle comme projet final du cours CS50."
   tags: ["Web development", "CS50"]
   tags_es: ["Desarrollo web", "CS50"]
+  tags_fr: ["Développement web", "CS50"]
   category: web
   repo: https://github.com/ChevaucheyClement/Final-Project-CS50
   demo: https://chevaucheyclement.github.io/Final-Project-CS50/
@@ -164,33 +215,44 @@
   thumb: /assets/thumbs/plantweb-album.jpg
   thumb_alt: "PlantWeb screen showing a list of plants and watering controls"
   thumb_alt_es: "Pantalla de PlantWeb con una lista de plantas y controles de riego"
+  thumb_alt_fr: "Écran de PlantWeb montrant une liste de plantes et les commandes d'arrosage"
 
 - title: Rankine Cycle Studies
   title_es: "Estudios del ciclo Rankine"
+  title_fr: "Études du cycle de Rankine"
   subtitle_es: "Análisis de casos Rankine con tablas de vapor"
+  subtitle_fr: "Analyse de cas Rankine à l'aide de tables de vapeur"
   summary: "Used steam tables to compare ideal and assumed nonideal Rankine cases, plus higher-pressure and superheated cases, in a submitted TP."
   summary_es: "Usé tablas de vapor para comparar casos Rankine ideales y con eficiencias no ideales supuestas, además de casos de mayor presión y sobrecalentamiento, en un TP entregado."
+  summary_fr: "J'ai utilisé des tables de vapeur pour comparer des cas Rankine idéaux et à rendements non idéaux supposés, ainsi que des cas à pression plus élevée ou avec surchauffe, dans un TP remis."
   tags: ["Steam tables", "Cycle analysis"]
   tags_es: ["Tablas de vapor", "Análisis de ciclos"]
+  tags_fr: ["Tables de vapeur", "Analyse de cycles"]
   category: power
   path: machines/rankine-analysis
   subtitle: "Steam-table analysis of Rankine cycle cases"
   thumb: /assets/thumbs/rankine-report.png
   thumb_alt: "Chart comparing turbine, Rankine and Carnot efficiencies across four cases"
   thumb_alt_es: "Gráfico de rendimientos de turbina, Rankine y Carnot para cuatro casos"
+  thumb_alt_fr: "Graphique des rendements de la turbine et des cycles Rankine et Carnot pour quatre cas"
   report: /assets/reports/machines/tp1-vapor-humedo-rankine.pdf
 
 - title: Otto / Diesel / Dual
   title_es: "Ciclos Otto, Diesel y dual"
+  title_fr: "Cycles Otto, Diesel et mixte"
   subtitle_es: "Comparación de rendimiento de tres ciclos ideales"
+  subtitle_fr: "Comparaison des rendements de trois cycles idéaux"
   summary: "Calculated and compared thermal efficiency for assigned ideal Otto, Diesel and mixed-cycle cases."
   summary_es: "Calculé y comparé el rendimiento térmico de los casos asignados de ciclos ideales Otto, Diesel y mixto."
+  summary_fr: "J'ai calculé et comparé les rendements thermiques des cas étudiés pour les cycles idéaux Otto, Diesel et mixte."
   tags: ["Ideal cycles", "Thermal efficiency"]
   tags_es: ["Ciclos ideales", "Rendimiento térmico"]
+  tags_fr: ["Cycles idéaux", "Rendement thermique"]
   category: power
   path: machines/internal-combustion-diesel-otto-dual
   subtitle: "Thermal-efficiency comparison of three assigned ideal cycles"
   thumb: /assets/thumbs/otto-diesel-mixto-report.png
   thumb_alt: "Pressure-volume diagram of the assigned dual combustion cycle"
   thumb_alt_es: "Diagrama de presión y volumen del ciclo mixto asignado"
+  thumb_alt_fr: "Diagramme pression-volume du cycle mixte étudié"
   report: /assets/reports/machines/tp6-otto-diesel-mixto.pdf

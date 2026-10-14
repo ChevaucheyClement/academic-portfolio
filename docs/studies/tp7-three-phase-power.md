@@ -2,6 +2,7 @@
 layout: case-study
 title: TP7 | Three-phase power measurement
 lang: en
+translation_key: tp7_three_phase_power
 translation: /es/studies/tp7-potencia-trifasica/
 permalink: /studies/tp7-three-phase-power/
 description: A supervised UNSE laboratory study of the two-wattmeter method with current transformers.

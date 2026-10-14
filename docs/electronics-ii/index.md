@@ -2,6 +2,7 @@
 layout: case-study
 title: Electronics II | Seven course reports
 lang: en
+translation_key: electronics_ii
 translation: /es/electronics-ii/
 permalink: /electronics-ii/
 description: Supervised electronics coursework covering diodes, BJT amplifiers and operational amplifiers, with original reports.

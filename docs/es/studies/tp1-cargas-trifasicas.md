@@ -2,6 +2,7 @@
 layout: case-study
 title: TP1 | Cargas trifásicas desequilibradas
 lang: es
+translation_key: tp1_three_phase
 translation: /studies/tp1-three-phase-loads/
 permalink: /es/studies/tp1-cargas-trifasicas/
 description: Práctica supervisada de la UNSE con cargas resistivas, motor y capacitores y un analizador de calidad de energía.

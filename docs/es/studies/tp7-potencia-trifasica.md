@@ -2,6 +2,7 @@
 layout: case-study
 title: TP7 | Medición de potencia trifásica
 lang: es
+translation_key: tp7_three_phase_power
 translation: /studies/tp7-three-phase-power/
 permalink: /es/studies/tp7-potencia-trifasica/
 description: Práctica supervisada de la UNSE sobre el método de dos vatímetros con transformadores de corriente.

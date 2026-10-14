@@ -1,6 +1,6 @@
 # Clément Chevauchey — Academic Portfolio
 
-[English website](https://chevaucheyclement.github.io/academic-portfolio/) · [Sitio en español](https://chevaucheyclement.github.io/academic-portfolio/es/) · [English CV](docs/assets/CV%20English.pdf) · [CV en español](docs/assets/CV%20spanish.pdf)
+[English website](https://chevaucheyclement.github.io/academic-portfolio/) · [Sitio en español](https://chevaucheyclement.github.io/academic-portfolio/es/) · [Site en français](https://chevaucheyclement.github.io/academic-portfolio/fr/) · [English CV](docs/assets/CV%20English.pdf) · [CV en español](docs/assets/CV%20spanish.pdf)
 
 Electrical Engineering coursework and projects at Universidad Nacional de Santiago del Estero. The lab reports name Clément Chevauchey as a student author and were completed under course supervision. Each section below distinguishes published reports from summaries that do not yet have supporting files here.
 

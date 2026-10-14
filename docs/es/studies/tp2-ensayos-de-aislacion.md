@@ -2,6 +2,7 @@
 layout: case-study
 title: TP2 | Ensayos de resistencia de aislación
 lang: es
+translation_key: tp2_insulation
 translation: /studies/tp2-insulation-testing/
 permalink: /es/studies/tp2-ensayos-de-aislacion/
 description: Práctica supervisada de la UNSE con lecturas de aislación de un cable, un transformador seco y un motor.

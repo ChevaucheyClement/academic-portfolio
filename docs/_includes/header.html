@@ -1,15 +1,7 @@
-{% assign home = "/" | relative_url %}
-
-{% if page.lang == "es" %}
-  {% assign home = "/es/" | relative_url %}
-{% endif %}
-
 {% assign lang = page.lang | default: "en" %}
 {% assign t = site.data.i18n[lang] %}
-{% assign alternate_path = page.translation %}
-{% unless alternate_path %}
-  {% if page.lang == "es" %}{% assign alternate_path = "/" %}{% else %}{% assign alternate_path = "/es/" %}{% endif %}
-{% endunless %}
+{% assign home = site.data.routes.home[lang] | relative_url %}
+{% assign translated_routes = site.data.routes[page.translation_key] | default: site.data.routes.home %}
 
 <header class="site-header" role="banner">
 
@@ -95,26 +87,17 @@ C17.335,12.032,18,12.696,18,13.516z
 {{ t.header.contact }}
 </a>
 
-<!-- Language switch points to this page's translation when one exists. -->
-{% if page.lang == "es" %}
-<a
-  href="{{ alternate_path | relative_url }}"
-  class="language-toggle"
-  lang="en"
-  hreflang="en"
->
-EN
-</a>
-{% else %}
-<a
-  href="{{ alternate_path | relative_url }}"
-  class="language-toggle"
-  lang="es"
-  hreflang="es"
->
-ES
-</a>
-{% endif %}
+{% for option in site.data.languages %}
+  {% unless option.code == lang %}
+  <a
+    href="{{ translated_routes[option.code] | relative_url }}"
+    class="language-toggle"
+    lang="{{ option.code }}"
+    hreflang="{{ option.code }}"
+    aria-label="{{ option.name }}"
+  >{{ option.label }}</a>
+  {% endunless %}
+{% endfor %}
 
 <button
   id="theme-toggle"

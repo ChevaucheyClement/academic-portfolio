@@ -10,13 +10,20 @@
   {% assign project_subtitle = p.subtitle_es | default: p.subtitle %}
   {% assign project_summary = p.summary_es | default: p.summary %}
   {% assign thumb_alt = p.thumb_alt_es | default: thumb_alt %}
+{% elsif lang == 'fr' %}
+  {% assign project_title = p.title_fr | default: p.title %}
+  {% assign project_subtitle = p.subtitle_fr | default: p.subtitle %}
+  {% assign project_summary = p.summary_fr | default: p.summary %}
+  {% assign thumb_alt = p.thumb_alt_fr | default: thumb_alt %}
 {% endif %}
 {% assign category_label = t.projects.card[p.category] | default: p.category | capitalize %}
 {% assign case_href = p.case_study %}
 {% if lang == 'es' and p.case_study_es %}{% assign case_href = p.case_study_es %}{% endif %}
+{% if lang == 'fr' and p.case_study_fr %}{% assign case_href = p.case_study_fr %}{% endif %}
 {% assign repo_href = p.repo %}
 {% assign repo_label = p.repo_label | default: t.projects.card.repo %}
 {% if lang == 'es' and p.repo_label_es %}{% assign repo_label = p.repo_label_es %}{% endif %}
+{% if lang == 'fr' and p.repo_label_fr %}{% assign repo_label = p.repo_label_fr %}{% endif %}
 {% assign report_href = nil %}
 {% if p.report and p.report != '' %}
   {% if p.report == true or p.report == 'auto' %}

@@ -2,6 +2,7 @@
 layout: case-study
 title: Electrical Measurements | Seven laboratory reports
 lang: en
+translation_key: measurements
 translation: /es/measurements/
 permalink: /measurements/
 description: An index of seven supervised electrical measurement labs, with original reports on instruments, resistance, impedance and power.

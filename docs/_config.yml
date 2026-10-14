@@ -29,3 +29,12 @@ defaults:
       width: 1200
       height: 630
       alt: "Clément Chevauchey — Ingeniería eléctrica, electrónica y mediciones"
+- scope:
+    path: fr
+    type: pages
+  values:
+    image:
+      path: /assets/social/portfolio-fr.png
+      width: 1200
+      height: 630
+      alt: "Clément Chevauchey — génie électrique, électronique et mesures"

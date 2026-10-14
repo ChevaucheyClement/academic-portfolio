@@ -2,18 +2,22 @@
 layout: default
 ---
 <div class="case-study">
+  {% assign translated_routes = site.data.routes[page.translation_key] %}
+  {% if translated_routes %}
   <div class="case-study__language">
-    {% if page.lang == 'es' %}
-      <a href="{{ page.translation | relative_url }}" lang="en">English</a>
-    {% else %}
-      <a href="{{ page.translation | relative_url }}" lang="es">Español</a>
-    {% endif %}
+    {% assign separator = '' %}
+    {% for option in site.data.languages %}
+      {% unless option.code == page.lang %}
+        {{ separator }}<a href="{{ translated_routes[option.code] | relative_url }}" lang="{{ option.code }}" hreflang="{{ option.code }}">{{ option.name }}</a>
+        {% assign separator = ' · ' %}
+      {% endunless %}
+    {% endfor %}
   </div>
+  {% endif %}
   {{ content }}
   {% assign lang = page.lang | default: 'en' %}
   {% assign t = site.data.i18n[lang] %}
-  {% assign home = '/' %}
-  {% if lang == 'es' %}{% assign home = '/es/' %}{% endif %}
+  {% assign home = site.data.routes.home[lang] %}
   <nav class="case-study__next" aria-labelledby="other-lab-work">
     <h2 id="other-lab-work">{{ t.projects.related_title }}</h2>
     <ul>
@@ -24,6 +28,9 @@ layout: default
           {% if lang == 'es' %}
             {% assign case_href = p.case_study_es %}
             {% assign case_title = p.title_es %}
+          {% elsif lang == 'fr' %}
+            {% assign case_href = p.case_study_fr %}
+            {% assign case_title = p.title_fr %}
           {% endif %}
           {% unless case_href == page.url %}
             <li><a href="{{ case_href | relative_url }}">{{ case_title }} <span aria-hidden="true">→</span></a></li>

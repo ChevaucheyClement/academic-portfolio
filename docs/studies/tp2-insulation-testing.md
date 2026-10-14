@@ -2,6 +2,7 @@
 layout: case-study
 title: TP2 | Insulation-resistance tests
 lang: en
+translation_key: tp2_insulation
 translation: /es/studies/tp2-ensayos-de-aislacion/
 permalink: /studies/tp2-insulation-testing/
 description: A supervised UNSE laboratory study of cable, dry-transformer and motor insulation readings.

@@ -2,6 +2,7 @@
 layout: case-study
 title: Electrónica II | Siete trabajos prácticos
 lang: es
+translation_key: electronics_ii
 translation: /electronics-ii/
 permalink: /es/electronics-ii/
 description: Trabajos supervisados de electrónica sobre diodos, amplificadores BJT y operacionales, con los informes originales.

@@ -7,11 +7,14 @@
     const btn = document.getElementById('theme-toggle');
     if(!btn) return;
     const next = (document.documentElement.getAttribute('data-theme') === 'light') ? 'dark' : 'light';
-    const spanish = document.documentElement.lang === 'es';
-    btn.textContent = next === 'light' ? (spanish ? '☀︎ Claro' : '☀︎ Light') : (spanish ? '☾ Oscuro' : '☾ Dark');
-    btn.setAttribute('aria-label', spanish
-      ? 'Cambiar al tema ' + (next === 'light' ? 'claro' : 'oscuro')
-      : 'Switch to ' + next + ' theme');
+    const language = document.documentElement.lang;
+    const labels = {
+      en: { light: 'Light', dark: 'Dark', action: 'Switch to {theme} theme' },
+      es: { light: 'Claro', dark: 'Oscuro', action: 'Cambiar al tema {theme}' },
+      fr: { light: 'Clair', dark: 'Sombre', action: 'Passer au thème {theme}' }
+    }[language] || { light: 'Light', dark: 'Dark', action: 'Switch to {theme} theme' };
+    btn.textContent = (next === 'light' ? '☀︎ ' : '☾ ') + labels[next];
+    btn.setAttribute('aria-label', labels.action.replace('{theme}', labels[next].toLowerCase()));
   }
 
   function apply(next){

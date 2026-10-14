@@ -1,0 +1,28 @@
+home:
+  en: /
+  es: /es/
+  fr: /fr/
+measurements:
+  en: /measurements/
+  es: /es/measurements/
+  fr: /fr/measurements/
+measurements_ii:
+  en: /measurements-ii/
+  es: /es/measurements-ii/
+  fr: /fr/measurements-ii/
+electronics_ii:
+  en: /electronics-ii/
+  es: /es/electronics-ii/
+  fr: /fr/electronics-ii/
+tp1_three_phase:
+  en: /studies/tp1-three-phase-loads/
+  es: /es/studies/tp1-cargas-trifasicas/
+  fr: /fr/studies/tp1-charges-triphasees/
+tp7_three_phase_power:
+  en: /studies/tp7-three-phase-power/
+  es: /es/studies/tp7-potencia-trifasica/
+  fr: /fr/studies/tp7-puissance-triphasee/
+tp2_insulation:
+  en: /studies/tp2-insulation-testing/
+  es: /es/studies/tp2-ensayos-de-aislacion/
+  fr: /fr/studies/tp2-resistance-isolement/

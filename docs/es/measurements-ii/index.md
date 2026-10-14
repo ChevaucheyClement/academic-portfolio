@@ -2,6 +2,7 @@
 layout: case-study
 title: Mediciones Eléctricas II | Informes de laboratorio
 lang: es
+translation_key: measurements_ii
 translation: /measurements-ii/
 permalink: /es/measurements-ii/
 description: Dos informes de prácticas universitarias supervisadas sobre cargas trifásicas y resistencia de aislación.

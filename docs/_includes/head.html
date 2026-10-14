@@ -13,17 +13,12 @@
 
 <script defer src="{{ '/assets/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
-{% if page.translation %}
-  {% if page.lang == 'es' %}
-    {% assign en_path = page.translation %}
-    {% assign es_path = page.url %}
-  {% else %}
-    {% assign en_path = page.url %}
-    {% assign es_path = page.translation %}
-  {% endif %}
-<link rel="alternate" hreflang="en" href="{{ en_path | absolute_url }}">
-<link rel="alternate" hreflang="es" href="{{ es_path | absolute_url }}">
-  {% if page.url == '/' or page.url == '/es/' %}
+{% assign translated_routes = site.data.routes[page.translation_key] %}
+{% if translated_routes %}
+  {% for option in site.data.languages %}
+<link rel="alternate" hreflang="{{ option.code }}" href="{{ translated_routes[option.code] | absolute_url }}">
+  {% endfor %}
+  {% if page.translation_key == 'home' %}
 <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
   {% endif %}
 {% endif %}

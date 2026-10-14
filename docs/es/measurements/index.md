@@ -2,6 +2,7 @@
 layout: case-study
 title: Mediciones Eléctricas | Siete informes de laboratorio
 lang: es
+translation_key: measurements
 translation: /measurements/
 permalink: /es/measurements/
 description: Índice de siete prácticas supervisadas de mediciones eléctricas con informes originales sobre instrumentos, resistencia, impedancia y potencia.

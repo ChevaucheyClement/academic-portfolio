@@ -12,6 +12,12 @@
   {% assign card_summary = p.summary_es | default: p.summary %}
   {% assign thumb_alt = p.thumb_alt_es | default: thumb_alt %}
   {% assign docs_label = p.docs_label_es | default: docs_label %}
+{% elsif lang == 'fr' %}
+  {% assign card_title = p.title_fr | default: p.title %}
+  {% assign card_subtitle = p.subtitle_fr | default: p.subtitle %}
+  {% assign card_summary = p.summary_fr | default: p.summary %}
+  {% assign thumb_alt = p.thumb_alt_fr | default: thumb_alt %}
+  {% assign docs_label = p.docs_label_fr | default: docs_label %}
 {% endif %}
 {% assign category_label = t.projects.card[p.category] | default: p.category | capitalize %}
 <article class="card{% if p.is_group %} card--group{% endif %}"
@@ -42,6 +48,7 @@
 
     {% assign card_tags = p.tags %}
     {% if lang == 'es' and p.tags_es %}{% assign card_tags = p.tags_es %}{% endif %}
+    {% if lang == 'fr' and p.tags_fr %}{% assign card_tags = p.tags_fr %}{% endif %}
     {% if card_tags %}
     <ul class="card__skill-tags" aria-label="{{ t.projects.card.topics }}">
       {% for tag in card_tags %}<li>{{ tag }}</li>{% endfor %}
@@ -52,11 +59,13 @@
       {% if p.case_study %}
         {% assign case_href = p.case_study %}
         {% if lang == 'es' and p.case_study_es %}{% assign case_href = p.case_study_es %}{% endif %}
+        {% if lang == 'fr' and p.case_study_fr %}{% assign case_href = p.case_study_fr %}{% endif %}
         <a class="btn primary" href="{{ case_href | relative_url }}">{{ t.projects.card.findings }}</a>
       {% endif %}
       {% assign repo_href = p.repo %}
       {% assign repo_label = p.repo_label | default: t.projects.card.repo %}
       {% if lang == 'es' and p.repo_label_es %}{% assign repo_label = p.repo_label_es %}{% endif %}
+      {% if lang == 'fr' and p.repo_label_fr %}{% assign repo_label = p.repo_label_fr %}{% endif %}
       {% if repo_href %}
         <a class="btn{% unless p.case_study %} primary{% endunless %}"
            href="{{ repo_href }}"
@@ -73,6 +82,7 @@
         {% for report in p.reports %}
           {% assign report_label = report.label %}
           {% if lang == 'es' and report.label_es %}{% assign report_label = report.label_es %}{% endif %}
+          {% if lang == 'fr' and report.label_fr %}{% assign report_label = report.label_fr %}{% endif %}
           <a class="btn" href="{{ report.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ report_label }}</a>
         {% endfor %}
       {% endif %}

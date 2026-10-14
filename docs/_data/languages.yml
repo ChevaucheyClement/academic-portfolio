@@ -1,0 +1,9 @@
+- code: en
+  label: EN
+  name: English
+- code: es
+  label: ES
+  name: Español
+- code: fr
+  label: FR
+  name: Français

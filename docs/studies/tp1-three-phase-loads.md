@@ -2,6 +2,7 @@
 layout: case-study
 title: TP1 | Unbalanced three-phase loads
 lang: en
+translation_key: tp1_three_phase
 translation: /es/studies/tp1-cargas-trifasicas/
 permalink: /studies/tp1-three-phase-loads/
 description: A supervised UNSE laboratory study of resistive, motor and capacitive loads using a three-phase power-quality analyzer.
