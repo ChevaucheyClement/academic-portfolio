@@ -3,6 +3,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<script src="{{ '/assets/js/language.js' | relative_url }}?v={{ site.time | date: '%s' }}"
+        data-en="{{ site.data.routes.home.en | relative_url }}"
+        data-es="{{ site.data.routes.home.es | relative_url }}"
+        data-fr="{{ site.data.routes.home.fr | relative_url }}"></script>
+
 {% seo %}
 
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/social/favicon.svg' | relative_url }}">
