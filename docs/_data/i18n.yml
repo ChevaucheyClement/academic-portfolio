@@ -254,7 +254,7 @@ en:
     kicker: "Curriculum Vitae"
 
 
-    title: "Prefer the conventional version?"
+    title: "View my CV."
 
 
     description:
@@ -305,7 +305,6 @@ en:
 
   footer:
     tagline: "Electrical Engineering · Measurements · Power Systems"
-    build: "Build"
 
 es:
 
@@ -619,7 +618,7 @@ es:
     kicker: "Currículum Vitae"
 
 
-    title: "¿Preferís la versión tradicional?"
+    title: "Consultá mi CV."
 
 
     description:
@@ -673,7 +672,6 @@ es:
 
   footer:
     tagline: "Ingeniería eléctrica · Mediciones · Sistemas de potencia"
-    build: "Versión"
 
 fr:
   header:
@@ -845,7 +843,7 @@ fr:
 
   cv:
     kicker: "Curriculum vitæ"
-    title: "Vous préférez un CV classique ?"
+    title: "Consultez mon CV."
     description: "Mon CV est disponible en anglais et en espagnol."
     english: "CV en anglais ↗"
     spanish: "CV en espagnol ↗"
@@ -865,4 +863,3 @@ fr:
 
   footer:
     tagline: "Génie électrique · Mesures · Réseaux électriques"
-    build: "Version"
