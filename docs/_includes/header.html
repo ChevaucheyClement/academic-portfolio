@@ -89,8 +89,12 @@ C17.335,12.032,18,12.696,18,13.516z
 
 {% for option in site.data.languages %}
   {% unless option.code == lang %}
+  {% assign language_href = translated_routes[option.code] | relative_url %}
+  {% if option.code == 'en' and translated_routes[option.code] == '/' %}
+    {% assign language_href = language_href | append: '?lang=en' %}
+  {% endif %}
   <a
-    href="{{ translated_routes[option.code] | relative_url }}"
+    href="{{ language_href }}"
     class="language-toggle"
     lang="{{ option.code }}"
     hreflang="{{ option.code }}"
