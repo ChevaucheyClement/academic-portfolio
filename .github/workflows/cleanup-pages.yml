@@ -44,12 +44,9 @@ jobs:
         run: |
           set -euo pipefail
           i=0
-          gh run list \
-            --repo "$REPO" \
-            --workflow "Pages build and deployment" \
-            --limit 1000 \
-            --json databaseId \
-            -q '.[].databaseId' \
+          gh api -X GET "repos/$REPO/actions/runs?per_page=100" \
+            --paginate \
+            -q '.workflow_runs[] | select(.path == "dynamic/pages/pages-build-deployment") | .id' \
           | while read -r id; do
               [ -z "$id" ] && continue
               i=$((i+1))
