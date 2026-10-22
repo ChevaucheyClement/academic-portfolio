@@ -39,11 +39,13 @@ jobs:
       - name: Delete old Pages build workflow runs (keep 20 newest)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
           KEEP_RUNS: 20
         run: |
           set -euo pipefail
           i=0
           gh run list \
+            --repo "$REPO" \
             --workflow "Pages build and deployment" \
             --limit 1000 \
             --json databaseId \
@@ -55,6 +57,6 @@ jobs:
                 echo "Keeping workflow run $id"
               else
                 echo "Deleting workflow run $id"
-                gh run delete "$id"
+                gh run delete "$id" --repo "$REPO"
               fi
             done
